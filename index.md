@@ -25,45 +25,43 @@ layout: default
 > Éffectué en apprentissage <br/>
 > 2013 - 2015
 
-*   > **Université Paul Sabatier (Toulouse III)**
-> Licence MIAGE, Méthodes Informatiques Appliquées à la Gestion des Entreprises
-> Éffectué en apprentissage
-> 2012 - 2013
+*   > **Université Paul Sabatier (Toulouse III)** <br/>
+> Licence MIAGE, Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
+> Éffectué en apprentissage <br/>
+> 2012 - 2013 <br/>
 
-*   > **Lycée Gustave Eiffel**
-> BTS Informatique de Gestion - Option développeur
-> Éffectué en apprentissage
-> 2010 - 2012
+*   > **Lycée Gustave Eiffel** <br/>
+> BTS Informatique de Gestion - Option développeur <br/>
+> Éffectué en apprentissage <br/> 
+> 2010 - 2012<br/> 
 
-*   > **Université Montesquieu-Bordeaux IV**
-> Licence 1er année uniquement, DROIT, ADMIS
-> Travail étudiant en parallèle
-> 2008 - 2010
+*   > **Université Montesquieu-Bordeaux IV** <br/>
+> Licence 1er année uniquement, DROIT, ADMIS <br/>
+> Travail étudiant en parallèle <br/>
+> 2008 - 2010 <br/>
 
-*   > **Université Montesquieu-Bordeaux IV**
-> Capacité en droit, DROIT, ADMIS
-> Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).
-> 2006 - 2008
+*   > **Université Montesquieu-Bordeaux IV** <br/>
+> Capacité en droit, DROIT, ADMIS <br/> 
+> Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).<br/>
+> 2006 - 2008<br/>
 
 *   > **Je n'ai pas le BAC**
 
 <span id="experience"></span>
 ### Expérience
 
-> **Consultant réseaux sécurité et développement**
-> Entreprise --> ADACIS https://www.adacis.net
-> Sept. 2016 - Aujourd'hui -- AQUITAINE
-> J'interviens auprès de clients Grands Comptes mais aussi de PME, sur divers prestations :
-> - Intégration de solution réseau de sécurité type pare-feu, réseau d'authentification, cœur de réseau
-> - J'ai une expertise concernant l'intégration de solution VPN (IPSEC, SSL) de différent éditeur de pare-feu ou logiciel
-> - J'installe des solutions d'authentification GEMALTO pour des entreprises d'une centaine d'utilisateurs
-> - Nous analysons régulièrement les recommandations de l'ANSSI pour les appliquer à nos clients
-> - Architecture ou l'audit des réseaux informatiques et leur sécurité
-> - Formation des utilisateurs aux nouvelles techniques de programmation ou d'utilisation de notre matériel de sécurité
-> - Développement informatique interne pour consolider nos processus et développement ponctuel pour des besoins spécifiques de nos clients
-> - Étant mobile, j'effectue également de la prévention sur les installations de sécurité de nos clients à travers la France.
-> Je participe aux réponses d'appel d'offre ainsi qu'aux démarches commerciales et d'avant-vente de la société. Établir des devis, définir des marges, chiffre les projets et suivi d'affaire.
-> J'effectue une veille sur la sécurité informatique, que je partage. https://www.adacis.net/category/actu/
+> **Consultant réseaux sécurité et développement** <br/>
+> Entreprise --> ADACIS https://www.adacis.net<br/>
+> Sept. 2016 - Aujourd'hui -- AQUITAINE<br/>
+> J'interviens auprès de clients Grands Comptes sur :
+> - Intégration d'équipements de sécurité
+> - Intégration de solutions sécurisée
+> - Audit et architecture, logiciel, réseau, organisationnel ...
+> - Formation
+> - Développement
+> - Déplacement nationaux
+> - Commerce, avant vente, appel d'offre etc.
+> Veille technologique : https://www.adacis.net/category/actu/
 
 <span id="mescertifications"></span>
 ### Mes certifications
