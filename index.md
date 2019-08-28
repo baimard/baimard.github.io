@@ -19,7 +19,7 @@ layout: default
 <span id="quisuisje"></span>
 ### Qui suis-je ?
 
-Adhérent : 2115pts
+Vaste question ...
 
 <span id="Formation"></span>
 ### Formation
@@ -68,24 +68,24 @@ Adhérent : 2115pts
 > - Développement <br/>
 > - Déplacement nationaux <br/>
 > - Commerce, avant vente, appel d'offre etc. <br/>
-> <br/>Veille technologique : https://www.adacis.net/category/actu/</detail>
+> <br/>Veille technologique : https://www.adacis.net/category/actu/</details>
 <hr/>
 > <details><summary><strong>Janv. 2016 - Août 2016</strong> - ORANGE - Support Système d'information (AT SOPRA STERIA)</summary>
 > Support fonctionnel de l'application Oracle E-business<br/>
 > - Support téléphonique, mail, ticket<br/>
 > - Documentation et suivi des résolutions d'incident<br/>
-> - Référent technique</detail>
+> - Référent technique</details>
 <hr/>
 > <details><summary><strong>Août. 2015 - Déce. 2015</strong> - SOPRA STERIA - Ingénieur d'étude informatique</summary>
 > Projet d'avant vente pour Orange dans la continuité de mon stage<br/>
 > - Outil d'automatisation de tests<br/>
 > - Crée en JAVA<br/>
-> - Parallélement, référent technique en COBOL pour une Tiers Maintenance Applicative</detail>
+> - Parallélement, référent technique en COBOL pour une Tiers Maintenance Applicative</details>
 <hr/>
 > <details><summary><strong>Avri. 2015 - Août. 2015</strong> - SOPRA STERIA - Stagiaire développeur</summary>
 > Dans le cadre de mon stage de fin de Master, réalisation d'un logiciel d'amélioration d'un processus de tests pour Orange.<br/>
 > - Java<br/>
-> - Documentation du projet</detail>
+> - Documentation du projet</details>
 <hr/>
 > <details><summary><strong>Octo. 2010 - Sept. 2013</strong> - SOPRA STERIA - Apprenti assistant maitrise d'ouvrage</summary>
 > Créatin d'un logiciel de PoC pour le contrôle de la paie des retraites des fonctionnaires. <br/>
@@ -96,7 +96,7 @@ Adhérent : 2115pts
 > - Rédaction de la documentation technique<br/>
 > - Formation des utilisateurs<br/>
 > - Suivi du projet en production<br/>
-> <br/> Remerciement tout spécial à la Caisse des dépôts qui m'a permis de réaliser mon apprentissage dans des conditions exceptionnelles, tant au niveau de la rémunération que au niveau de l'humain.</detail>
+> <br/> Remerciement tout spécial à la Caisse des dépôts qui m'a permis de réaliser mon apprentissage dans des conditions exceptionnelles, tant au niveau de la rémunération que au niveau de l'humain.</details>
 
 #### [Index](./#index)
 
