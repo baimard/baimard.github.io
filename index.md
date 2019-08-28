@@ -5,7 +5,7 @@ layout: default
 ### Index :
 
 *   [Qui suis-je ?](./#quisuisje)
-*   [Mes formations](./#mesformations)
+*   [Formation](./#Formation)
 *   [Mes expériences professionnelles](./#mesexperiencesprofessionnelles)
 *   [Mes certifications](./#mescertifications)
 *   [Mes projets personnels](./#mesprojetspersonnels)
@@ -17,8 +17,35 @@ layout: default
 <span id="quisuisje"></span>
 ### Qui suis-je ?
 
-<span id="mesformations"></span>
-### Mes formations
+<span id="Formation"></span>
+### Formation
+
+> **Université Bordeaux 1**
+> Master MIAGE, Méthodes Informatiques Appliquées à la Gestion des Entreprises
+> Éffectué en apprentissage
+> 2013 - 2015
+
+> **Université Paul Sabatier (Toulouse III)**
+> Licence MIAGE, Méthodes Informatiques Appliquées à la Gestion des Entreprises
+> Éffectué en apprentissage
+> 2012 - 2013
+
+> **Lycée Gustave Eiffel**
+> BTS Informatique de Gestion - Option développeur
+> Éffectué en apprentissage
+> 2010 - 2012
+
+> **Université Montesquieu-Bordeaux IV**
+> Licence 1er année uniquement, DROIT, ADMIS
+> Travail étudiant en parallèle
+> 2008 - 2010
+
+> **Université Montesquieu-Bordeaux IV**
+> Capacité en droit, DROIT, ADMIS
+> Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).
+> 2006 - 2008
+
+> **Je n'ai pas le BAC**
 
 <span id="mesexperiencesprofessionnelles"></span>
 ### Mes expériences professionnelles
@@ -34,6 +61,10 @@ layout: default
 
 <span id="mesparticipationsadeschallengesdivers"></span>
 ### Mes participations à des challenges divers
+
+
+*   2015 Nuit de l'informatique
+*   2014 Nuit de l'informatique - Vainqueur défi accessibilité numérique
 
 <span id="mesparticipationsadesconferences"></span>
 ### Mes participations à des conférences
