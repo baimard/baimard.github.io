@@ -56,8 +56,7 @@ Adhérent : 2115pts
 <span id="experience"></span>
 ### Expérience
 
-> <details><summary><strong>ADACIS - Consultant réseaux sécurité et développement</strong></summary>
-> Sept. 2016 - Aujourd'hui -- AQUITAINE <br/>
+> <details><summary><strong>Sept. 2016 - Aujourd'hui - ADACIS - Consultant réseaux sécurité et développement</strong></summary>
 > J'interviens auprès de clients Grands Comptes sur : <br/>
 > - Intégration d'équipements de sécurité<br/>
 > - Intégration de solutions sécurisée<br/>
@@ -68,28 +67,24 @@ Adhérent : 2115pts
 > - Commerce, avant vente, appel d'offre etc. <br/>
 > <br/>Veille technologique : https://www.adacis.net/category/actu/</detail>
 <hr/>
-> <details><summary><strong>ORANGE - Support Système d'information (AT SOPRA STERIA)</strong></summary>
-> Janv. 2016 - Août 2016 -- AQUITAINE<br/>
+> <details><summary><strong>Janv. 2016 - Août 2016 - ORANGE - Support Système d'information (AT SOPRA STERIA)</strong></summary>
 > Support fonctionnel de l'application Oracle E-business<br/>
 > - Support téléphonique, mail, ticket<br/>
 > - Documentation et suivi des résolutions d'incident<br/>
 > - Référent technique</detail>
 <hr/>
-> <details><summary><strong>SOPRA STERIA - Ingénieur d'étude informatique</strong></summary>
-> Août. 2015 - Déce. 2015 -- AQUITAINE<br/>
+> <details><summary><strong>Août. 2015 - Déce. 2015 - SOPRA STERIA - Ingénieur d'étude informatique</strong></summary>
 > Projet d'avant vente pour Orange dans la continuité de mon stage<br/>
 > - Outil d'automatisation de tests<br/>
 > - Crée en JAVA<br/>
 > - Parallélement, référent technique en COBOL pour une Tiers Maintenance Applicative</detail>
 <hr/>
-> <details><summary><strong>SOPRA STERIA - Stagiaire développeur</strong></summary>
-> Avri. 2015 - Août. 2015 -- AQUITAINE<br/>
+> <details><summary><strong>Avri. 2015 - Août. 2015 - SOPRA STERIA - Stagiaire développeur</strong></summary>
 > Dans le cadre de mon stage de fin de Master, réalisation d'un logiciel d'amélioration d'un processus de tests pour Orange.<br/>
 > - Java<br/>
 > - Documentation du projet</detail>
 <hr/>
-> <details><summary><strong>SOPRA STERIA - Apprenti assistant maitrise d'ouvrage</strong></summary>
-> Octo. 2010 - Sept. 2013 -- AQUITAINE<br/>
+> <details><summary><strong>Octo. 2010 - Sept. 2013 - SOPRA STERIA - Apprenti assistant maitrise d'ouvrage</strong></summary>
 > Créatin d'un logiciel de PoC pour le contrôle de la paie des retraites des fonctionnaires. <br/>
 > - Analyse de projet<br/>
 > - Développement de la solution<br/>
