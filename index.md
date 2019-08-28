@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<span id="index"></span>
 ### Index :
 
 *   [Qui suis-je ?](./#quisuisje)
@@ -16,6 +17,8 @@ layout: default
 
 <span id="quisuisje"></span>
 ### Qui suis-je ?
+
+#### [Index](./#index)
 
 <span id="Formation"></span>
 ### Formation
@@ -47,6 +50,8 @@ layout: default
 
 *   > **Je n'ai pas le BAC**
 
+#### [Index](./#index)
+
 <span id="experience"></span>
 ### Expérience
 
@@ -62,6 +67,8 @@ layout: default
 > - Déplacement nationaux
 > - Commerce, avant vente, appel d'offre etc.
 > Veille technologique : https://www.adacis.net/category/actu/
+
+#### [Index](./#index)
 
 <span id="mescertifications"></span>
 ### Mes certifications
