@@ -24,39 +24,42 @@ Adhérent : 2115pts
 <span id="Formation"></span>
 ### Formation
 
-*   > **Université Bordeaux 1** <br/>
-> Master MIAGE, Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
+> <detail><summary><strong>Master MIAGE</strong></summary>
+> Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
+> Université Bordeaux 1 <br/>
 > Éffectué en apprentissage <br/>
-> 2013 - 2015
-
-*   > **Université Paul Sabatier (Toulouse III)** <br/>
-> Licence MIAGE, Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
+> 2013 - 2015</detail>
+<hr/>
+> <detail><summary><strong>Licence MIAGE</strong></summary>
+> Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
+> Université Paul Sabatier (Toulouse III) <br/>
 > Éffectué en apprentissage <br/>
-> 2012 - 2013 <br/>
-
-*   > **Lycée Gustave Eiffel** <br/>
+> 2012 - 2013</detail>
+<hr/>
+> <detail><summary><strong>BTS IG</strong></summary>
 > BTS Informatique de Gestion - Option développeur <br/>
+> Lycée Gustave Eiffel <br/>
 > Éffectué en apprentissage <br/> 
-> 2010 - 2012<br/> 
-
-*   > **Université Montesquieu-Bordeaux IV** <br/>
-> Licence 1er année uniquement, DROIT, ADMIS <br/>
+> 2010 - 2012</detail>
+<hr/>
+> <detail><summary><strong>Licence DROIT, (1er année) ADMIS</strong></summary>
+> Université Montesquieu-Bordeaux IV <br/>
 > Travail étudiant en parallèle <br/>
-> 2008 - 2010 <br/>
-
-*   > **Université Montesquieu-Bordeaux IV** <br/>
-> Capacité en droit, DROIT, ADMIS <br/> 
+> 2008 - 2010</detail>
+<hr/>
+> <detail><summary><strong>Capacité en droit, DROIT, ADMIS</strong></summary>
+> Université Montesquieu-Bordeaux IV <br/>
 > Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).<br/>
-> 2006 - 2008<br/>
+> 2006 - 2008</detail>
 
-*   > **Je n'ai pas le BAC**
+> **Je n'ai pas le BAC**
 
 #### [Index](./#index)
 
 <span id="experience"></span>
 ### Expérience
 
-> <details><summary><strong>Sept. 2016 - Aujourd'hui - ADACIS - Consultant réseaux sécurité et développement</strong></summary>
+> <details><summary><strong>Sept. 2016 - Aujourd'hui</strong> - ADACIS - Consultant réseaux sécurité et développement</summary>
 > J'interviens auprès de clients Grands Comptes sur : <br/>
 > - Intégration d'équipements de sécurité<br/>
 > - Intégration de solutions sécurisée<br/>
@@ -67,13 +70,13 @@ Adhérent : 2115pts
 > - Commerce, avant vente, appel d'offre etc. <br/>
 > <br/>Veille technologique : https://www.adacis.net/category/actu/</detail>
 <hr/>
-> <details><summary><strong>Janv. 2016 - Août 2016 - ORANGE - Support Système d'information (AT SOPRA STERIA)</strong></summary>
+> <details><summary><strong>Janv. 2016 - Août 2016</strong> - ORANGE - Support Système d'information (AT SOPRA STERIA)</summary>
 > Support fonctionnel de l'application Oracle E-business<br/>
 > - Support téléphonique, mail, ticket<br/>
 > - Documentation et suivi des résolutions d'incident<br/>
 > - Référent technique</detail>
 <hr/>
-> <details><summary><strong>Août. 2015 - Déce. 2015 - SOPRA STERIA - Ingénieur d'étude informatique</strong></summary>
+> <details><summary><strong>Août. 2015 - Déce. 2015</strong> - SOPRA STERIA - Ingénieur d'étude informatique</summary>
 > Projet d'avant vente pour Orange dans la continuité de mon stage<br/>
 > - Outil d'automatisation de tests<br/>
 > - Crée en JAVA<br/>
@@ -84,7 +87,7 @@ Adhérent : 2115pts
 > - Java<br/>
 > - Documentation du projet</detail>
 <hr/>
-> <details><summary><strong>Octo. 2010 - Sept. 2013 - SOPRA STERIA - Apprenti assistant maitrise d'ouvrage</strong></summary>
+> <details><summary><strong>Octo. 2010 - Sept. 2013</strong> - SOPRA STERIA - Apprenti assistant maitrise d'ouvrage</summary>
 > Créatin d'un logiciel de PoC pour le contrôle de la paie des retraites des fonctionnaires. <br/>
 > - Analyse de projet<br/>
 > - Développement de la solution<br/>
