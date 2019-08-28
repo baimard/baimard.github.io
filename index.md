@@ -56,17 +56,16 @@ Adhérent : 2115pts
 <span id="experience"></span>
 ### Expérience
 
-> <details><summary>**Consultant réseaux sécurité et développement**</summary><br/>
-> Entreprise --> ADACIS https://www.adacis.net<br/>
-> Sept. 2016 - Aujourd'hui -- AQUITAINE<br/>
-> J'interviens auprès de clients Grands Comptes sur :
-> - Intégration d'équipements de sécurité
-> - Intégration de solutions sécurisée
-> - Audit et architecture, logiciel, réseau, organisationnel ...
-> - Formation
-> - Développement
-> - Déplacement nationaux
-> - Commerce, avant vente, appel d'offre etc.
+> <details><summary><strong>Adacis - Consultant réseaux sécurité et développement</strong></summary><br/>
+> Sept. 2016 - Aujourd'hui -- AQUITAINE <br/>
+> J'interviens auprès de clients Grands Comptes sur : <br/>
+> - Intégration d'équipements de sécurité<br/>
+> - Intégration de solutions sécurisée<br/>
+> - Audit et architecture, logiciel, réseau, organisationnel ...<br/>
+> - Formation <br/>
+> - Développement <br/>
+> - Déplacement nationaux <br/>
+> - Commerce, avant vente, appel d'offre etc. <br/>
 > <br/>Veille technologique : https://www.adacis.net/category/actu/</detail>
 
 > **Support Système d'information (AT SOPRA STERIA)** <br/>
