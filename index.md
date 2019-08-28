@@ -6,7 +6,7 @@ layout: default
 
 *   [Qui suis-je ?](./#quisuisje)
 *   [Formation](./#Formation)
-*   [Mes expériences professionnelles](./#mesexperiencesprofessionnelles)
+*   [Expérience](./#experience)
 *   [Mes certifications](./#mescertifications)
 *   [Mes projets personnels](./#mesprojetspersonnels)
 *   [Les langues que je parle ou écrit](./#leslanguesquejeparleouecrit)
@@ -20,7 +20,7 @@ layout: default
 <span id="Formation"></span>
 ### Formation
 
-> **Université Bordeaux 1**
+*   > **Université Bordeaux 1**
 > Master MIAGE, Méthodes Informatiques Appliquées à la Gestion des Entreprises
 > Éffectué en apprentissage
 > 2013 - 2015
@@ -47,8 +47,23 @@ layout: default
 
 > **Je n'ai pas le BAC**
 
-<span id="mesexperiencesprofessionnelles"></span>
-### Mes expériences professionnelles
+<span id="experience"></span>
+### Expérience
+
+> **Consultant réseaux sécurité et développement**
+> Entreprise --> ADACIS https://www.adacis.net
+> Sept. 2016 - Aujourd'hui -- AQUITAINE
+> J'interviens auprès de clients Grands Comptes mais aussi de PME, sur divers prestations :
+> - Intégration de solution réseau de sécurité type pare-feu, réseau d'authentification, cœur de réseau
+> - J'ai une expertise concernant l'intégration de solution VPN (IPSEC, SSL) de différent éditeur de pare-feu ou logiciel
+> - J'installe des solutions d'authentification GEMALTO pour des entreprises d'une centaine d'utilisateurs
+> - Nous analysons régulièrement les recommandations de l'ANSSI pour les appliquer à nos clients
+> - Architecture ou l'audit des réseaux informatiques et leur sécurité
+> - Formation des utilisateurs aux nouvelles techniques de programmation ou d'utilisation de notre matériel de sécurité
+> - Développement informatique interne pour consolider nos processus et développement ponctuel pour des besoins spécifiques de nos clients
+> - Étant mobile, j'effectue également de la prévention sur les installations de sécurité de nos clients à travers la France.
+> Je participe aux réponses d'appel d'offre ainsi qu'aux démarches commerciales et d'avant-vente de la société. Établir des devis, définir des marges, chiffre les projets et suivi d'affaire.
+> J'effectue une veille sur la sécurité informatique, que je partage. https://www.adacis.net/category/actu/
 
 <span id="mescertifications"></span>
 ### Mes certifications
