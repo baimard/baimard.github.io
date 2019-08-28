@@ -56,7 +56,7 @@ Adhérent : 2115pts
 <span id="experience"></span>
 ### Expérience
 
-> **Consultant réseaux sécurité et développement** <br/>
+> <details><summary>**Consultant réseaux sécurité et développement**</summary><br/>
 > Entreprise --> ADACIS https://www.adacis.net<br/>
 > Sept. 2016 - Aujourd'hui -- AQUITAINE<br/>
 > J'interviens auprès de clients Grands Comptes sur :
@@ -67,7 +67,7 @@ Adhérent : 2115pts
 > - Développement
 > - Déplacement nationaux
 > - Commerce, avant vente, appel d'offre etc.
-> <br/>Veille technologique : https://www.adacis.net/category/actu/
+> <br/>Veille technologique : https://www.adacis.net/category/actu/</detail>
 
 > **Support Système d'information (AT SOPRA STERIA)** <br/>
 > Entreprise --> ORANGE <br/>
