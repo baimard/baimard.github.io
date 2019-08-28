@@ -24,33 +24,33 @@ Adhérent : 2115pts
 <span id="Formation"></span>
 ### Formation
 
-> <detail><summary><strong>Master MIAGE</strong></summary>
+> <details><summary><strong>Master MIAGE</strong></summary>
 > Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
 > Université Bordeaux 1 <br/>
 > Éffectué en apprentissage <br/>
-> 2013 - 2015</detail>
+> 2013 - 2015</details>
 <hr/>
-> <detail><summary><strong>Licence MIAGE</strong></summary>
+> <details><summary><strong>Licence MIAGE</strong></summary>
 > Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
 > Université Paul Sabatier (Toulouse III) <br/>
 > Éffectué en apprentissage <br/>
-> 2012 - 2013</detail>
+> 2012 - 2013</details>
 <hr/>
-> <detail><summary><strong>BTS IG</strong></summary>
+> <details><summary><strong>BTS IG</strong></summary>
 > BTS Informatique de Gestion - Option développeur <br/>
 > Lycée Gustave Eiffel <br/>
 > Éffectué en apprentissage <br/> 
-> 2010 - 2012</detail>
+> 2010 - 2012</details>
 <hr/>
-> <detail><summary><strong>Licence DROIT, (1er année) ADMIS</strong></summary>
+> <details><summary><strong>Licence DROIT, (1er année) ADMIS</strong></summary>
 > Université Montesquieu-Bordeaux IV <br/>
 > Travail étudiant en parallèle <br/>
-> 2008 - 2010</detail>
+> 2008 - 2010</details>
 <hr/>
-> <detail><summary><strong>Capacité en droit, DROIT, ADMIS</strong></summary>
+> <details><summary><strong>Capacité en droit, DROIT, ADMIS</strong></summary>
 > Université Montesquieu-Bordeaux IV <br/>
 > Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).<br/>
-> 2006 - 2008</detail>
+> 2006 - 2008</details>
 
 > **Je n'ai pas le BAC**
 
@@ -82,7 +82,7 @@ Adhérent : 2115pts
 > - Crée en JAVA<br/>
 > - Parallélement, référent technique en COBOL pour une Tiers Maintenance Applicative</detail>
 <hr/>
-> <details><summary><strong>Avri. 2015 - Août. 2015 - SOPRA STERIA - Stagiaire développeur</strong></summary>
+> <details><summary><strong>Avri. 2015 - Août. 2015</strong> - SOPRA STERIA - Stagiaire développeur</summary>
 > Dans le cadre de mon stage de fin de Master, réalisation d'un logiciel d'amélioration d'un processus de tests pour Orange.<br/>
 > - Java<br/>
 > - Documentation du projet</detail>
