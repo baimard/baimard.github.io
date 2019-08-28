@@ -56,7 +56,7 @@ Adhérent : 2115pts
 <span id="experience"></span>
 ### Expérience
 
-> <details><summary><strong>Adacis - Consultant réseaux sécurité et développement</strong></summary><br/>
+> <details><summary><strong>ADACIS - Consultant réseaux sécurité et développement</strong></summary>
 > Sept. 2016 - Aujourd'hui -- AQUITAINE <br/>
 > J'interviens auprès de clients Grands Comptes sur : <br/>
 > - Intégration d'équipements de sécurité<br/>
@@ -67,42 +67,38 @@ Adhérent : 2115pts
 > - Déplacement nationaux <br/>
 > - Commerce, avant vente, appel d'offre etc. <br/>
 > <br/>Veille technologique : https://www.adacis.net/category/actu/</detail>
-
-> **Support Système d'information (AT SOPRA STERIA)** <br/>
-> Entreprise --> ORANGE <br/>
+<hr/>
+> <details><summary><strong>ORANGE - Support Système d'information (AT SOPRA STERIA)</strong></summary>
 > Janv. 2016 - Août 2016 -- AQUITAINE<br/>
-> Support fonctionnel de l'application Oracle E-business
-> - Support téléphonique, mail, ticket
-> - Documentation et suivi des résolutions d'incident
-> - Référent technique
-
-> **Ingénieur d'étude informatique** <br/>
-> Entreprise --> SOPRA STERIA <br/>
+> Support fonctionnel de l'application Oracle E-business<br/>
+> - Support téléphonique, mail, ticket<br/>
+> - Documentation et suivi des résolutions d'incident<br/>
+> - Référent technique</detail>
+<hr/>
+> <details><summary><strong>SOPRA STERIA - Ingénieur d'étude informatique</strong></summary>
 > Août. 2015 - Déce. 2015 -- AQUITAINE<br/>
-> Projet d'avant vente pour Orange dans la continuité de mon stage
-> - Outil d'automatisation de tests
-> - Crée en JAVA
-> - Parallélement, référent technique en COBOL pour une Tiers Maintenance Applicative
-
-> **Stagiaire développeur** <br/>
-> Entreprise --> SOPRA STERIA <br/>
+> Projet d'avant vente pour Orange dans la continuité de mon stage<br/>
+> - Outil d'automatisation de tests<br/>
+> - Crée en JAVA<br/>
+> - Parallélement, référent technique en COBOL pour une Tiers Maintenance Applicative</detail>
+<hr/>
+> <details><summary><strong>SOPRA STERIA - Stagiaire développeur</strong></summary>
 > Avri. 2015 - Août. 2015 -- AQUITAINE<br/>
-> Dans le cadre de mon stage de fin de Master, réalisation d'un logiciel d'amélioration d'un processus de tests pour Orange.
-> - Java
-> - Documentation du projet
-
-> **Apprenti assistant maitrise d'ouvrage** <br/>
-> Entreprise --> SOPRA STERIA <br/>
+> Dans le cadre de mon stage de fin de Master, réalisation d'un logiciel d'amélioration d'un processus de tests pour Orange.<br/>
+> - Java<br/>
+> - Documentation du projet</detail>
+<hr/>
+> <details><summary><strong>SOPRA STERIA - Apprenti assistant maitrise d'ouvrage</strong></summary>
 > Octo. 2010 - Sept. 2013 -- AQUITAINE<br/>
-> Créatin d'un logiciel de PoC pour le contrôle de la paie des retraites des fonctionnaires. 
-> - Analyse de projet
-> - Développement de la solution
-> - Création d’un plan de recette
-> - Rédaction des procédures
-> - Rédaction de la documentation technique
-> - Formation des utilisateurs
-> - Suivi du projet en production
-> <br/> Remerciement tout spécial à la Caisse des dépôts qui m'a permis de réaliser mon apprentissage dans des conditions exceptionnelles, tant au niveau de la rémunération que au niveau de l'humain.
+> Créatin d'un logiciel de PoC pour le contrôle de la paie des retraites des fonctionnaires. <br/>
+> - Analyse de projet<br/>
+> - Développement de la solution<br/>
+> - Création d’un plan de recette<br/>
+> - Rédaction des procédures<br/>
+> - Rédaction de la documentation technique<br/>
+> - Formation des utilisateurs<br/>
+> - Suivi du projet en production<br/>
+> <br/> Remerciement tout spécial à la Caisse des dépôts qui m'a permis de réaliser mon apprentissage dans des conditions exceptionnelles, tant au niveau de la rémunération que au niveau de l'humain.</detail>
 
 #### [Index](./#index)
 
