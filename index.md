@@ -2,6 +2,20 @@
 layout: default
 ---
 
+### Index :
+
+*   [Qui suis-je ?](./https://baimard.github.io#quisuisje).
+*   Mes formations
+*   Mes expériences professionnelles
+*   Mes certifications
+*   Mes projet personnels
+*   Les langues que je parle ou écrit
+*   Mes participations à des challenges divers
+*   Mes participations à des conférences
+*   Sports
+
+<span id="quisuisje">### Qui suis-je ?</span>
+
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [Link to another page](./another-page.html).
