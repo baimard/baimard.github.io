@@ -24,34 +24,29 @@ Vaste question ...
 <span id="Formation"></span>
 ### Formation
 
-> <details><summary><strong>Master MIAGE</strong></summary>
+> <details><summary><strong>2013 - 2015, Master MIAGE</strong></summary>
 > Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
 > Université Bordeaux 1 <br/>
-> Éffectué en apprentissage <br/>
-> 2013 - 2015</details>
+> Éffectué en apprentissage</details>
 <hr/>
-> <details><summary><strong>Licence MIAGE</strong></summary>
+> <details><summary><strong>2012 - 2013, Licence MIAGE</strong></summary>
 > Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
 > Université Paul Sabatier (Toulouse III) <br/>
-> Éffectué en apprentissage <br/>
-> 2012 - 2013</details>
+> Éffectué en apprentissage</details>
 <hr/>
-> <details><summary><strong>BTS IG</strong></summary>
+> <details><summary><strong>2010 - 2012, BTS IG</strong></summary>
 > BTS Informatique de Gestion - Option développeur <br/>
 > Lycée Gustave Eiffel <br/>
-> Éffectué en apprentissage <br/> 
-> 2010 - 2012</details>
+> Éffectué en apprentissage</details>
 <hr/>
-> <details><summary><strong>Licence DROIT, (1er année) ADMIS</strong></summary>
+> <details><summary><strong>2008 - 2010, Licence DROIT, (1er année) ADMIS</strong></summary>
 > Université Montesquieu-Bordeaux IV <br/>
-> Travail étudiant en parallèle <br/>
-> 2008 - 2010</details>
+> Travail étudiant en parallèle</details>
 <hr/>
-> <details><summary><strong>Capacité en droit, DROIT, ADMIS</strong></summary>
+> <details><summary><strong>2006 - 2008, Capacité en droit, DROIT, ADMIS</strong></summary>
 > Université Montesquieu-Bordeaux IV <br/>
-> Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).<br/>
-> 2006 - 2008</details>
-
+> Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).</details>
+<hr/>
 > **Je n'ai pas le BAC**
 
 #### [Index](./#index)
