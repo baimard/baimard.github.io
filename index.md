@@ -20,32 +20,32 @@ layout: default
 <span id="Formation"></span>
 ### Formation
 
-*   > **Université Bordeaux 1**
-> Master MIAGE, Méthodes Informatiques Appliquées à la Gestion des Entreprises
-> Éffectué en apprentissage
+*   > **Université Bordeaux 1** <br/>
+> Master MIAGE, Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
+> Éffectué en apprentissage <br/>
 > 2013 - 2015
 
-> **Université Paul Sabatier (Toulouse III)**
+*   > **Université Paul Sabatier (Toulouse III)**
 > Licence MIAGE, Méthodes Informatiques Appliquées à la Gestion des Entreprises
 > Éffectué en apprentissage
 > 2012 - 2013
 
-> **Lycée Gustave Eiffel**
+*   > **Lycée Gustave Eiffel**
 > BTS Informatique de Gestion - Option développeur
 > Éffectué en apprentissage
 > 2010 - 2012
 
-> **Université Montesquieu-Bordeaux IV**
+*   > **Université Montesquieu-Bordeaux IV**
 > Licence 1er année uniquement, DROIT, ADMIS
 > Travail étudiant en parallèle
 > 2008 - 2010
 
-> **Université Montesquieu-Bordeaux IV**
+*   > **Université Montesquieu-Bordeaux IV**
 > Capacité en droit, DROIT, ADMIS
 > Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).
 > 2006 - 2008
 
-> **Je n'ai pas le BAC**
+*   > **Je n'ai pas le BAC**
 
 <span id="experience"></span>
 ### Expérience
