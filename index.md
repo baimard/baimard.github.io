@@ -110,13 +110,13 @@ Adhérent : 2115pts
 <span id="certifications"></span>
 ### Certifications/Formations
 
-*   2019 PfSense Fundamentals and Advanced Application
-*   2019 Docker Certified Associate (Sans formation)
-*   2018 Forcepoint Next Generation Firewall Administrator
-*   2018 Formation Ansible (3 jours)
-*   2018 Formation Forensic et analyse de malware (5 jours)
-*   2017 Stormshield CSNE
-*   2017 Stormshield CSNA
+*   **2019** PfSense Fundamentals and Advanced Application
+*   **2019** Docker Certified Associate (Sans formation)
+*   **2018** Forcepoint Next Generation Firewall Administrator
+*   **2018** Formation Ansible (3 jours)
+*   **2018** Formation Forensic et analyse de malware (5 jours)
+*   **2017** Stormshield CSNE
+*   **2017** Stormshield CSNA
 
 #### [Index](./#index)
 
@@ -141,37 +141,37 @@ Adhérent : 2115pts
 <span id="leslanguesquejeparleouecrit"></span>
 ### Les langues que je parle ou écrit
 
-*   Français langue natal - écriture avec des fautes occasionnelles.
+*   **Français** langue natal - écriture avec des fautes occasionnelles.
 
-*   Anglais apprentissage scolaire - utilisé lors de formation suivi (netgate), utilisé pour des supports techniques (mail et téléphone). Dans différente région États-Unis et Inde.
+*   **Anglais** apprentissage scolaire - utilisé lors de formation suivi (netgate), utilisé pour des supports techniques (mail et téléphone). Dans différente région États-Unis et Inde.
 
-*   Roumain - compréhension orale, non écrit. Apprentissage rapide possible.
+*   **Roumain** - compréhension orale, non écrit. Apprentissage rapide possible.
 
-*   Assembleur - En cours d'apprentissage.
+*   **Assembleur** - En cours d'apprentissage.
 
 #### [Index](./#index)
 
 <span id="mesparticipationsadeschallengesdivers"></span>
 ### Mes participations à des challenges divers
 
-*   2019 Cybercamp CRPOC
-*   2019 Participation à un Bug Bounty privé (Yes We Hack)
-*   2019 Participation à la Sthack de Bordeaux CTF et conférence
-*   2018 Équipe de tests des challenges de la FIC
-*   2018 Participation au challenge LADON
-*   2018 Cybercamp CRPOC
-*   2018 Participation à la Sthack de Bordeaux CTF
-*   2017 Participation à la Sthack de Bordeaux CTF
-*   2015 Nuit de l'informatique
-*   2014 Nuit de l'informatique - Vainqueur défi accessibilité numérique
+*   **2019** Cybercamp CRPOC
+*   **2019** Participation à un Bug Bounty privé (Yes We Hack)
+*   **2019** Participation à la Sthack de Bordeaux CTF et conférence
+*   **2018** Équipe de tests des challenges de la FIC
+*   **2018** Participation au challenge LADON
+*   **2018** Cybercamp CRPOC
+*   **2018** Participation à la Sthack de Bordeaux CTF
+*   **2017** Participation à la Sthack de Bordeaux CTF
+*   **2015** Nuit de l'informatique
+*   **2014** Nuit de l'informatique - Vainqueur défi accessibilité numérique
 
 #### [Index](./#index)
 
 <span id="conferencesjury"></span>
 ### Conférences, jury et ...
 
-*   2018 Participation à la Sthack de Bordeaux conférence
-*   2017 Participation à la Sthack de Bordeaux conférence
+*   **2018** Participation à la Sthack de Bordeaux conférence
+*   **2017** Participation à la Sthack de Bordeaux conférence
 
 #### [Index](./#index)
 
