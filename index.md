@@ -161,7 +161,7 @@ Vaste question ...
 - Méthodologie merise (Méthode systémique)<br/>
 - UML<br/>
 </details>
-<br/>
+
 <details><summary>Programmation</summary>
 - Programmation Orienté Objet<br/>
 - Cobol<br/>
@@ -171,13 +171,13 @@ Vaste question ...
 - WebService, RESTFULL<br/>
 - Maitrise de GIT ...<br/>
 </details>
-<br/>
+
 <details><summary>EDI</summary>
 - Visual Studio<br/>
 - Android Studio<br/>
 - Eclipse<br/>
 </details>
-<br/>
+
 <details><summary>Framework</summary>
 - Symfony<br/>
 - Nextcloud (app)<br/>
@@ -189,7 +189,7 @@ Vaste question ...
 - Oracle<br/>
 - Mysql/MariaDB<br/>
 </details>
-<br/>
+
 <details><summary>Big Data</summary>
 - EAI/ETL IBM Cognos, Talend<br/>
 - Architecture type DATAWARE HOUSE<br/>
@@ -205,7 +205,7 @@ Vaste question ...
 - Checkpoint<br/>
 - McAfee - Forcepoint<br/>
 </details>
-<br/>
+
 <details><summary>VPN</summary>
 - IPSEC Général<br/>
 - IPSEC Site à Site<br/>
