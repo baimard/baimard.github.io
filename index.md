@@ -3,7 +3,7 @@ layout: default
 ---
 
 <span id="index"></span>
-### Index :
+## Index :
 
 *   [Qui suis-je ?](./#quisuisje)
 *   [Formation](./#Formation)
@@ -17,12 +17,12 @@ layout: default
 *   [Sports](./#sports)
 
 <span id="quisuisje"></span>
-### Qui suis-je ?
+## Qui suis-je ?
 
 Vaste question ...
 
 <span id="Formation"></span>
-### Formation
+## Formation
 
 <details><summary><strong>2013 - 2015, Master MIAGE</strong></summary>
     Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
@@ -57,7 +57,7 @@ Vaste question ...
 #### [Index](./#index)
 
 <span id="experience"></span>
-### Expérience
+## Expérience
 
 <details><summary><strong>Sept. 2016 - Aujourd'hui</strong>- ADACIS - Consultant réseaux sécurité et développement</summary>
     J'interviens auprès de clients Grands Comptes sur : <br/>
@@ -103,10 +103,10 @@ Vaste question ...
     <br/>Remerciement tout spécial à la Caisse des dépôts qui m'a permis de réaliser mon apprentissage dans des conditions exceptionnelles, tant au niveau de la rémunération que au niveau de l'humain.
 </details>
 
-#### [Index](./#index)
+####[Index](./#index)
 
 <span id="certifications"></span>
-### Certifications/Formations
+## Certifications/Formations
 
 *   **2019** PfSense Fundamentals and Advanced Application
 *   **2019** Docker Certified Associate (Sans formation)
@@ -116,19 +116,107 @@ Vaste question ...
 *   **2017** Stormshield CSNE
 *   **2017** Stormshield CSNA
 
-#### [Index](./#index)
+####[Index](./#index)
 
 <span id="connaissancepardomaine"></span>
-### Connaissance par domaine
+## Connaissance par domaine
+
+### Informatique et sécurité
+
+<details><summary>Activités</summary>
+- Analyse de projet, plan d'actions et tests<br/>
+- Communication et adaptation du langage en fonction de l'interlocuteur (Décideur, Pilotage, MOA/MOE)<br/>
+- Support utilisateurs<br/>
+- Architecture de solutions réseaux et sécurité<br/>
+- Gestion de projet<br/>
+</details>
+
+<details><summary>Système d'exploitation</summary>
+- Windows XP - 10, Windows Serveur 2008 - 2016<br/>
+- Mac OS, Debian, Ubuntu<br/>
+</details>
+
+<details><summary>Infrastructure logicielle</summary>
+- Serveur Web Apache, Php, Base de données (Mysql, Maria, Oracle, Postgres)<br/>
+- Échange de fichiers, CFT, FTP, SFTP, NFS, SMB etc.<br/>
+- Docker & Docker SWARM<br/>
+</details>
+
+<details><summary>Scripting</summary>
+- VBS<br/>
+- Bash<br/>
+- Python<br/>
+</details>
 
 <details><summary>Gestion des risques</summary>
 - Analyse des risques ISO 27005 (en cours de certification)<br/>
 - Veille sur les risques des systèmes d'information et suivi de failles de sécurité<br/>
-
 </details>
 
+### Méthode de conceptualisation
+
+<details><summary>Méthodologies</summary>
+- Cycle en V et courbe du soleil<br/>
+- Méthode agile (XP)<br/>
+- Méthodologie merise (Méthode systémique)<br/>
+- UML<br/>
+</details>
+
+<details><summary>Programmation</summary>
+- Programmation Orienté Objet<br/>
+- Cobol<br/>
+- Prolog<br/>
+- Web (Php, JS, Htlm, Sql, CSS)<br/>
+- Application (Java, JEE, Android, C++, VB.Net)<br/>
+- WebService, RESTFULL<br/>
+- Maitrise de GIT ...<br/>
+</details>
+
+<details><summary>EDI</summary>
+- Visual Studio<br/>
+- Android Studio<br/>
+- Eclipse<br/>
+</details>
+
+<details><summary>Framework</summary>
+- Symfony
+- Nextcloud (app)
+</details>
+
+### Base de données
+
+<details><summary>Administration</summary>
+- Oracle
+- Mysql/MariaDB
+</details>
+
+<details><summary>Big Data</summary>
+- EAI/ETL IBM Cognos, Talend
+- Architecture type DATAWARE HOUSE
+- Business Object, Installation, Création de Rapport
+- Ensemble Elastik (ELK)
+</details>
+
+### Réseau
+
+<details><summary>Pare-feu</summary>
+- Stormshield
+- PfSense
+- Checkpoint
+- McAfee - Forcepoint
+</details>
+
+<details><summary>VPN</summary>
+- IPSEC Général
+- IPSEC Site à Site
+- IPSEC Mobile
+- OpenVPN
+</details>
+
+#### [Index](./#index)
+
 <span id="projetspersonnels"></span>
-### Projets personnels
+## Projets personnels
 
 *   Création de sthack docker swarm avec 10 Raspberry Hébergeant les services suivants :
 
@@ -143,7 +231,7 @@ Vaste question ...
 #### [Index](./#index)
 
 <span id="leslanguesquejeparleouecrit"></span>
-### Les langues que je parle ou écrit
+## Les langues que je parle ou écrit
 
 *   **Français** langue natal - écriture avec des fautes occasionnelles.
 
@@ -153,10 +241,11 @@ Vaste question ...
 
 *   **Assembleur** - En cours d'apprentissage.
 
+
 #### [Index](./#index)
 
 <span id="mesparticipationsadeschallengesdivers"></span>
-### Mes participations à des challenges divers
+## Mes participations à des challenges divers
 
 *   **2019** Cybercamp CRPOC
 *   **2019** Participation à un Bug Bounty privé (Yes We Hack)
@@ -172,7 +261,7 @@ Vaste question ...
 #### [Index](./#index)
 
 <span id="conferencesjury"></span>
-### Conférences, jury et ...
+## Conférences, jury et ...
 
 *   **2018** Auditeur à Hack-it-n
 *   **2018** Auditeur à Sthack
@@ -181,7 +270,7 @@ Vaste question ...
 #### [Index](./#index)
 
 <span id="sports"></span>
-### Sports
+## Sports
 
 Pourquoi une section sport dans un CV d'informaticien ? Car je pense que certain défi requière un fort esprit d'équipe et de compétition pour être relevé.
 
