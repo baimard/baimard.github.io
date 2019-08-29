@@ -25,27 +25,32 @@ Vaste question ...
 ### Formation
 
 <details><summary><strong>2013 - 2015, Master MIAGE</strong></summary>
-Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
-Université Bordeaux 1 <br/>
-Éffectué en apprentissage</details>
+    Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
+    Université Bordeaux 1 <br/>
+    Éffectué en apprentissage
+</details>
 <hr/>
 <details><summary><strong>2012 - 2013, Licence MIAGE</strong></summary>
-Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
-Université Paul Sabatier (Toulouse III) <br/>
-Éffectué en apprentissage</details>
+    Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
+    Université Paul Sabatier (Toulouse III) <br/>
+    Éffectué en apprentissage
+</details>
 <hr/>
 <details><summary><strong>2010 - 2012, BTS IG</strong></summary>
-BTS Informatique de Gestion - Option développeur <br/>
-Lycée Gustave Eiffel <br/>
-Éffectué en apprentissage</details>
+    BTS Informatique de Gestion - Option développeur <br/>
+    Lycée Gustave Eiffel <br/>
+    Éffectué en apprentissage
+</details>
 <hr/>
 <details><summary><strong>2008 - 2010, Licence DROIT, (1er année) ADMIS</strong></summary>
-Université Montesquieu-Bordeaux IV <br/>
-Travail étudiant en parallèle</details>
+    Université Montesquieu-Bordeaux IV <br/>
+    Travail étudiant en parallèle
+</details>
 <hr/>
 <details><summary><strong>2006 - 2008, Capacité en droit, DROIT, ADMIS</strong></summary>
-Université Montesquieu-Bordeaux IV <br/>
-Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).</details>
+    Université Montesquieu-Bordeaux IV <br/>
+    Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).
+</details>
 <hr/>
 **Je n'ai pas le BAC**
 
@@ -54,44 +59,49 @@ Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au ba
 <span id="experience"></span>
 ### Expérience
 
-<details><summary><strong>Sept. 2016 - Aujourd'hui</strong- ADACIS - Consultant réseaux sécurité et développement</summary>
-J'interviens auprès de clients Grands Comptes sur : <br/>
-- Intégration d'équipements de sécurité<br/>
-- Intégration de solutions sécurisée<br/>
-- Audit et architecture, logiciel, réseau, organisationnel ...<br/>
-- Formation <br/>
-- Développement <br/>
-- Déplacement nationaux <br/>
-- Commerce, avant vente, appel d'offre etc. <br/>
-<br/>Veille technologique : https://www.adacis.net/category/actu/</details>
+<details><summary><strong>Sept. 2016 - Aujourd'hui</strong>- ADACIS - Consultant réseaux sécurité et développement</summary>
+    J'interviens auprès de clients Grands Comptes sur : <br/>
+    - Intégration d'équipements de sécurité<br/>
+    - Intégration de solutions sécurisée<br/>
+    - Audit et architecture, logiciel, réseau, organisationnel ...<br/>
+    - Formation <br/>
+    - Développement <br/>
+    - Déplacement nationaux <br/>
+    - Commerce, avant vente, appel d'offre etc. <br/>
+    <br/>Veille technologique : https://www.adacis.net/category/actu/
+</details>
 <hr/>
-<details><summary><strong>Janv. 2016 - Août 2016</strong- ORANGE - Support Système d'information (AT SOPRA STERIA)</summary>
-Support fonctionnel de l'application Oracle E-business<br/>
-- Support téléphonique, mail, ticket<br/>
-- Documentation et suivi des résolutions d'incident<br/>
-- Référent technique</details>
+<details><summary><strong>Janv. 2016 - Août 2016</strong>- ORANGE - Support Système d'information (AT SOPRA STERIA)</summary>
+    Support fonctionnel de l'application Oracle E-business<br/>
+    - Support téléphonique, mail, ticket<br/>
+    - Documentation et suivi des résolutions d'incident<br/>
+    - Référent technique
+</details>
 <hr/>
-<details><summary><strong>Août. 2015 - Déce. 2015</strong- SOPRA STERIA - Ingénieur d'étude informatique</summary>
-Projet d'avant vente pour Orange dans la continuité de mon stage<br/>
-- Outil d'automatisation de tests<br/>
-- Crée en JAVA<br/>
-- Parallélement, référent technique en COBOL pour une Tiers Maintenance Applicative</details>
+<details><summary><strong>Août. 2015 - Déce. 2015</strong>- SOPRA STERIA - Ingénieur d'étude informatique</summary>
+    Projet d'avant vente pour Orange dans la continuité de mon stage<br/>
+    - Outil d'automatisation de tests<br/>
+    - Crée en JAVA<br/>
+    - Parallélement, référent technique en COBOL pour une Tiers Maintenance Applicative
+</details>
 <hr/>
-<details><summary><strong>Avri. 2015 - Août. 2015</strong- SOPRA STERIA - Stagiaire développeur</summary>
-Dans le cadre de mon stage de fin de Master, réalisation d'un logiciel d'amélioration d'un processus de tests pour Orange.<br/>
-- Java<br/>
-- Documentation du projet</details>
+<details><summary><strong>Avri. 2015 - Août. 2015</strong>- SOPRA STERIA - Stagiaire développeur</summary>
+    Dans le cadre de mon stage de fin de Master, réalisation d'un logiciel d'amélioration d'un processus de tests pour Orange.<br/>
+    - Java<br/>
+    - Documentation du projet
+</details>
 <hr/>
-<details><summary><strong>Octo. 2010 - Sept. 2013</strong- SOPRA STERIA - Apprenti assistant maitrise d'ouvrage</summary>
-Créatin d'un logiciel de PoC pour le contrôle de la paie des retraites des fonctionnaires. <br/>
-- Analyse de projet<br/>
-- Développement de la solution<br/>
-- Création d’un plan de recette<br/>
-- Rédaction des procédures<br/>
-- Rédaction de la documentation technique<br/>
-- Formation des utilisateurs<br/>
-- Suivi du projet en production<br/>
-<br/Remerciement tout spécial à la Caisse des dépôts qui m'a permis de réaliser mon apprentissage dans des conditions exceptionnelles, tant au niveau de la rémunération que au niveau de l'humain.</details>
+<details><summary><strong>Octo. 2010 - Sept. 2013</strong>- SOPRA STERIA - Apprenti assistant maitrise d'ouvrage</summary>
+    Créatin d'un logiciel de PoC pour le contrôle de la paie des retraites des fonctionnaires. <br/>
+    - Analyse de projet<br/>
+    - Développement de la solution<br/>
+    - Création d’un plan de recette<br/>
+    - Rédaction des procédures<br/>
+    - Rédaction de la documentation technique<br/>
+    - Formation des utilisateurs<br/>
+    - Suivi du projet en production<br/>
+    <br/>Remerciement tout spécial à la Caisse des dépôts qui m'a permis de réaliser mon apprentissage dans des conditions exceptionnelles, tant au niveau de la rémunération que au niveau de l'humain.
+</details>
 
 #### [Index](./#index)
 
