@@ -111,6 +111,11 @@ Vaste question ...
 <span id="connaissancepardomaine"></span>
 ### Connaissance par domaine
 
+<details><summary>Gestion des risques</summary>
+- Analyse des risques ISO 27005 - en cours de certification
+- Veille sur les risques des systèmes d'information et suivi de failles de sécurité
+</details>
+
 <span id="projetspersonnels"></span>
 ### Projets personnels
 
@@ -158,12 +163,18 @@ Vaste question ...
 <span id="conferencesjury"></span>
 ### Conférences, jury et ...
 
-*   **2018** Participation à la Sthack de Bordeaux conférence
-*   **2017** Participation à la Sthack de Bordeaux conférence
+*   **2018** Auditeur à Hack-it-n
+*   **2018** Auditeur à Sthack
+*   **2017** Auditeur à Sthack
 
 #### [Index](./#index)
 
 <span id="sports"></span>
 ### Sports
+
+Pourquoi une section sport dans un CV d'informaticien ? Car je pense que certain défi requière un fort esprit d'équipe et de compétition pour être relevé.
+
+*   Combattant en Boxe Française 2ième série
+*   Pilote Moto en Vitesse et Moniteur (BFA)
 
 #### [Index](./#index)
