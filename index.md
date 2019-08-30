@@ -130,7 +130,7 @@ Passioné d'informatique, j'aborde mon métier avec beaucoup de plaisir. Je suis
 - Support utilisateurs<br/>
 - Architecture de solutions réseaux et sécurité<br/>
 - Gestion de projet<br/>
-</details class="separation">
+</details>
 <details><summary>Système d'exploitation</summary>
 - Windows XP - 10, Windows Serveur 2008 - 2016<br/>
 - Mac OS, Debian, Ubuntu<br/>
