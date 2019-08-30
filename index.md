@@ -11,7 +11,7 @@ layout: default
 *   [Qui suis-je ?](./#quisuisje)
 *   [Certifications](./#certifications)
 *   [Projets personnels](./#projetspersonnels)
-*   [Conférences, jury et ...](./#conferencesjury)
+*   [Conférences, jury etc ...](./#conferencesjury)
 *   [Connaissance par domaine](./#connaissancepardomaine)
 *   [Les langues que je parle ou écrit](./#leslanguesquejeparleouecrit)
 *   [Mes participations à des challenges divers](./#mesparticipationsadeschallengesdivers)
@@ -279,7 +279,7 @@ Mon laboratoire personnel :
 #### [Index](./#index)
 
 <span id="conferencesjury"></span>
-## Conférences, jury et ...
+## Conférences, jury etc ...
 
 *   **2018** Auditeur à Hack-it-n
 *   **2018** Auditeur à Sthack
