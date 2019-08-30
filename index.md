@@ -103,7 +103,7 @@ Vaste question ...
     <br/>Remerciement tout spécial à la Caisse des dépôts qui m'a permis de réaliser mon apprentissage dans des conditions exceptionnelles, tant au niveau de la rémunération que au niveau de l'humain.
 </details>
 
-####[Index](./#index)
+#### [Index](./#index)
 
 <span id="certifications"></span>
 ## Certifications/Formations
@@ -116,7 +116,7 @@ Vaste question ...
 *   **2017** Stormshield CSNE
 *   **2017** Stormshield CSNA
 
-####[Index](./#index)
+#### [Index](./#index)
 
 <span id="connaissancepardomaine"></span>
 ## Connaissance par domaine
