@@ -124,38 +124,34 @@ Passioné d'informatique, j'aborde mon métier avec beaucoup de plaisir. Je suis
 
 ### Informatique et sécurité
 
-<details><summary>Activités</summary>
+<details class="separation"><summary>Activités</summary>
 - Analyse de projet, plan d'actions et tests<br/>
 - Communication et adaptation du langage en fonction de l'interlocuteur (Décideur, Pilotage, MOA/MOE)<br/>
 - Support utilisateurs<br/>
 - Architecture de solutions réseaux et sécurité<br/>
 - Gestion de projet<br/>
-</details>
-<br/>
+</details class="separation">
 <details><summary>Système d'exploitation</summary>
 - Windows XP - 10, Windows Serveur 2008 - 2016<br/>
 - Mac OS, Debian, Ubuntu<br/>
 </details>
-<br/>
-<details><summary>Infrastructure logicielle</summary>
+<details class="separation"><summary>Infrastructure logicielle</summary>
 - Serveur Web Apache, Php, Base de données (Mysql, Maria, Oracle, Postgres)<br/>
 - Échange de fichiers, CFT, FTP, SFTP, NFS, SMB etc.<br/>
 - Docker & Docker SWARM<br/>
 </details>
-<br/>
-<details><summary>Scripting</summary>
+<details class="separation"><summary>Scripting</summary>
 - VBS<br/>
 - Bash<br/>
 - Python<br/>
 </details>
-<br/>
-<details><summary>Gestion des risques</summary>
+<details class="separation"><summary>Gestion des risques</summary>
 - Analyse des risques ISO 27005 (en cours de certification)<br/>
 - Veille sur les risques des systèmes d'information et suivi de failles de sécurité<br/>
 </details>
 
 
-
+<div class="separation"></div>
 ### Méthode de conceptualisation
 
 <details><summary>Méthodologies</summary>
