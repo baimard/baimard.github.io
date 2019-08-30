@@ -124,44 +124,45 @@ Passioné d'informatique, j'aborde mon métier avec beaucoup de plaisir. Je suis
 
 ### Informatique et sécurité
 
-<details class="separation"><summary>Activités</summary>
+<details class="separation-details"><summary>Activités</summary>
 - Analyse de projet, plan d'actions et tests<br/>
 - Communication et adaptation du langage en fonction de l'interlocuteur (Décideur, Pilotage, MOA/MOE)<br/>
 - Support utilisateurs<br/>
 - Architecture de solutions réseaux et sécurité<br/>
 - Gestion de projet<br/>
 </details>
-<details><summary>Système d'exploitation</summary>
+<details class="separation-details"><summary>Système d'exploitation</summary>
 - Windows XP - 10, Windows Serveur 2008 - 2016<br/>
 - Mac OS, Debian, Ubuntu<br/>
 </details>
-<details class="separation"><summary>Infrastructure logicielle</summary>
+<details class="separation-details"><summary>Infrastructure logicielle</summary>
 - Serveur Web Apache, Php, Base de données (Mysql, Maria, Oracle, Postgres)<br/>
 - Échange de fichiers, CFT, FTP, SFTP, NFS, SMB etc.<br/>
 - Docker & Docker SWARM<br/>
 </details>
-<details class="separation"><summary>Scripting</summary>
+<details class="separation-details"><summary>Scripting</summary>
 - VBS<br/>
 - Bash<br/>
 - Python<br/>
 </details>
-<details class="separation"><summary>Gestion des risques</summary>
+<details class="separation-details"><summary>Gestion des risques</summary>
 - Analyse des risques ISO 27005 (en cours de certification)<br/>
 - Veille sur les risques des systèmes d'information et suivi de failles de sécurité<br/>
 </details>
 
 
 <div class="separation"></div>
+
 ### Méthode de conceptualisation
 
-<details><summary>Méthodologies</summary>
+<details class="separation-details"><summary>Méthodologies</summary>
 - Cycle en V et courbe du soleil<br/>
 - Méthode agile (XP)<br/>
 - Méthodologie merise (Méthode systémique)<br/>
 - UML<br/>
 </details>
 
-<details><summary>Programmation</summary>
+<details class="separation-details"><summary>Programmation</summary>
 - Programmation Orienté Objet<br/>
 - Cobol<br/>
 - Prolog<br/>
@@ -171,52 +172,52 @@ Passioné d'informatique, j'aborde mon métier avec beaucoup de plaisir. Je suis
 - Maitrise de GIT ...<br/>
 </details>
 
-<details><summary>EDI</summary>
+<details class="separation-details"><summary>EDI</summary>
 - Visual Studio<br/>
 - Android Studio<br/>
 - Eclipse<br/>
 </details>
 
-<details><summary>Framework</summary>
+<details class="separation-details"><summary>Framework</summary>
 - Symfony<br/>
 - Nextcloud (app)<br/>
 </details>
 
-<br/>
+<div class="separation"></div>
 
 ### Base de données
 
-<details><summary>Administration</summary>
+<details class="separation-details"><summary>Administration</summary>
 - Oracle<br/>
 - Mysql/MariaDB<br/>
 </details>
 
-<details><summary>Big Data</summary>
+<details class="separation-details"><summary>Big Data</summary>
 - EAI/ETL IBM Cognos, Talend<br/>
 - Architecture type DATAWARE HOUSE<br/>
 - Business Object, Installation, Création de Rapport<br/>
 - Ensemble Elastik (ELK)<br/>
 </details>
 
-<br/>
+<div class="separation"></div>
 
 ### Réseau
 
-<details><summary>Pare-feu</summary>
+<details class="separation-details"><summary>Pare-feu</summary>
 - Stormshield<br/>
 - PfSense<br/>
 - Checkpoint<br/>
 - McAfee - Forcepoint<br/>
 </details>
 
-<details><summary>VPN</summary>
+<details class="separation-details"><summary>VPN</summary>
 - IPSEC Général<br/>
 - IPSEC Site à Site<br/>
 - IPSEC Mobile<br/>
 - OpenVPN<br/>
 </details>
 
-<br/>
+<div class="separation"></div>
 
 
 #### [Index](./#index)
@@ -231,7 +232,7 @@ Passioné d'informatique, j'aborde mon métier avec beaucoup de plaisir. Je suis
 
 Mon laboratoire personnel : 
 
-![Branching](./assets/images/network.png")
+![Laboratoire](./assets/images/network.png)
 
 #### [Index](./#index)
 
