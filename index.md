@@ -10,7 +10,7 @@ layout: default
 *   [Expérience](./#experience)
 *   [Certifications](./#certifications)
 *   [Connaissance par domaine](./#connaissancepardomaine)
-*   [Projets personnels](./projetspersonnels)
+*   [Projets personnels](./#projetspersonnels)
 *   [Les langues que je parle ou écrit](./#leslanguesquejeparleouecrit)
 *   [Mes participations à des challenges divers](./#mesparticipationsadeschallengesdivers)
 *   [Conférences, jury et ...](./#conferencesjury)
@@ -228,15 +228,14 @@ Passioné d'informatique, j'aborde mon métier avec beaucoup de plaisir. Je suis
 <span id="projetspersonnels"></span>
 ## Projets personnels
 
-*   Création de sthack docker swarm avec 10 Raspberry Hébergeant les services suivants :
-
-*   Cluster de Pfsense
-
+*   Création d'un sthack docker à domicile avec des raspberrys
+*   Cluster de Pfsense à domicile
 *   Redondance de connexion ADSL / 4G
-
 *   Délégation du stockage sur un NFS
 
-*   Projet nextcloud divers : 
+Mon laboratoire personnel : 
+
+<img src="htps://cacoo.com/diagrams/2JzvwUNQWhBqKFGv-037F8.png" class="img-network"/>
 
 #### [Index](./#index)
 
