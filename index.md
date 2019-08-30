@@ -231,7 +231,7 @@ Passioné d'informatique, j'aborde mon métier avec beaucoup de plaisir. Je suis
 
 Mon laboratoire personnel : 
 
-<img src="./assets/images/network.png" class="img-network"/>
+![Branching](./assets/images/network.png")
 
 #### [Index](./#index)
 
