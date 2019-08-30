@@ -138,7 +138,7 @@ Passioné d'informatique, j'aborde mon métier avec beaucoup de plaisir. Je suis
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Activités</summary>
 - Analyse de projet, plan d'actions et tests<br/>
-- Communication et adaptation du langage en fonction de l'interlocuteur (Décideur, Pilotage, MOA/MOE)<br/>
+- Communication et adaptation du langage en fonction de l'interlocuteur<br/>
 - Support utilisateurs<br/>
 - Architecture de solutions réseaux et sécurité<br/>
 - Gestion de projet<br/>
@@ -253,7 +253,7 @@ Mon laboratoire personnel :
 
 *   **Français** langue natal - écriture avec des fautes occasionnelles.
 
-*   **Anglais** apprentissage scolaire - utilisé lors de formation suivi (netgate), utilisé pour des supports techniques (mail et téléphone). Dans différente région États-Unis et Inde.
+*   **Anglais** apprentissage scolaire - utilisé lors de formation suivi, pour des supports techniques (mail et téléphone).
 
 *   **Roumain** - compréhension orale, non écrit. Apprentissage rapide possible.
 
