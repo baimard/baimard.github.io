@@ -19,35 +19,35 @@ layout: default
 <span id="quisuisje"></span>
 ## Qui suis-je ?
 
-Vaste question ...
+Passioné d'informatique, j'aborde mon métier avec beaucoup de plaisir. Je suis compétiteur dans l'âme et j'aime énormément les nouveaux challenges. Un de mes défauts est que je suis fonceur mais une de mes qualités est que je suis très positifs dans toutes circonstances. La bonhumeur et la bienveillance se communiquent quotidiennement.
 
 <span id="Formation"></span>
 ## Formation
 
-<details><summary><strong>2013 - 2015, Master MIAGE</strong></summary>
+<details><summary><strong>2013 - 2015</strong> Master MIAGE</summary>
     Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
     Université Bordeaux 1 <br/>
     Éffectué en apprentissage
 </details>
 <hr/>
-<details><summary><strong>2012 - 2013, Licence MIAGE</strong></summary>
+<details><summary><strong>2012 - 2013</strong> Licence MIAGE</summary>
     Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
     Université Paul Sabatier (Toulouse III) <br/>
     Éffectué en apprentissage
 </details>
 <hr/>
-<details><summary><strong>2010 - 2012, BTS IG</strong></summary>
+<details><summary><strong>2010 - 2012</strong> BTS IG</summary>
     BTS Informatique de Gestion - Option développeur <br/>
     Lycée Gustave Eiffel <br/>
     Éffectué en apprentissage
 </details>
 <hr/>
-<details><summary><strong>2008 - 2010, Licence DROIT, (1er année) ADMIS</strong></summary>
+<details><summary><strong>2008 - 2010</strong> Licence DROIT, (1er année) ADMIS</summary>
     Université Montesquieu-Bordeaux IV <br/>
     Travail étudiant en parallèle
 </details>
 <hr/>
-<details><summary><strong>2006 - 2008, Capacité en droit, DROIT, ADMIS</strong></summary>
+<details><summary><strong>2006 - 2008</strong> Capacité en droit, DROIT, ADMIS</summary>
     Université Montesquieu-Bordeaux IV <br/>
     Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).
 </details>
@@ -102,6 +102,7 @@ Vaste question ...
     - Suivi du projet en production<br/>
     <br/>Remerciement tout spécial à la Caisse des dépôts qui m'a permis de réaliser mon apprentissage dans des conditions exceptionnelles, tant au niveau de la rémunération que au niveau de l'humain.
 </details>
+<br/>
 
 #### [Index](./#index)
 
@@ -153,6 +154,8 @@ Vaste question ...
 - Veille sur les risques des systèmes d'information et suivi de failles de sécurité<br/>
 </details>
 
+<br/>
+
 ### Méthode de conceptualisation
 
 <details><summary>Méthodologies</summary>
@@ -183,6 +186,8 @@ Vaste question ...
 - Nextcloud (app)<br/>
 </details>
 
+<br/>
+
 ### Base de données
 
 <details><summary>Administration</summary>
@@ -196,6 +201,8 @@ Vaste question ...
 - Business Object, Installation, Création de Rapport<br/>
 - Ensemble Elastik (ELK)<br/>
 </details>
+
+<br/>
 
 ### Réseau
 
@@ -212,6 +219,9 @@ Vaste question ...
 - IPSEC Mobile<br/>
 - OpenVPN<br/>
 </details>
+
+<br/>
+
 
 #### [Index](./#index)
 
