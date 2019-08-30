@@ -231,7 +231,7 @@ Passioné d'informatique, j'aborde mon métier avec beaucoup de plaisir. Je suis
 
 Mon laboratoire personnel : 
 
-<img src="htps://cacoo.com/diagrams/2JzvwUNQWhBqKFGv-037F8.png" class="img-network"/>
+<img src="./assets/images/network.png" class="img-network"/>
 
 #### [Index](./#index)
 
