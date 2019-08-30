@@ -2,50 +2,6 @@
 layout: default
 ---
 
-### Index :
-
-*   [Qui suis-je ?](./#quisuisje)
-*   [Mes formations](./#mesformations)
-*   [Mes expériences professionnelles](./#mesexperiencesprofessionnelles)
-*   [Mes certifications](./#mescertifications)
-*   [Mes projets personnels](./#mesprojetspersonnels)
-*   [Les langues que je parle ou écrit](./#leslanguesquejeparleouecrit)
-*   [Mes participations à des challenges divers](./#mesparticipationsadeschallengesdivers)
-*   [Mes participations à des conférences](./#mesparticipationsadesconferences)
-*   [Sports](./#sports)
-
-<span id="quisuisje"></span>
-### Qui suis-je ?
-
-<span id="mesformations"></span>
-### Mes formations
-
-<span id="mesexperiencesprofessionnelles"></span>
-### Mes expériences professionnelles
-
-<span id="mescertifications"></span>
-### Mes certifications
-
-<span id="mesprojetspersonnels"></span>
-### Mes projets personnels
-
-<span id="leslanguesquejeparleouecrit"></span>
-### Les langues que je parle ou écrit
-
-<span id="mesparticipationsadeschallengesdivers"></span>
-### Mes participations à des challenges divers
-
-<span id="mesparticipationsadesconferences"></span>
-### Mes participations à des conférences
-
-<span id="sports"></span>
-### Sports
-
-
-
-
-
-
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [Link to another page](./another-page.html).
@@ -164,4 +120,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 
 ```
 The final element.
-```
+```   
