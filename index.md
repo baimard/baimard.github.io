@@ -21,7 +21,7 @@ layout: default
 <span id="quisuisje"></span>
 ## Qui suis-je ?
 
-Passioné d'informatique, j'aborde mon métier avec beaucoup de plaisir. Je suis compétiteur dans l'âme et j'aime énormément les nouveaux challenges. Un de mes défauts est que je suis fonceur mais une de mes qualités est que je suis très positifs dans toutes circonstances. La bonhumeur et la bienveillance se communiquent quotidiennement.
+Mon travail consiste à avoir une expertise technique dans le domaine de la cybersécurité. Cela implique une auto-formation permanente et une veille technologique très rigoureuse. Je peux intervenir à plusieurs niveaux, audit, architecture, infrastructure, code et de bien d'autres manières. Je cultive un maximum la polyvalence dans mon domaine. Je suis avant tout un passionné de cybersécurité et j'aborde mon métier avec beaucoup de plaisir. Je suis compétiteur dans l'âme et j'aime énormément les nouveaux challenges. Un de mes défauts est que je suis fonceur mais une de mes qualités est que je suis très positif en toutes circonstances. La bonne humeur et la bienveillance se communiquent quotidiennement.
 
 <span id="Formation"></span>
 ## Formation
@@ -58,8 +58,7 @@ Passioné d'informatique, j'aborde mon métier avec beaucoup de plaisir. Je suis
     Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).
 </details>
 <div class="separation"></div>
-<hr/>
-**Je n'ai pas le BAC**
+
 
 #### [Index](./#index)
 
@@ -290,7 +289,7 @@ Mon laboratoire personnel :
 <span id="sports"></span>
 ## Sports
 
-Pourquoi une section sport dans un CV d'informaticien ? Car je pense que certain défi requière un fort esprit d'équipe et de compétition pour être relevé.
+Pourquoi une section sport dans un CV d'informaticien ? Car je pense que certains défis requiert un fort esprit d'équipe et de compétition pour être relevé.
 
 *   Combattant en Boxe Française 2ième série
 *   Pilote Moto en Vitesse et Moniteur (BFA)
