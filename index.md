@@ -12,7 +12,7 @@ layout: default
 *   [Certifications](./#certifications)
 *   [Projets personnels](./#projetspersonnels)
 *   [Conférences, jury etc ...](./#conferencesjury)
-*   [Connaissance par domaine](./#connaissancepardomaine)
+*   [Connaissances par domaine](./#connaissancespardomaine)
 *   [Les langues que je parle ou écrit](./#leslanguesquejeparleouecrit)
 *   [Mes participations à des challenges divers](./#mesparticipationsadeschallengesdivers)
 
@@ -21,7 +21,16 @@ layout: default
 <span id="quisuisje"></span>
 ## Qui suis-je ?
 
-Mon travail consiste à avoir une expertise technique dans le domaine de la cybersécurité. Cela implique une auto-formation permanente et une veille technologique très rigoureuse. Je peux intervenir à plusieurs niveaux, audit, architecture, infrastructure, code et de bien d'autres manières. Je cultive un maximum la polyvalence dans mon domaine. Je suis avant tout un passionné de cybersécurité et j'aborde mon métier avec beaucoup de plaisir. Je suis compétiteur dans l'âme et j'aime énormément les nouveaux challenges. Un de mes défauts est que je suis fonceur mais une de mes qualités est que je suis très positif en toutes circonstances. La bonne humeur et la bienveillance se communiquent quotidiennement.
+Mon travail consiste à avoir une expertise technique dans le domaine de la cybersécurité. Cela implique une auto-formation permanente et une veille technologique très rigoureuse. 
+
+Je peux intervenir à plusieurs niveaux :
+* audit,
+* architecture,
+* infrastructure,
+* code,
+* et de bien d'autres manières. 
+
+Je cultive au maximum la polyvalence dans mon domaine. Je suis avant tout un passionné de cybersécurité et j'aborde mon métier avec beaucoup de plaisir. Je suis compétiteur dans l'âme et j'aime énormément les nouveaux challenges. Un de mes défauts est que je suis fonceur mais une de mes qualités est que je suis très positif en toutes circonstances. La bonne humeur et la bienveillance se communiquent quotidiennement.
 
 <span id="Formation"></span>
 ## Formation
@@ -65,7 +74,7 @@ Mon travail consiste à avoir une expertise technique dans le domaine de la cybe
 <span id="experience"></span>
 ## Expérience
 
-<details title="cliquer pour plus de détails ..."><summary><strong>Sept. 2016 - Aujourd'hui</strong>- ADACIS - Consultant réseaux sécurité et développement</summary>
+<details title="cliquer pour plus de détails ..."><summary><strong>Sept. 2016 - Aujourd'hui</strong>- ADACIS - Consultant réseau sécurité et développement</summary>
     J'interviens auprès de clients Grands Comptes sur : <br/>
     - Intégration d'équipements de sécurité<br/>
     - Intégration de solutions sécurisée<br/>
@@ -130,8 +139,8 @@ Mon travail consiste à avoir une expertise technique dans le domaine de la cybe
 
 #### [Index](./#index)
 
-<span id="connaissancepardomaine"></span>
-## Connaissance par domaine
+<span id="connaissancespardomaine"></span>
+## Connaissances par domaine
 
 ### Informatique et sécurité
 
@@ -174,10 +183,10 @@ Mon travail consiste à avoir une expertise technique dans le domaine de la cybe
 </details>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Programmation</summary>
-- Programmation Orienté Objet<br/>
+- Programmation Orientée Objet<br/>
 - Cobol<br/>
 - Prolog<br/>
-- Web (Php, JS, Htlm, Sql, CSS)<br/>
+- Web (PHP, JS, HTML, Sql, CSS)<br/>
 - Application (Java, JEE, Android, C++, VB.Net)<br/>
 - WebService, RESTFULL<br/>
 - Maitrise de GIT ...<br/>
@@ -236,7 +245,7 @@ Mon travail consiste à avoir une expertise technique dans le domaine de la cybe
 <span id="projetspersonnels"></span>
 ## Projets personnels
 
-*   Création d'un sthack docker à domicile avec des raspberrys
+*   Création d'une stack docker à domicile avec des raspberrys
 *   Cluster de Pfsense à domicile
 *   Redondance de connexion ADSL / 4G
 *   Délégation du stockage sur un NFS
@@ -252,7 +261,7 @@ Mon laboratoire personnel :
 
 *   **Français** langue natal - écriture avec des fautes occasionnelles.
 
-*   **Anglais** apprentissage scolaire - utilisé lors de formation suivi, pour des supports techniques (mail et téléphone).
+*   **Anglais** apprentissage scolaire - utilisé lors de formation suivies, pour des supports techniques (mail et téléphone).
 
 *   **Roumain** - compréhension orale, non écrit. Apprentissage rapide possible.
 
@@ -289,7 +298,9 @@ Mon laboratoire personnel :
 <span id="sports"></span>
 ## Sports
 
-Pourquoi une section sport dans un CV d'informaticien ? Car je pense que certains défis requiert un fort esprit d'équipe et de compétition pour être relevé.
+Pourquoi une section sport dans un CV de consultant en Cybersécurité ? 
+
+Je pense que certains défis requièrent un fort esprit d'équipe et de compétition pour être relevés.
 
 *   Combattant en Boxe Française 2ième série
 *   Pilote Moto en Vitesse et Moniteur (BFA)
