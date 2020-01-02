@@ -29,60 +29,75 @@ Mon profil n'est pas un profil spécialisé !
 ### Informatique et sécurité
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Gestion des risques</summary>
-<ul><il>Analyse des risques sur un projet de migration de logiciel</il>
-<il> Veille sur les risques des SI et suivi des failles de sécurité</il>
-<il>ISO 27005 en cours de préparation ...</il></ul>
-</details>
-<details title="cliquer pour plus de détails ..." class="separation-details"><summary>Environnements</summary>
-* Windows, Windows Serveur<br/>
-* Mac OS, Debian, Ubuntu<br/>
-</details>
-<details title="cliquer pour plus de détails ..." class="separation-details"><summary>Infrastructure logicielle</summary>
-- Serveur Web Apache, Php, Base de données (Mysql, Maria, Oracle, Postgres)<br/>
-- Échange de fichiers, CFT, FTP, SFTP, NFS, SMB etc.<br/>
-- Docker & Docker SWARM<br/>
-</details>
-<details title="cliquer pour plus de détails ..." class="separation-details"><summary>Scripting</summary>
-- VBS<br/>
-- Bash<br/>
-- Python<br/>
-</details>
-<details title="cliquer pour plus de détails ..." class="separation-details"><summary>Gestion des risques</summary>
-- Analyse des risques ISO 27005 (en cours de certification)<br/>
-- Veille sur les risques des systèmes d'information et suivi de failles de sécurité<br/>
+<ul>
+    <li>Analyse des risques sur un projet de migration de logiciel</li>
+    <li> Veille sur les risques des SI et suivi des failles de sécurité</li>
+    <li>ISO 27005 en cours de préparation ...</li>
+</ul>
 </details>
 
+<details title="cliquer pour plus de détails ..." class="separation-details"><summary>Environnements</summary>
+<ul>
+    <li>Windows, Windows Serveur</li>
+    <li>Mac OS, Debian, Ubuntu</li>
+</ul>
+</details>
+
+<details title="cliquer pour plus de détails ..." class="separation-details"><summary>Authentification</summary>
+<ul>
+    <li>Gemalto BLACKSHIELD (Authentification)</li>
+    <li>Freeradius</li>
+    <li>LDAP</li>
+    <li>OTP/TOP</li>
+    <li>U2F</li>
+    <li>Certificat/Yubikey etc.</li>
+</ul>
+</details>
+
+<details title="cliquer pour plus de détails ..." class="separation-details"><summary>Scripting</summary>
+<ul>
+    <li>VBS</li>
+    <li>BASH</li>
+    <li>PYTHON</li>
+</ul>   
+</details>
+
+<details title="cliquer pour plus de détails ..." class="separation-details"><summary>Gestion de parc, Configuration</summary>
+<ul>
+    <li>GLPI</li>
+    <li>Ansible</li>
+</ul>   
+</details>
 
 <div class="separation"></div>
 
 ### Méthode de conceptualisation
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Méthodologies</summary>
-- Cycle en V et courbe du soleil<br/>
-- Méthode agile (XP)<br/>
-- Méthodologie merise (Méthode systémique)<br/>
-- UML<br/>
+<ul>
+    <li>Cycle en V</li>
+    <li>Méthode agiles</li>
+    <li>merise (Méthode systémique)</li>
+    <li>UML</li>
+</ul>
 </details>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Programmation</summary>
-- Programmation Orientée Objet<br/>
-- Cobol<br/>
-- Prolog<br/>
-- Web (PHP, JS, HTML, Sql, CSS)<br/>
-- Application (Java, JEE, Android, C++, VB.Net)<br/>
-- WebService, RESTFULL<br/>
-- Maitrise de GIT ...<br/>
-</details>
-
-<details title="cliquer pour plus de détails ..." class="separation-details"><summary>EDI</summary>
-- Visual Studio<br/>
-- Android Studio<br/>
-- Eclipse<br/>
+<ul>
+    <li>Programmation Orientée Objet</li>
+    <li>Cobol</li>
+    <li>Prolog (programmation inférentielle)</li>
+    <li>Web (PHP, JS, HTML, Sql, CSS)</li>
+    <li>Application (Java, JEE, Android, C++, VB.Net)</li>
+    <li>WebService, RESTFULL</li>
+</ul>
 </details>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Framework</summary>
-- Symfony<br/>
-- Nextcloud (app)<br/>
+<ul>
+    <li>Symfony</li>
+    <li>Nextcloud (app)</li>
+</ul>
 </details>
 
 <div class="separation"></div>
@@ -90,15 +105,19 @@ Mon profil n'est pas un profil spécialisé !
 ### Base de données
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Administration</summary>
-- Oracle<br/>
-- Mysql/MariaDB<br/>
+<ul>
+    <li>Oracle</li>
+    <li>Mysql/MariaDB</li>
+</ul>
 </details>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Big Data</summary>
-- EAI/ETL IBM Cognos, Talend<br/>
-- Architecture type DATAWARE HOUSE<br/>
-- Business Object, Installation, Création de Rapport<br/>
-- Ensemble Elastik (ELK)<br/>
+<ul>
+    <li>EAI/ETL IBM Cognos, Talend</li>
+    <li>Architecture type DATAWARE HOUSE</li>
+    <li>Business Object, Installation, Création de Rapport</li>
+    <li>Ensemble Elastik (ELK)</li>
+</ul>
 </details>
 
 <div class="separation"></div>
@@ -106,17 +125,21 @@ Mon profil n'est pas un profil spécialisé !
 ### Réseau
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Pare-feu</summary>
-- Stormshield<br/>
-- PfSense<br/>
-- Checkpoint<br/>
-- McAfee - Forcepoint<br/>
+<ul>
+    <li>Stormshield</li>
+    <li>PfSense</li>
+    <li>Checkpoint</li>
+    <li>McAfee - Forcepoint</li>
+</ul>
 </details>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>VPN</summary>
-- IPSEC Général<br/>
-- IPSEC Site à Site<br/>
-- IPSEC Mobile<br/>
-- OpenVPN<br/>
+<ul>
+    <li>IPSEC Général</li>
+    <li>IPSEC Site à Site</li>
+    <li>IPSEC Mobile</li>
+    <li>OpenVPN</li>
+</ul>
 </details>
 
 <div class="separation"></div>
