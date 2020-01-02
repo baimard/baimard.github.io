@@ -26,7 +26,7 @@ Mon profil n'est pas un profil spécialisé !
 <span id="connaissancespardomaine"></span>
 ## Connaissances par domaine
 
-<table><tr><td>
+<table border=1><tr><td>
 <h3>Informatique et sécurité</h3>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Gestion des risques</summary>
@@ -104,7 +104,8 @@ Mon profil n'est pas un profil spécialisé !
 
 <div class="separation"></div>
 
-</td></tr><tr><td><h3>### Base de données</h3>
+</td></tr><tr><td>
+<h3>Base de données</h3>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Administration</summary>
 <ul>
