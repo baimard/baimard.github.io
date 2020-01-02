@@ -26,7 +26,7 @@ Mon profil n'est pas un profil spécialisé !
 <span id="connaissancespardomaine"></span>
 <table style="border:5px">
     <tr>
-<td colspan=3><h2>Connaissances par domaine</h2></td> 
+<td colspan="3"><h2>Connaissances par domaine</h2></td> 
 <td><h3>Informatique et sécurité</h3>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Gestion des risques</summary>
