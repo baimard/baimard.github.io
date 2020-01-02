@@ -24,8 +24,9 @@ Mon profil n'est pas un profil spécialisé !
 
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
 <span id="connaissancespardomaine"></span>
-<table style="border: 1px solid white;">
-<tr><td colspan="3"><h2>Connaissances par domaine</h2></td></tr>
+
+<table style="vertical-align: top; border-collapse: none; border: 1px solid white;">
+<tr><td colspan="3"><h2><center>Connaissances par domaine</center></h2></td></tr>
 <tr>
 <td><h3>Informatique et sécurité</h3>
 
