@@ -29,9 +29,9 @@ Mon profil n'est pas un profil spécialisé !
 ### Informatique et sécurité
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Gestion des risques</summary>
-* Analyse des risques sur un projet de migration de logiciel
-* Veille sur les risques des SI et suivi des failles de sécurité
-* ISO 27005 en cours de préparation ...
+<ul><il>Analyse des risques sur un projet de migration de logiciel</il>
+<il> Veille sur les risques des SI et suivi des failles de sécurité</il>
+<il>ISO 27005 en cours de préparation ...</il></ul>
 </details>
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Environnements</summary>
 * Windows, Windows Serveur<br/>
