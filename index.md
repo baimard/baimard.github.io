@@ -5,155 +5,37 @@ layout: default
 <span id="index"></span>
 ## Index :
 
-*   [Sports](./#sports)
-*   [Formation](./#Formation)
-*   [Expérience](./#experience)
-*   [Qui suis-je ?](./#quisuisje)
-*   [Certifications](./#certifications)
-*   [Projets personnels](./#projetspersonnels)
-*   [Conférences, jury etc ...](./#conferencesjury)
-*   [Connaissances par domaine](./#connaissancespardomaine)
-*   [Les langues que je parle ou écrit](./#leslanguesquejeparleouecrit)
-*   [Mes participations à des challenges divers](./#mesparticipationsadeschallengesdivers)
-
 
 
 <span id="quisuisje"></span>
 ## Qui suis-je ?
 
-Mon travail consiste à avoir une expertise technique dans le domaine de la cybersécurité. Cela implique une auto-formation permanente et une veille technologique très rigoureuse. 
+Je m'appelle Benjamin, je suis Consultant en Cybersécurité. Mon travail consiste à avoir une expertise technique dans le domaine de la cybersécurité. J'aide mes clients à concevoir ou orienter leur système d'information de manière sécurisé. Il existe différents domaines qui peuvent entrer en jeu, comme la sécurité des réseaux, des logiciel ou encore des utilisateurs. Je peux intervenir sur chacun de ces domaines pour réaliser un audit, proposer une architecture ou tout simplement réaliser l'infrastructure. C'est à dire que je peux être sur un niveau conceptuel, décisionnel ou bien technique. J'attache beaucoup d'importance à pouvoir évoluer dans tous ces niveaux d'un système d'information car il me permet d'être un facilitateur dans les entreprises. Chaque niveau pourront ainsi se comprendre et s'aider pour que l'objectif d'une entreprise soit atteinte.
 
-Je peux intervenir à plusieurs niveaux :
-* audit,
-* architecture,
-* infrastructure,
-* code,
-* et de bien d'autres manières. 
+Je suis avant tout un passionné de cybersécurité qui cultive la polyvalence. Je suis compétiteur dans l'âme ce qui implique que j'aime les challenges. Mon défaut principal est que parfois j'avance en force, ma qualité essentielle reste ma positivité à toute épreuve. Je suis également capable de monter en compétence rapidement sur divers sujets.
 
-Je cultive au maximum la polyvalence dans mon domaine. Je suis avant tout un passionné de cybersécurité et j'aborde mon métier avec beaucoup de plaisir. Je suis compétiteur dans l'âme et j'aime énormément les nouveaux challenges. Un de mes défauts est que je suis fonceur mais une de mes qualités est que je suis très positif en toutes circonstances. La bonne humeur et la bienveillance se communiquent quotidiennement.
+Mon profil n'est pas un profil spécialisé !
 
-<span id="Formation"></span>
-## Formation
-
-<details title="cliquer pour plus de détails ..."><summary><strong>2013 - 2015</strong> Master MIAGE</summary>
-    Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
-    Université Bordeaux 1 <br/>
-    Éffectué en apprentissage
-</details>
-<div class="separation"></div>
-<hr/>
-<details title="cliquer pour plus de détails ..."><summary><strong>2012 - 2013</strong> Licence MIAGE</summary>
-    Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
-    Université Paul Sabatier (Toulouse III) <br/>
-    Éffectué en apprentissage
-</details>
-<div class="separation"></div>
-<hr/>
-<details title="cliquer pour plus de détails ..."><summary><strong>2010 - 2012</strong> BTS IG</summary>
-    BTS Informatique de Gestion - Option développeur <br/>
-    Lycée Gustave Eiffel <br/>
-    Éffectué en apprentissage
-</details>
-<div class="separation"></div>
-<hr/>
-<details title="cliquer pour plus de détails ..."><summary><strong>2008 - 2010</strong> Licence DROIT, (1er année) ADMIS</summary>
-    Université Montesquieu-Bordeaux IV <br/>
-    Travail étudiant en parallèle
-</details>
-<div class="separation"></div>
-<hr/>
-<details title="cliquer pour plus de détails ..."><summary><strong>2006 - 2008</strong> Capacité en droit, DROIT, ADMIS</summary>
-    Université Montesquieu-Bordeaux IV <br/>
-    Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).
-</details>
-<div class="separation"></div>
-
-
-#### [Index](./#index)
+<b>La bonne humeur et la bienveillance se communiquent quotidiennement.</b>
+<!-- ----------------------------------------------------------------------------------------------------------------- -->
 
 <span id="experience"></span>
 ## Expérience
 
-<details title="cliquer pour plus de détails ..."><summary><strong>Sept. 2016 - Aujourd'hui</strong>- ADACIS - Consultant réseau sécurité et développement</summary>
-    J'interviens auprès de clients Grands Comptes sur : <br/>
-    - Intégration d'équipements de sécurité<br/>
-    - Intégration de solutions sécurisée<br/>
-    - Audit et architecture, logiciel, réseau, organisationnel ...<br/>
-    - Formation <br/>
-    - Développement <br/>
-    - Déplacement nationaux <br/>
-    - Commerce, avant vente, appel d'offre etc. <br/>
-    <br/>Veille technologique : https://www.adacis.net/category/actu/
-</details>
-<div class="separation"></div>
-<hr/>
-<details title="cliquer pour plus de détails ..."><summary><strong>Janv. 2016 - Août 2016</strong>- ORANGE - Support Système d'information (AT SOPRA STERIA)</summary>
-    Support fonctionnel de l'application Oracle E-business<br/>
-    - Support téléphonique, mail, ticket<br/>
-    - Documentation et suivi des résolutions d'incident<br/>
-    - Référent technique
-</details>
-<div class="separation"></div>
-<hr/>
-<details title="cliquer pour plus de détails ..."><summary><strong>Août. 2015 - Déce. 2015</strong>- SOPRA STERIA - Ingénieur d'étude informatique</summary>
-    Projet d'avant vente pour Orange dans la continuité de mon stage<br/>
-    - Outil d'automatisation de tests<br/>
-    - Crée en JAVA<br/>
-    - Parallélement, référent technique en COBOL pour une Tiers Maintenance Applicative
-</details>
-<div class="separation"></div>
-<hr/>
-<details title="cliquer pour plus de détails ..."><summary><strong>Avri. 2015 - Août. 2015</strong>- SOPRA STERIA - Stagiaire développeur</summary>
-    Dans le cadre de mon stage de fin de Master, réalisation d'un logiciel d'amélioration d'un processus de tests pour Orange.<br/>
-    - Java<br/>
-    - Documentation du projet
-</details>
-<div class="separation"></div>
-<hr/>
-<details title="cliquer pour plus de détails ..."><summary><strong>Octo. 2010 - Sept. 2013</strong>- SOPRA STERIA - Apprenti assistant maitrise d'ouvrage</summary>
-    Créatin d'un logiciel de PoC pour le contrôle de la paie des retraites des fonctionnaires. <br/>
-    - Analyse de projet<br/>
-    - Développement de la solution<br/>
-    - Création d’un plan de recette<br/>
-    - Rédaction des procédures<br/>
-    - Rédaction de la documentation technique<br/>
-    - Formation des utilisateurs<br/>
-    - Suivi du projet en production<br/>
-    <br/>Remerciement tout spécial à la Caisse des dépôts qui m'a permis de réaliser mon apprentissage dans des conditions exceptionnelles, tant au niveau de la rémunération que au niveau de l'humain.
-</details>
-<div class="separation"></div>
-
-#### [Index](./#index)
-
-<span id="certifications"></span>
-## Certifications/Formations
-
-*   **2019** PfSense Fundamentals and Advanced Application
-*   **2019** Docker Certified Associate (Sans formation)
-*   **2018** Forcepoint Next Generation Firewall Administrator
-*   **2018** Formation Ansible (3 jours)
-*   **2018** Formation Forensic et analyse de malware (5 jours)
-*   **2017** Stormshield CSNE
-*   **2017** Stormshield CSNA
-<div class="separation"></div>
-
-#### [Index](./#index)
-
+<!-- ----------------------------------------------------------------------------------------------------------------- -->
 <span id="connaissancespardomaine"></span>
 ## Connaissances par domaine
 
 ### Informatique et sécurité
 
-<details title="cliquer pour plus de détails ..." class="separation-details"><summary>Activités</summary>
-- Analyse de projet, plan d'actions et tests<br/>
-- Communication et adaptation du langage en fonction de l'interlocuteur<br/>
-- Support utilisateurs<br/>
-- Architecture de solutions réseaux et sécurité<br/>
-- Gestion de projet<br/>
+<details title="cliquer pour plus de détails ..." class="separation-details"><summary>Gestion des risques</summary>
+* Analyse des risques sur un projet de migration de logiciel
+* Veille sur les risques des SI et suivi des failles de sécurité
+* ISO 27005 en cours de préparation ...
 </details>
-<details title="cliquer pour plus de détails ..." class="separation-details"><summary>Système d'exploitation</summary>
-- Windows XP - 10, Windows Serveur 2008 - 2016<br/>
-- Mac OS, Debian, Ubuntu<br/>
+<details title="cliquer pour plus de détails ..." class="separation-details"><summary>Environnements</summary>
+* Windows, Windows Serveur<br/>
+* Mac OS, Debian, Ubuntu<br/>
 </details>
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Infrastructure logicielle</summary>
 - Serveur Web Apache, Php, Base de données (Mysql, Maria, Oracle, Postgres)<br/>
@@ -241,6 +123,61 @@ Je cultive au maximum la polyvalence dans mon domaine. Je suis avant tout un pas
 
 
 #### [Index](./#index)
+<!-- ----------------------------------------------------------------------------------------------------------------- -->
+
+<span id="Formation"></span>
+## Formation
+
+<details title="cliquer pour plus de détails ..."><summary><strong>2013 - 2015</strong> Master MIAGE</summary>
+    Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
+    Université Bordeaux 1 <br/>
+    Éffectué en apprentissage
+</details>
+<div class="separation"></div>
+<hr/>
+<details title="cliquer pour plus de détails ..."><summary><strong>2012 - 2013</strong> Licence MIAGE</summary>
+    Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
+    Université Paul Sabatier (Toulouse III) <br/>
+    Éffectué en apprentissage
+</details>
+<div class="separation"></div>
+<hr/>
+<details title="cliquer pour plus de détails ..."><summary><strong>2010 - 2012</strong> BTS IG</summary>
+    BTS Informatique de Gestion - Option développeur <br/>
+    Lycée Gustave Eiffel <br/>
+    Éffectué en apprentissage
+</details>
+<div class="separation"></div>
+<hr/>
+<details title="cliquer pour plus de détails ..."><summary><strong>2008 - 2010</strong> Licence DROIT, (1er année) ADMIS</summary>
+    Université Montesquieu-Bordeaux IV <br/>
+    Travail étudiant en parallèle
+</details>
+<div class="separation"></div>
+<hr/>
+<details title="cliquer pour plus de détails ..."><summary><strong>2006 - 2008</strong> Capacité en droit, DROIT, ADMIS</summary>
+    Université Montesquieu-Bordeaux IV <br/>
+    Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).
+</details>
+<div class="separation"></div>
+
+#### [Index](./#index)
+
+<span id="certifications"></span>
+## Certifications/Formations
+
+*   **2019** PfSense Fundamentals and Advanced Application
+*   **2019** Docker Certified Associate (Sans formation)
+*   **2018** Forcepoint Next Generation Firewall Administrator
+*   **2018** Formation Ansible (3 jours)
+*   **2018** Formation Forensic et analyse de malware (5 jours)
+*   **2017** Stormshield CSNE
+*   **2017** Stormshield CSNA
+<div class="separation"></div>
+
+#### [Index](./#index)
+
+
 
 <span id="projetspersonnels"></span>
 ## Projets personnels
