@@ -26,10 +26,9 @@ Mon profil n'est pas un profil spécialisé !
 <span id="connaissancespardomaine"></span>
 ## Connaissances par domaine
 
-### Informatique et sécurité
-<table>
-    <tr>
-        <td>
+<table><tr><td>
+<h3>Informatique et sécurité</h3>
+
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Gestion des risques</summary>
 <ul>
     <li>Analyse des risques sur un projet de migration de logiciel</li>
@@ -37,18 +36,13 @@ Mon profil n'est pas un profil spécialisé !
     <li>ISO 27005 en cours de préparation ...</li>
 </ul>
 </details>
-</td>
-<td>
+
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Environnements</summary>
 <ul>
     <li>Windows, Windows Serveur</li>
     <li>Mac OS, Debian, Ubuntu</li>
 </ul>
 </details>
-</td>
-</tr>
-<tr>
-    <td>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Authentification</summary>
 <ul>
@@ -60,8 +54,6 @@ Mon profil n'est pas un profil spécialisé !
     <li>Certificat/Yubikey etc.</li>
 </ul>
 </details>
-</td>
-<td>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Scripting</summary>
 <ul>
@@ -70,24 +62,18 @@ Mon profil n'est pas un profil spécialisé !
     <li>PYTHON</li>
 </ul>   
 </details>
-</td>
-</tr>
-<tr>
-    <td>
+
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Gestion de parc, Configuration</summary>
 <ul>
     <li>GLPI</li>
     <li>Ansible</li>
 </ul>   
 </details>
-</td>
-</tr>
-
-</table>
 
 <div class="separation"></div>
 
-### Méthode de conceptualisation
+</td><td>
+<h3>Méthode de conceptualisation</h3>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Méthodologies</summary>
 <ul>
@@ -118,7 +104,7 @@ Mon profil n'est pas un profil spécialisé !
 
 <div class="separation"></div>
 
-### Base de données
+</td></tr><tr><td><h3>### Base de données</h3>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Administration</summary>
 <ul>
@@ -138,7 +124,8 @@ Mon profil n'est pas un profil spécialisé !
 
 <div class="separation"></div>
 
-### Réseau
+</td><td>
+<h3>Réseau</h3>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Pare-feu</summary>
 <ul>
@@ -157,6 +144,7 @@ Mon profil n'est pas un profil spécialisé !
     <li>OpenVPN</li>
 </ul>
 </details>
+</td></tr></table>
 
 <div class="separation"></div>
 
