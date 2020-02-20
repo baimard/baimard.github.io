@@ -1,28 +1,22 @@
----
-layout: default
----
+I"�0<p><span id="index"></span></p>
+<h2 id="index-">Index :</h2>
 
-<span id="index"></span>
-## Index :
+<p><span id="quisuisje"></span></p>
+<h2 id="qui-suis-je-">Qui suis-je ?</h2>
 
+<p>Je m’appelle Benjamin, je suis Consultant en Cybersécurité. Mon travail consiste à avoir une expertise technique dans le domaine de la cybersécurité. J’aide mes clients à concevoir ou orienter leur système d’information de manière sécurisé. Il existe différents domaines qui peuvent entrer en jeu, comme la sécurité des réseaux, des logiciel ou encore des utilisateurs. Je peux intervenir sur chacun de ces domaines pour réaliser un audit, proposer une architecture ou tout simplement réaliser l’infrastructure. C’est à dire que je peux être sur un niveau conceptuel, décisionnel ou bien technique. J’attache beaucoup d’importance à pouvoir évoluer dans tous ces niveaux d’un système d’information car il me permet d’être un facilitateur dans les entreprises. Chaque niveau pourront ainsi se comprendre et s’aider pour que l’objectif d’une entreprise soit atteinte.</p>
 
+<p>Je suis avant tout un passionné de cybersécurité qui cultive la polyvalence. Je suis compétiteur dans l’âme ce qui implique que j’aime les challenges. Mon défaut principal est que parfois j’avance en force, ma qualité essentielle reste ma positivité à toute épreuve. Je suis également capable de monter en compétence rapidement sur divers sujets.</p>
 
-<span id="quisuisje"></span>
-## Qui suis-je ?
+<p>Mon profil n’est pas un profil spécialisé !</p>
 
-Je m'appelle Benjamin, je suis Consultant en Cybersécurité. Mon travail consiste à avoir une expertise technique dans le domaine de la cybersécurité. J'aide mes clients à concevoir ou orienter leur système d'information de manière sécurisé. Il existe différents domaines qui peuvent entrer en jeu, comme la sécurité des réseaux, des logiciel ou encore des utilisateurs. Je peux intervenir sur chacun de ces domaines pour réaliser un audit, proposer une architecture ou tout simplement réaliser l'infrastructure. C'est à dire que je peux être sur un niveau conceptuel, décisionnel ou bien technique. J'attache beaucoup d'importance à pouvoir évoluer dans tous ces niveaux d'un système d'information car il me permet d'être un facilitateur dans les entreprises. Chaque niveau pourront ainsi se comprendre et s'aider pour que l'objectif d'une entreprise soit atteinte.
+<p><b>La bonne humeur et la bienveillance se communiquent quotidiennement.</b>
+<!-- ----------------------------------------------------------------------------------------------------------------- --></p>
 
-Je suis avant tout un passionné de cybersécurité qui cultive la polyvalence. Je suis compétiteur dans l'âme ce qui implique que j'aime les challenges. Mon défaut principal est que parfois j'avance en force, ma qualité essentielle reste ma positivité à toute épreuve. Je suis également capable de monter en compétence rapidement sur divers sujets.
+<p><span id="experience"></span></p>
+<h2 id="expérience">Expérience</h2>
 
-Mon profil n'est pas un profil spécialisé !
-
-<b>La bonne humeur et la bienveillance se communiquent quotidiennement.</b>
-<!-- ----------------------------------------------------------------------------------------------------------------- -->
-<hr/>
-<span id="experience"></span>
-## Expérience
-
-<details title="cliquer pour plus de détails ..." class="separaction-details"><summary>Consultant Cybersécurité</summary><br/>
+<details title="cliquer pour plus de détails ..." class="separaction-details"><summary>Consultant Cybersécurité</summary><br />
 <b>Mes compétences</b>
 <ul>
     <li>Analyse des besoins métiers du client</li>
@@ -46,27 +40,10 @@ Mon profil n'est pas un profil spécialisé !
             <li>Analyse des logs et des règles de sécurité</li>
             <li>Rédaction de la documentation d'exploitation</li>
         </ul>
-    </li><br/>
-    <li><u>Activité de support téléphonique ou mail</u>
-        <ul>
-            <li>Support et maintenance des équipements : Stormshield, Fortigate, Chekpoint McAfee, Pfsense, Hirschmann</li>
-            <li>Support des problématiques réseaux avancés (ouverture de flux complexe)</li>
-            <li>Résolution de bug d’implémentation ou d’exploitation (anomalie d’utilisation)</li>
-            <li>Résolution de bugs techniques et de pannes matériels / RMA éditeur (défaillance matérielle)</li>
-        </ul>
     </li>
 </ul>
-<b>Environnement technique</b>
-<ul>
-    <li>Pare-feux : McAfee Firewall Enterprise, Fortinet, pfSense, CheckPoint, Stormshield, ForcePoint</li>
-    <li>Pare-feux industriels : Hirschmann</li>
-    <li>Routeurs industriels : Westermo Falcon, Westermo MRD-3xx, Westermo DR-2xx</li>
-    <li>Commutateurs : HP ProCurve, HP FlexFabric, Extrem Network, Netgear</li>
-</ul>
-<b>Réalisations</b>
-<br/><br/>
-<span>Me consulter directement par mail : <a href="mailto:baimard@41m4rd.ovh">b.aimard@41m4rd.ovh</a></span>
-<br/>
+
+
 </details>
 
 <details title="cliquer pour plus de détails ..." class="separaction-details"><summary>Formateur</summary>
@@ -79,11 +56,10 @@ Mon profil n'est pas un profil spécialisé !
     <li>Maitre de stage pour les universitaires</li>
 </ul>
 </details>
-<br/>
-<hr/>
+
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
-<span id="connaissancespardomaine"></span>
-## Connaissance par domaine
+<p><span id="connaissancespardomaine"></span></p>
+<h2 id="connaissance-par-domaine">Connaissance par domaine</h2>
 
 <table style="vertical-align: top; border-collapse: none; ">
 <!--<tr style="border: 1px solid white;"><td colspan="3"><h2><center>Connaissances par domaine</center></h2></td></tr>-->
@@ -210,123 +186,143 @@ Mon profil n'est pas un profil spécialisé !
 
 <div class="separation"></div>
 
-
-#### [Index](./#index)
+<h4 id="index"><a href="./#index">Index</a></h4>
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
 
-<span id="Formation"></span>
-## Formation
+<p><span id="Formation"></span></p>
+<h2 id="formation">Formation</h2>
 
 <details title="cliquer pour plus de détails ..."><summary><strong>2013 - 2015</strong> Master MIAGE</summary>
-    Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
-    Université Bordeaux 1 <br/>
+    Méthodes Informatiques Appliquées à la Gestion des Entreprises <br />
+    Université Bordeaux 1 <br />
     Éffectué en apprentissage
 </details>
 <div class="separation"></div>
-<hr/>
+<hr />
+
 <details title="cliquer pour plus de détails ..."><summary><strong>2012 - 2013</strong> Licence MIAGE</summary>
-    Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
-    Université Paul Sabatier (Toulouse III) <br/>
+    Méthodes Informatiques Appliquées à la Gestion des Entreprises <br />
+    Université Paul Sabatier (Toulouse III) <br />
     Éffectué en apprentissage
 </details>
 <div class="separation"></div>
-<hr/>
+<hr />
+
 <details title="cliquer pour plus de détails ..."><summary><strong>2010 - 2012</strong> BTS IG</summary>
-    BTS Informatique de Gestion - Option développeur <br/>
-    Lycée Gustave Eiffel <br/>
+    BTS Informatique de Gestion - Option développeur <br />
+    Lycée Gustave Eiffel <br />
     Éffectué en apprentissage
 </details>
 <div class="separation"></div>
-<hr/>
+<hr />
+
 <details title="cliquer pour plus de détails ..."><summary><strong>2008 - 2010</strong> Licence DROIT, (1er année) ADMIS</summary>
-    Université Montesquieu-Bordeaux IV <br/>
+    Université Montesquieu-Bordeaux IV <br />
     Travail étudiant en parallèle
 </details>
 <div class="separation"></div>
-<hr/>
+<hr />
+
 <details title="cliquer pour plus de détails ..."><summary><strong>2006 - 2008</strong> Capacité en droit, DROIT, ADMIS</summary>
-    Université Montesquieu-Bordeaux IV <br/>
+    Université Montesquieu-Bordeaux IV <br />
     Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).
 </details>
 <div class="separation"></div>
 
-#### [Index](./#index)
+<h4 id="index-1"><a href="./#index">Index</a></h4>
 
-<span id="certifications"></span>
-## Certifications/Formations
+<p><span id="certifications"></span></p>
+<h2 id="certificationsformations">Certifications/Formations</h2>
 
-*   **2019** PfSense Fundamentals and Advanced Application
-*   **2019** Docker Certified Associate (Sans formation)
-*   **2018** Forcepoint Next Generation Firewall Administrator
-*   **2018** Formation Ansible (3 jours)
-*   **2018** Formation Forensic et analyse de malware (5 jours)
-*   **2017** Stormshield CSNE
-*   **2017** Stormshield CSNA
+<ul>
+  <li><strong>2019</strong> PfSense Fundamentals and Advanced Application</li>
+  <li><strong>2019</strong> Docker Certified Associate (Sans formation)</li>
+  <li><strong>2018</strong> Forcepoint Next Generation Firewall Administrator</li>
+  <li><strong>2018</strong> Formation Ansible (3 jours)</li>
+  <li><strong>2018</strong> Formation Forensic et analyse de malware (5 jours)</li>
+  <li><strong>2017</strong> Stormshield CSNE</li>
+  <li><strong>2017</strong> Stormshield CSNA</li>
+</ul>
 <div class="separation"></div>
 
-#### [Index](./#index)
+<h4 id="index-2"><a href="./#index">Index</a></h4>
 
-<span id="projetspersonnels"></span>
-## Projets personnels
+<p><span id="projetspersonnels"></span></p>
+<h2 id="projets-personnels">Projets personnels</h2>
 
-*   Création d'une stack docker à domicile avec des raspberrys
-*   Cluster de Pfsense à domicile
-*   Redondance de connexion ADSL / 4G
-*   Délégation du stockage sur un NFS
+<ul>
+  <li>Création d’une stack docker à domicile avec des raspberrys</li>
+  <li>Cluster de Pfsense à domicile</li>
+  <li>Redondance de connexion ADSL / 4G</li>
+  <li>Délégation du stockage sur un NFS</li>
+</ul>
 
-Mon laboratoire personnel : 
+<p>Mon laboratoire personnel :</p>
 
-![Laboratoire](./assets/images/network.png)
+<p><img src="./assets/images/network.png" alt="Laboratoire" /></p>
 
-#### [Index](./#index)
+<h4 id="index-3"><a href="./#index">Index</a></h4>
 
-<span id="leslanguesquejeparleouecrit"></span>
-## Les langues que je parle ou écrit
+<p><span id="leslanguesquejeparleouecrit"></span></p>
+<h2 id="les-langues-que-je-parle-ou-écrit">Les langues que je parle ou écrit</h2>
 
-*   **Français** langue natal - écriture avec des fautes occasionnelles.
+<ul>
+  <li>
+    <p><strong>Français</strong> langue natal - écriture avec des fautes occasionnelles.</p>
+  </li>
+  <li>
+    <p><strong>Anglais</strong> apprentissage scolaire - utilisé lors de formation suivies, pour des supports techniques (mail et téléphone).</p>
+  </li>
+  <li>
+    <p><strong>Roumain</strong> - compréhension orale, non écrit. Apprentissage rapide possible.</p>
+  </li>
+  <li>
+    <p><strong>Assembleur</strong> - En cours d’apprentissage.</p>
+  </li>
+</ul>
 
-*   **Anglais** apprentissage scolaire - utilisé lors de formation suivies, pour des supports techniques (mail et téléphone).
+<h4 id="index-4"><a href="./#index">Index</a></h4>
 
-*   **Roumain** - compréhension orale, non écrit. Apprentissage rapide possible.
+<p><span id="mesparticipationsadeschallengesdivers"></span></p>
+<h2 id="mes-participations-à-des-challenges-divers">Mes participations à des challenges divers</h2>
 
-*   **Assembleur** - En cours d'apprentissage.
+<ul>
+  <li><strong>2019</strong> Cybercamp CRPOC</li>
+  <li><strong>2019</strong> Participation à un Bug Bounty privé (Yes We Hack)</li>
+  <li><strong>2019</strong> Participation à la Sthack de Bordeaux CTF et conférence</li>
+  <li><strong>2018</strong> Équipe de tests des challenges de la FIC</li>
+  <li><strong>2018</strong> Participation au challenge LADON</li>
+  <li><strong>2018</strong> Cybercamp CRPOC</li>
+  <li><strong>2018</strong> Participation à la Sthack de Bordeaux CTF</li>
+  <li><strong>2017</strong> Participation à la Sthack de Bordeaux CTF</li>
+  <li><strong>2015</strong> Nuit de l’informatique</li>
+  <li><strong>2014</strong> Nuit de l’informatique - Vainqueur défi accessibilité numérique</li>
+</ul>
 
+<h4 id="index-5"><a href="./#index">Index</a></h4>
 
-#### [Index](./#index)
+<p><span id="conferencesjury"></span></p>
+<h2 id="conférences-jury-etc-">Conférences, jury etc …</h2>
 
-<span id="mesparticipationsadeschallengesdivers"></span>
-## Mes participations à des challenges divers
+<ul>
+  <li><strong>2018</strong> Auditeur à Hack-it-n</li>
+  <li><strong>2018</strong> Auditeur à Sthack</li>
+  <li><strong>2017</strong> Auditeur à Sthack</li>
+</ul>
 
-*   **2019** Cybercamp CRPOC
-*   **2019** Participation à un Bug Bounty privé (Yes We Hack)
-*   **2019** Participation à la Sthack de Bordeaux CTF et conférence
-*   **2018** Équipe de tests des challenges de la FIC
-*   **2018** Participation au challenge LADON
-*   **2018** Cybercamp CRPOC
-*   **2018** Participation à la Sthack de Bordeaux CTF
-*   **2017** Participation à la Sthack de Bordeaux CTF
-*   **2015** Nuit de l'informatique
-*   **2014** Nuit de l'informatique - Vainqueur défi accessibilité numérique
+<h4 id="index-6"><a href="./#index">Index</a></h4>
 
-#### [Index](./#index)
+<p><span id="sports"></span></p>
+<h2 id="sports">Sports</h2>
 
-<span id="conferencesjury"></span>
-## Conférences, jury etc ...
+<p>Pourquoi une section sport dans un CV de consultant en Cybersécurité ?</p>
 
-*   **2018** Auditeur à Hack-it-n
-*   **2018** Auditeur à Sthack
-*   **2017** Auditeur à Sthack
+<p>Je pense que certains défis requièrent un fort esprit d’équipe et de compétition pour être relevés.</p>
 
-#### [Index](./#index)
+<ul>
+  <li>Combattant en Boxe Française 2ième série</li>
+  <li>Pilote Moto en Vitesse et Moniteur (BFA)</li>
+</ul>
 
-<span id="sports"></span>
-## Sports
-
-Pourquoi une section sport dans un CV de consultant en Cybersécurité ? 
-
-Je pense que certains défis requièrent un fort esprit d'équipe et de compétition pour être relevés.
-
-*   Combattant en Boxe Française 2ième série
-*   Pilote Moto en Vitesse et Moniteur (BFA)
-
-#### [Index](./#index)
+<h4 id="index-7"><a href="./#index">Index</a></h4>
+:ET

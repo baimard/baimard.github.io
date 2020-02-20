@@ -1,76 +1,23 @@
----
-layout: default
----
+I"�'<p><span id="index"></span></p>
+<h2 id="index-">Index :</h2>
 
-<span id="index"></span>
-## Index :
+<p><span id="quisuisje"></span></p>
+<h2 id="qui-suis-je-">Qui suis-je ?</h2>
 
+<p>Je m’appelle Benjamin, je suis Consultant en Cybersécurité. Mon travail consiste à avoir une expertise technique dans le domaine de la cybersécurité. J’aide mes clients à concevoir ou orienter leur système d’information de manière sécurisé. Il existe différents domaines qui peuvent entrer en jeu, comme la sécurité des réseaux, des logiciel ou encore des utilisateurs. Je peux intervenir sur chacun de ces domaines pour réaliser un audit, proposer une architecture ou tout simplement réaliser l’infrastructure. C’est à dire que je peux être sur un niveau conceptuel, décisionnel ou bien technique. J’attache beaucoup d’importance à pouvoir évoluer dans tous ces niveaux d’un système d’information car il me permet d’être un facilitateur dans les entreprises. Chaque niveau pourront ainsi se comprendre et s’aider pour que l’objectif d’une entreprise soit atteinte.</p>
 
+<p>Je suis avant tout un passionné de cybersécurité qui cultive la polyvalence. Je suis compétiteur dans l’âme ce qui implique que j’aime les challenges. Mon défaut principal est que parfois j’avance en force, ma qualité essentielle reste ma positivité à toute épreuve. Je suis également capable de monter en compétence rapidement sur divers sujets.</p>
 
-<span id="quisuisje"></span>
-## Qui suis-je ?
+<p>Mon profil n’est pas un profil spécialisé !</p>
 
-Je m'appelle Benjamin, je suis Consultant en Cybersécurité. Mon travail consiste à avoir une expertise technique dans le domaine de la cybersécurité. J'aide mes clients à concevoir ou orienter leur système d'information de manière sécurisé. Il existe différents domaines qui peuvent entrer en jeu, comme la sécurité des réseaux, des logiciel ou encore des utilisateurs. Je peux intervenir sur chacun de ces domaines pour réaliser un audit, proposer une architecture ou tout simplement réaliser l'infrastructure. C'est à dire que je peux être sur un niveau conceptuel, décisionnel ou bien technique. J'attache beaucoup d'importance à pouvoir évoluer dans tous ces niveaux d'un système d'information car il me permet d'être un facilitateur dans les entreprises. Chaque niveau pourront ainsi se comprendre et s'aider pour que l'objectif d'une entreprise soit atteinte.
+<p><b>La bonne humeur et la bienveillance se communiquent quotidiennement.</b>
+<!-- ----------------------------------------------------------------------------------------------------------------- --></p>
 
-Je suis avant tout un passionné de cybersécurité qui cultive la polyvalence. Je suis compétiteur dans l'âme ce qui implique que j'aime les challenges. Mon défaut principal est que parfois j'avance en force, ma qualité essentielle reste ma positivité à toute épreuve. Je suis également capable de monter en compétence rapidement sur divers sujets.
-
-Mon profil n'est pas un profil spécialisé !
-
-<b>La bonne humeur et la bienveillance se communiquent quotidiennement.</b>
-<!-- ----------------------------------------------------------------------------------------------------------------- -->
-<hr/>
-<span id="experience"></span>
-## Expérience
-
-<details title="cliquer pour plus de détails ..." class="separaction-details"><summary>Consultant Cybersécurité</summary><br/>
-<b>Mes compétences</b>
-<ul>
-    <li>Analyse des besoins métiers du client</li>
-    <li>Proposition d'architecture technique, de planning, de plan d'action et de budget</li>
-    <li>Rédaction de rapports d'intervention</li>
-    <li>Rédaction de documentation technique</li>
-    <li>Réponse à incident technique</li>
-    <li>Réponse à incident suita à une activité malveillante</li>
-    <li>Échange technique avec les équipes de support des éditeurs</li>
-</ul>
-
-<b>Mes Missions</b>
-<ul>
-    <li><u>Mise en productiond d'architectures</u>
-        <ul>
-            <li>Installation des équipements</li>
-            <li>Maintenance des équipements</li>
-            <li>Configuration réseau</li>
-            <li>Configuration pare-feu</li>
-            <li>Configuration VPN (nomade, site à site)</li>
-            <li>Analyse des logs et des règles de sécurité</li>
-            <li>Rédaction de la documentation d'exploitation</li>
-        </ul>
-    </li><br/>
-    <li><u>Activité de support téléphonique ou mail</u>
-        <ul>
-            <li>Support et maintenance des équipements : Stormshield, Fortigate, Chekpoint McAfee, Pfsense, Hirschmann</li>
-            <li>Support des problématiques réseaux avancés (ouverture de flux complexe)</li>
-            <li>Résolution de bug d’implémentation ou d’exploitation (anomalie d’utilisation)</li>
-            <li>Résolution de bugs techniques et de pannes matériels / RMA éditeur (défaillance matérielle)</li>
-        </ul>
-    </li>
-</ul>
-<b>Environnement technique</b>
-<ul>
-    <li>Pare-feux : McAfee Firewall Enterprise, Fortinet, pfSense, CheckPoint, Stormshield, ForcePoint</li>
-    <li>Pare-feux industriels : Hirschmann</li>
-    <li>Routeurs industriels : Westermo Falcon, Westermo MRD-3xx, Westermo DR-2xx</li>
-    <li>Commutateurs : HP ProCurve, HP FlexFabric, Extrem Network, Netgear</li>
-</ul>
-<b>Réalisations</b>
-<br/><br/>
-<span>Me consulter directement par mail : <a href="mailto:baimard@41m4rd.ovh">b.aimard@41m4rd.ovh</a></span>
-<br/>
-</details>
+<p><span id="experience"></span></p>
+<h2 id="expérience">Expérience</h2>
 
 <details title="cliquer pour plus de détails ..." class="separaction-details"><summary>Formateur</summary>
-    <b>Voici la liste de mes différentes expériences en tant que formateur : </b>
+    <b> Voici la liste de mes différentes expériences en tant que formateur : 
 <ul>
     <li>Stormshield formation fonctionnelle</li>
     <li>Formateur sur la technologie VPN IPSEC - Mobile, Site à Site, compréhension des phases</li>
@@ -78,9 +25,8 @@ Mon profil n'est pas un profil spécialisé !
     <li>Formateur en programmation, algorithme de base et objet</li>
     <li>Maitre de stage pour les universitaires</li>
 </ul>
-</details>
-<br/>
-<hr/>
+&lt;/details&gt;
+
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
 <span id="connaissancespardomaine"></span>
 ## Connaissance par domaine
@@ -218,34 +164,34 @@ Mon profil n'est pas un profil spécialisé !
 ## Formation
 
 <details title="cliquer pour plus de détails ..."><summary><strong>2013 - 2015</strong> Master MIAGE</summary>
-    Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
-    Université Bordeaux 1 <br/>
+    Méthodes Informatiques Appliquées à la Gestion des Entreprises <br />
+    Université Bordeaux 1 <br />
     Éffectué en apprentissage
 </details>
 <div class="separation"></div>
-<hr/>
+<hr />
 <details title="cliquer pour plus de détails ..."><summary><strong>2012 - 2013</strong> Licence MIAGE</summary>
-    Méthodes Informatiques Appliquées à la Gestion des Entreprises <br/>
-    Université Paul Sabatier (Toulouse III) <br/>
+    Méthodes Informatiques Appliquées à la Gestion des Entreprises <br />
+    Université Paul Sabatier (Toulouse III) <br />
     Éffectué en apprentissage
 </details>
 <div class="separation"></div>
-<hr/>
+<hr />
 <details title="cliquer pour plus de détails ..."><summary><strong>2010 - 2012</strong> BTS IG</summary>
-    BTS Informatique de Gestion - Option développeur <br/>
-    Lycée Gustave Eiffel <br/>
+    BTS Informatique de Gestion - Option développeur <br />
+    Lycée Gustave Eiffel <br />
     Éffectué en apprentissage
 </details>
 <div class="separation"></div>
-<hr/>
+<hr />
 <details title="cliquer pour plus de détails ..."><summary><strong>2008 - 2010</strong> Licence DROIT, (1er année) ADMIS</summary>
-    Université Montesquieu-Bordeaux IV <br/>
+    Université Montesquieu-Bordeaux IV <br />
     Travail étudiant en parallèle
 </details>
 <div class="separation"></div>
-<hr/>
+<hr />
 <details title="cliquer pour plus de détails ..."><summary><strong>2006 - 2008</strong> Capacité en droit, DROIT, ADMIS</summary>
-    Université Montesquieu-Bordeaux IV <br/>
+    Université Montesquieu-Bordeaux IV <br />
     Travail étudiant en parallèle, ce diplôme est de classe IV (équivalent au baccalauréat).
 </details>
 <div class="separation"></div>
@@ -265,6 +211,8 @@ Mon profil n'est pas un profil spécialisé !
 <div class="separation"></div>
 
 #### [Index](./#index)
+
+
 
 <span id="projetspersonnels"></span>
 ## Projets personnels
@@ -330,3 +278,5 @@ Je pense que certains défis requièrent un fort esprit d'équipe et de compéti
 *   Pilote Moto en Vitesse et Moniteur (BFA)
 
 #### [Index](./#index)
+</b></details>
+:ET
