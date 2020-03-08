@@ -1,4 +1,4 @@
-I"�0<p><span id="index"></span></p>
+I"�8<p><span id="index"></span></p>
 <h2 id="index-">Index :</h2>
 
 <p><span id="quisuisje"></span></p>
@@ -12,6 +12,7 @@
 
 <p><b>La bonne humeur et la bienveillance se communiquent quotidiennement.</b>
 <!-- ----------------------------------------------------------------------------------------------------------------- --></p>
+<hr />
 
 <p><span id="experience"></span></p>
 <h2 id="expérience">Expérience</h2>
@@ -40,10 +41,35 @@
             <li>Analyse des logs et des règles de sécurité</li>
             <li>Rédaction de la documentation d'exploitation</li>
         </ul>
+    </li><br />
+    <li><u>Activité de support téléphonique ou mail</u>
+        <ul>
+            <li>Support et maintenance des équipements : Stormshield, Fortigate, Chekpoint McAfee, Pfsense, Hirschmann</li>
+            <li>Support des problématiques réseaux avancés (ouverture de flux complexe)</li>
+            <li>Résolution de bug d’implémentation ou d’exploitation (anomalie d’utilisation)</li>
+            <li>Résolution de bugs techniques et de pannes matériels / RMA éditeur (défaillance matérielle)</li>
+        </ul>
     </li>
 </ul>
+<b>Environnement technique</b>
+<ul>
+    <li>Pare-feux : McAfee Firewall Enterprise, Fortinet, pfSense, CheckPoint, Stormshield, ForcePoint</li>
+    <li>Pare-feux industriels : Hirschmann</li>
+    <li>Routeurs industriels : Westermo Falcon, Westermo MRD-3xx, Westermo DR-2xx</li>
+    <li>Commutateurs : HP ProCurve, HP FlexFabric, Extrem Network, Netgear</li>
+</ul>
+<b>Réalisations</b>
+<br /><br />
+<span>Me consulter directement par mail : <a href="mailto:baimard@41m4rd.ovh">b.aimard@41m4rd.ovh</a></span>
+<br />
+</details>
 
-
+<details title="cliquer pour plus de détails ..." class="separaction-details"><summary>Développeur</summary>
+    <b>Voici la liste de mes différentes expériences en tant que développeur : </b>
+<ul>
+    <li>2019 - Applications sur nextcloud : suivi de liens pour newsletter et suivi de projet à partir du calendar</li>
+    <li>    </li>
+</ul>
 </details>
 
 <details title="cliquer pour plus de détails ..." class="separaction-details"><summary>Formateur</summary>
@@ -52,10 +78,26 @@
     <li>Stormshield formation fonctionnelle</li>
     <li>Formateur sur la technologie VPN IPSEC - Mobile, Site à Site, compréhension des phases</li>
     <li>Formateur à l'utilisation d'ELK</li>
-    <li>Formateur en programmation, algorithme de base et objet</li>
+    <li>Formateur en programmation, algorithme de base et orienté objet</li>
     <li>Maitre de stage pour les universitaires</li>
 </ul>
 </details>
+
+<details title="cliquer pour plus de détails ..." class="separaction-details"><summary>Auditeur - Pentester - Redteam - Réponse à incident</summary>
+    <b>Expériences : </b>
+<ul>
+    <li>2020 - Exercice international de RED TEAM</li>
+    <li>2019 - BlueTeam pour analyser une attaque</li>
+    <li>2019 - Bug Bounty YWH</li>
+    <li>2019 - Analyse d'une cyber attaque</li>
+    <li>2019 - Responsable réponse à incident sur une entreprise</li>
+    <li>2019 - Participation au challenge cyber du FIC</li>
+
+</ul>
+</details>
+
+<p><br /></p>
+<hr />
 
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
 <p><span id="connaissancespardomaine"></span></p>

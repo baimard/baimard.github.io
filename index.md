@@ -69,26 +69,49 @@ Mon profil n'est pas un profil spécialisé !
 <br/>
 </details>
 
+<details title="cliquer pour plus de détails ..." class="separaction-details"><summary>Développeur</summary>
+    <b>Voici la liste de mes différentes expériences en tant que développeur : </b>
+<ul>
+    <li>2019 - Applications sur nextcloud : suivi de liens pour newsletter et suivi de projet à partir du calendar</li>
+    <li>2018 - Sur base de GLPI, développement d'un outil de gestion de vulnérabilité d'un parc informatique</li>
+    <li>2016 - Refonte d'un site internet de vente de place sur circuit moto, création d'un module d'interconnexion avec un système bancaire</li>
+    <li>2015 - Outil permettant d'automatiser des tests fonctionnels sur un SI COBOL en JAVA</li>
+    <li>2014 - Création de site internet de vente en ligne avec interconnexion à des sites internets bancaires</li>
+    <li>2013 - Outil de controle de calcul de paie des pensions de retraite de l'État</li>
+</ul>
+</details>
+
 <details title="cliquer pour plus de détails ..." class="separaction-details"><summary>Formateur</summary>
     <b>Voici la liste de mes différentes expériences en tant que formateur : </b>
 <ul>
     <li>Stormshield formation fonctionnelle</li>
     <li>Formateur sur la technologie VPN IPSEC - Mobile, Site à Site, compréhension des phases</li>
     <li>Formateur à l'utilisation d'ELK</li>
-    <li>Formateur en programmation, algorithme de base et objet</li>
+    <li>Formateur en programmation, algorithme de base et orienté objet</li>
     <li>Maitre de stage pour les universitaires</li>
 </ul>
 </details>
+
+<details title="cliquer pour plus de détails ..." class="separaction-details"><summary>Auditeur - Pentester - Redteam - Réponse à incident</summary>
+    <b>Expériences : </b>
+<ul>
+    <li>2020 - Exercice international de RED TEAM</li>
+    <li>2019 - BlueTeam pour analyser une attaque</li>
+    <li>2019 - Bug Bounty YWH</li>
+    <li>2019 - Analyse d'une cyber attaque</li>
+    <li>2019 - Responsable réponse à incident sur une entreprise</li>
+    <li>2019 - Participation au challenge cyber du FIC</li>
+
+</ul>
+</details>
+
 <br/>
 <hr/>
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
 <span id="connaissancespardomaine"></span>
 ## Connaissance par domaine
 
-<table style="vertical-align: top; border-collapse: none; ">
-<!--<tr style="border: 1px solid white;"><td colspan="3"><h2><center>Connaissances par domaine</center></h2></td></tr>-->
-<tr>
-<td><h3>Informatique et sécurité</h3>
+<h3>Informatique et sécurité</h3>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Gestion des risques</summary>
 <ul>
@@ -98,10 +121,12 @@ Mon profil n'est pas un profil spécialisé !
 </ul>
 </details>
 
-<details title="cliquer pour plus de détails ..." class="separation-details"><summary>Environnements</summary>
+<details title="cliquer pour plus de détails ..." class="separation-details"><summary>Environnements/Serveurs</summary>
 <ul>
     <li>Windows, Windows Serveur</li>
     <li>Mac OS, Debian, Ubuntu</li>
+    <li>Serveur Web Apache Php Bdd Jekyll etc.</li>
+    <li>Docker & Docker Swarm</li>
 </ul>
 </details>
 
@@ -133,7 +158,6 @@ Mon profil n'est pas un profil spécialisé !
 
 <div class="separation"></div>
 
-</td><td>
 <h3>Méthode de conceptualisation</h3>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Méthodologies</summary>
@@ -165,7 +189,6 @@ Mon profil n'est pas un profil spécialisé !
 
 <div class="separation"></div>
 
-</td></tr><tr><td>
 <h3>Base de données</h3>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Administration</summary>
@@ -186,7 +209,7 @@ Mon profil n'est pas un profil spécialisé !
 
 <div class="separation"></div>
 
-</td><td>
+
 <h3>Réseau</h3>
 
 <details title="cliquer pour plus de détails ..." class="separation-details"><summary>Pare-feu</summary>
@@ -206,10 +229,6 @@ Mon profil n'est pas un profil spécialisé !
     <li>OpenVPN</li>
 </ul>
 </details>
-</td></tr></table>
-
-<div class="separation"></div>
-
 
 #### [Index](./#index)
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
