@@ -295,7 +295,7 @@ Mon profil n'est pas un profil spécialisé !
 
 Mon laboratoire personnel : 
 
-![Laboratoire](./assets/images/network.png)
+![Laboratoire](https://cacoo.com/diagrams/2JzvwUNQWhBqKFGv/037F8)
 
 #### [Index](./#index)
 
