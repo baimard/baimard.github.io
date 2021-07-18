@@ -9,9 +9,9 @@ Bienvenue sur la documentation de Gestion de facturation !
 
 .. toctree::
    :caption: Sommaire
-   :numbered:
    
-   presentation
+   quisuisje
+   mesprojets
 
 * :ref:`genIndex`
 * :ref:`search`
