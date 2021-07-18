@@ -23,10 +23,14 @@ init:
 	docker run -it --rm -v $$PWD:/docs juxo/sphinx sphinx-quickstart
 
 site:
+	docker run --rm -v $$PWD:/docs juxo/sphinx rm -rf /docs/docs
 	docker run --rm -v $$PWD:/docs juxo/sphinx make html
+	docker run --rm -v $$PWD:/docs juxo/sphinx mv /docs/build/html /docs/docs
 
 site-a:
+	docker run --rm -v $$PWD:/docs juxo/sphinx rm -rf /docs/docs
 	docker run --rm -v $$PWD:/docs juxo/sphinx make clean html
+	docker run --rm -v $$PWD:/docs juxo/sphinx mv /docs/build/html /docs/docs
 
 my-pdf: 
 	docker run --rm -v $$PWD:/docs juxo/sphinx make latexpdf
