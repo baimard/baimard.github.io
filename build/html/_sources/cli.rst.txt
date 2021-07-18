@@ -1,0 +1,99 @@
+.. _cli:
+
+Command BASH
+============
+
+.. warning::
+    à executer sur un des serveurs directement, sur un secondaire de préférence.
+
+.. seealso::
+    Package utilisés
+
+    * yubikey-personalization 
+    * libpam-yubico
+    * yubikey-manager-qt
+
+Ajouter un identifiant OTP à l'inventaire
+-----------------------------------------
+
+Sur le KSM faire : 
+
+.. code-block:: bash
+
+    docker exec -e 'DATABASEHOST=database' -t ksm sh -c 'python2 /etc/yubico/yhsm/decrypt_aead_bdd.py -D /etc/yubico/yhsm/keys.json --public-id  $(python2 /etc/yubico/yhsm/generate_keys_bdd.py -D /etc/yubico/yhsm/keys.json --key-handle 1 -c 1)'
+
+Vous aurez un retour du type : 
+
+.. code-block:: bash
+
+    ykpersonalize -1 -ofixed=debcfnucccccc -ouid=a66cccccc057 -accc05eb9d433cccccca7dc63axxxxxx
+
+Il faut en suite sur un poste physique avec **une seule yubikey connectée** passer la ligne juste au dessus dans un terminal.
+
+Authoriser un serveur à interroger le radius
+--------------------------------------------
+
+
+
+Se connecter avec sa yubikey
+----------------------------
+
+* configurer son ssh pour pouvoir faire un proxy dynamique sur le serveur d'authentification où vous êtes.
+* taper 127.0.0.1:8080 dans un navigateur
+* renseigner le mot de passe et l'utilisateur, la base de données sera toujours "database"
+
+** pour toutes ces opérations faire ``insert`` au niveau de la table.
+
+dans la table **radcheck** :
+
+.. csv-table:: radcheck
+    :header: "id","username","attribute","op","value"
+
+    "auto", "baimard", "Auth-type", ":=", "PAM"
+
+//PLUS TARD
+dans la table **radusergroup**
+
+.. csv-table:: radusergroup
+    :header: "id","username","grupname","priority"
+
+    "auto", "baimard", "pin", "1"
+
+dans la table **yubikey_mappings**
+
+.. csv-table:: radusergroup
+    :header: "otp_id","username"
+
+    "debcfnucccccc", "baimard"
+
+.. seealso::
+    Il s'agit de l'otp qui a été généré à l'étape précédente.
+
+Ajout du code pin
+-----------------
+
+123456OTPOTPOTPOTPOTPOTP
+
+Utiliser un mot de passe temporaire
+-----------------------------------
+
+.. csv-table:: radusergroup
+    :header: "id","username","grupname","priority"
+
+    "auto", "baimard", "motdepassetemporaire", "1"
+
+Attention retirer le SHA2 du pin !!!
+
+SHA2 DU mdp à la place.
+
+Bug replication
+---------------
+
+dans le répertoire du projet à la racine.
+
+**Commande à faire sur chaque serveur**
+
+.. code-block:: bash
+
+    #En omettant l'ip du serveur sur lequel on exécute le script, lui donner tous ses voisins.
+    ./init_replication IP1 IP2 IP3 IPX 

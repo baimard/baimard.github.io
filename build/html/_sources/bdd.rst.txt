@@ -1,0 +1,261 @@
+.. _bdd:
+
+Base de données
+===============
+
+Présentation
+------------
+
+Le moteur de base de données utilisé est `MariaDB <https://mariadb.com/>`_. La base de données est le point central de toute la solution. Tous y est stocké pour tous les containers. L'accès est uniquement possible en interne lorsque la solution est en standalone. Il est possible de créer des replicas qui seront considérés tous comme Master. Chaque serveur de base de données sera alors considéré comme actif.
+
+
+.. note::
+
+    L'avantage de considérer plusieurs base de données comme actives est que :
+
+    * chacune des instances qui s'y rattache sera opérationnel immédiatemment
+    * N'importe laquelle peut être interrogé à n'importe quel moment
+
+Image Docker
+------------
+
+Nous utilisons l'image MariaDB de base.
+
+.. seealso::
+
+    https://hub.docker.com/_/mariadb
+
+Docker compose
+--------------
+
+Aucune spéciphicité pour la base de données. Cette configuration est valable pour : 
+
+* Standalone
+* Haute disponibilité
+
+.. code-block:: yaml
+
+   version: '3.8'
+   services:
+     database: 
+      image: mariadb
+      container_name: database
+      volumes: 
+        - "./data_db:/var/lib/mysql"
+        - "./conf_db/replication.cnf:/etc/mysql/conf.d/replication.cnf"
+      environment:
+        MYSQL_ROOT_PASSWORD: ${PASSWORDDB}
+        MYSQL_DATABASE: ${DATABASE}
+        MYSQL_USER: ${USERDB}
+        MYSQL_PASSWORD: ${PASSWORDDB}
+      networks:
+        - auth
+
+.. warning::
+
+    Si le fichier replication.cnf n'est pas présent dans le répertoire source de l'hôte, il va être crée comme un dossier. Cela ne pose pas de problème à l'exécution, mais pourrait vous causer un soucis a posteriori pour la mise en HA.
+
+Pour controler vos accès à la base de données vous pouvez également utiliser l'image PhpMyAdmin qui se configurera comme suit : 
+
+.. code-block:: yaml
+
+   version: '3.8'
+   services:
+    phpmyadmin:
+      image: phpmyadmin
+      environment: 
+        PMA_ARBITRARY: 1
+      ports:
+        - 8080:80
+      networks:
+        - auth
+
+Installation
+------------
+
+Création d'un fichier .env
+**************************
+
+.. note::
+  Le fichier .env servira pour tous vos containers pour qu'il puissent avoir accès à la base de données.
+
+.. code-block:: bash
+
+    USERDB=otp
+    PASSWORDDB=otp
+    DATABASEIP=database
+    DATABASE=otp
+
+Initialisation de la base de données
+************************************
+
+#. Vérifier que tous les container sont à l'arrêt
+    .. code-block:: bash
+
+        docker-compose down
+
+#. Initialisation des répertoires de base
+    .. code-block:: bash
+
+        sudo rm -rf data_db && mkdir data_db && mkdir conf_db
+
+#. Premier démarrage de la base de données en mode dameon, (Attendre que tout s'initialise)
+    .. code-block:: bash
+
+        docker-compose up -d database ; sleep 20
+
+#. On charge la structure de la base de données 
+    .. code-block:: bash
+
+        docker exec -i database sh -c 'exec mysql -u $MYSQL_USER -p$MYSQL_PASSWORD -D $MYSQL_DATABASE' < ./install/conf.sql``
+
+#. On peut ensuite contrôler via Phpmyadmin que tout a bien été crée
+
+.. code-block:: bash
+
+    #Script complet
+    #!/bin/bash
+    docker-compose down
+    mkdir data_db && mkdir conf_db
+    echo "configure database"
+    docker-compose up -d database
+    echo "wait 10 secondes"
+    sleep 10
+    docker exec -i database sh -c 'exec mysql -u $MYSQL_USER -p$MYSQL_PASSWORD -D $MYSQL_DATABASE' < ./install/conf.sql
+    docker-compose down
+
+
+Mise en cluster de bases de données sans données
+**************************************************
+
+.. note::
+
+    * La mise en cluster peut être effectué sur N serveur MariaDB.
+    * Tous vos serveurs doivent avoir les mêmes utilisateurs
+    * Tous vos serveurs doivent avoir les mêmes mots de passe
+    * Tous vos serveurs doivent avoir les mêmes droits
+
+
+#. Couper tous les serveurs ``docker-compose down``
+#. Sur chaque serveur que vous souhaitez paramétrer, dans le dossier conf_db : 
+    .. code-block:: bash
+
+        #Fichier replication.cnf
+        [mysqld]
+        server-id=<IDENTIFIANT UNIQUE DE SERVEUR>
+        log_bin=mysql-bin
+        log_error=mysql-bin.err
+
+    .. warning::
+
+        Attention <IDENTIFIANT UNIQUE DE SERVEUR>, doit bien être unique pour chaque serveur, il s'agit d'un entier positif.
+
+En suite il faut indiquer à chaque serveur d'aller se répliquer sur le suivant donc sur chaque serveur faire :
+
+.. note::
+
+    On considère pour notre exemple que la variable *$PROD* est l'ip du serveur où l'on souhaite s'enregistrer.
+
+* Mettre à l'arrêt le système de réplication : 
+    .. code-block:: bash
+
+        docker-compose exec -T database sh -c 'mysql -u root -p$(echo $MYSQL_ROOT_PASSWORD) -e "STOP ALL SLAVES;"'
+
+* Récupérer le positionnement de la base de données où l'on souhaite se répliquer : 
+    .. code-block:: bash
+
+        docker-compose exec -e PROD=$PROD -T database sh -c 'mysql -h$PROD -u root -p$MYSQL_ROOT_PASSWORD -e "SHOW MASTER STATUS;"'
+        #Vous aurez en retour :
+        File	Position	Binlog_Do_DB	Binlog_Ignore_DB
+        mysql-bin.000032	434196		
+
+Il s'agit du fichier utilisé et du positionnement dans les logs de la base de données.
+
+* Indiquer à votre serveur de devenir client de ce serveur sur le fichier et les positions indiquées :
+    .. code-block:: bash
+
+        docker-compose exec -e P=434196 -e F=mysql-bin.000032 -e PROD=$PROD -e ADMIN=NOMSERVEUR -T database mysql -u root -p$MYSQL_ROOT_PASSWORD -e "CHANGE MASTER '$ADMIN' TO MASTER_HOST = '$PROD', MASTER_USER = 'root', MASTER_PASSWORD = '$MYSQL_ROOT_PASSWORD', MASTER_LOG_FILE = '$F', MASTER_LOG_POS = $P;"
+
+* Relancer le système de réplication :
+    .. code-block:: bash
+
+        docker-compose exec -T database sh -c 'mysql -u root -p$MYSQL_ROOT_PASSWORD -e "START ALL SLAVES;"'
+
+* Connecter vous au PHPMYADMIN des deux serveurs, faire une modification sur un serveur, puis sur l'autre et constater les modifications. La réplication est instanannée
+
+.. note::
+
+    Ces actions sont à effectuer sur tous les serveurs. Si par exemple vous avez des serveurs A B C.
+
+    * A devra s'enregistrer sur B et C
+    * B devra s'enregistrer sur A et C
+    * C devra s'enregistrer sur A et B
+
+Etape supplémentaire pour une mise en cluster d'une base déjà existante
+***********************************************************************
+
+.. warning::
+
+    * Mettre à l'arrêt toutes les bases de données
+    * Couper l'ensemble des services utilisant les bases de données
+    
+    Il ne doit y avoir aucun mouvement sur la base pendant l'opération. Sinon il en résulterait une perte de données.
+
+#. Une fois que l'ensemble est à l'arrêt, démarrer une base de données de référence
+#. Faire un dump de la base de données
+    .. code-block:: bash
+
+        docker exec some-mariadb sh -c 'exec mysqldump --all-databases -uroot -p"$MYSQL_ROOT_PASSWORD"' > /some/path/on/your/host/all-databases.sql
+#. Sur la machine que l'on souhaite inclure dans la base de données
+    .. code-block:: bash
+
+        docker exec -i some-mariadb sh -c 'exec mysql -uroot -p"$MYSQL_ROOT_PASSWORD"' < /some/path/on/your/host/all-databases.sql
+
+#. Commencer la procédure d'ajout d'une base de données dans un cluster, uniquement pour la base que l'on souhaite ajoute. 
+    #. Déclarer à tous les membres la nouvelle base de données. 
+    #. Déclarrer à la nouvelle base tous les autres.
+
+.. note::
+
+    Si j'ajoute la base de données D à A, B, C : 
+
+    * D devra s'enregistrer sur A, B, C
+    * A devra s'enregistrer sur D
+    * B devra s'enregistrer sur D
+    * C devra s'enregistrer sur D
+
+Script complet de réplication
+*****************************
+
+Sur chaque serveur vous pouvez utiliser ce script **init_replication.sh** qui fait toutes les actions : 
+
+.. code-block:: bash 
+    
+    #!/bin/bash
+    echo "Pass bdd : "
+    read MYSQL_ROOT_PASSWORD
+
+    echo "stop"
+    docker-compose exec -T database sh -c 'mysql -u root -p$(echo $MYSQL_ROOT_PASSWORD) -e "STOP ALL SLAVES;"'
+
+    for IP in $*
+    do
+        PROD=$(echo $IP | cut -d',' -f2)
+        ADMIN=$(echo $IP | cut -d',' -f1)
+        echo "recherche $ADMIN"
+        RES=$(docker-compose exec -e PROD=$PROD -T database sh -c 'mysql -h$PROD -u root -p$MYSQL_ROOT_PASSWORD -e "SHOW MASTER STATUS;"')
+        P=$(echo $RES | cut -d' ' -f6)
+        F=$(echo $RES | cut -d' ' -f5)
+        echo "$F $P"
+        docker-compose exec -e P=$P -e F=$F -e PROD=$PROD -e ADMIN=$ADMIN -T database mysql -u root -p$MYSQL_ROOT_PASSWORD -e "CHANGE MASTER '$ADMIN' TO MASTER_HOST = '$PROD', MASTER_USER = 'root', MASTER_PASSWORD = '$MYSQL_ROOT_PASSWORD', MASTER_LOG_FILE = '$F', MASTER_LOG_POS = $P;"
+    done
+
+    docker-compose exec -T database sh -c 'mysql -u root -p$MYSQL_ROOT_PASSWORD -e "START ALL SLAVES;"'
+
+Puis faire sur le serveur C par exemple :
+
+.. code-block:: bash
+
+    chmod +x init_replication.sh
+    ./init_replication.sh nomserveurA,10.0.0.1, nomserveurB,10.0.0.2
+    #(Les ip sont à titre d'exemple)

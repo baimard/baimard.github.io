@@ -1,0 +1,299 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>1. Présentation &mdash; Documentation Adacis presente : AYA 1</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/my_theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="2. Base de données" href="bdd.html" />
+    <link rel="prev" title="Bienvenue sur la documentation AYA !" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Adacis presente : AYA
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Sommaire</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. Présentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#authentification-yubikey-by-adacis">1.1. Authentification Yubikey by Adacis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#docker">1.2. Docker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#les-services-containers">1.3. Les services / containers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#la-logique">1.4. La logique</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#otp-on-time-password">1.5. OTP (on time password)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="bdd.html">2. Base de données</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ksm.html">3. Serveur KSM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="validation.html">4. Serveur de validation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="radius.html">5. Serveur freeradius</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">6. Installation de la solution</a></li>
+<li class="toctree-l1"><a class="reference internal" href="web.html">7. Serveur de gestion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="client.html">8. Poste client</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cli.html">9. Command BASH</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Adacis presente : AYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">1. </span>Présentation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/presentation.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="presentation">
+<span id="id1"></span><h1><span class="section-number">1. </span>Présentation<a class="headerlink" href="#presentation" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="authentification-yubikey-by-adacis">
+<h2><span class="section-number">1.1. </span>Authentification Yubikey by Adacis<a class="headerlink" href="#authentification-yubikey-by-adacis" title="Lien permanent vers ce titre">¶</a></h2>
+<p>L’ensemble des fichiers correspondants au projet sont disponibles dans le git de référence.</p>
+<p>(<a class="reference internal" href="glossary.html#term-AYA"><span class="xref std std-term">AYA</span></a>) est un système permettant d’authentifier des utilisateurs via le protocole <a class="reference external" href="https://tools.ietf.org/html/rfc3579">radius</a> avec une <a class="reference external" href="https://www.yubico.com/">yubikey</a>.</p>
+<p>La yubikey est une formidable boite noire qui embarque de nombreux protocoles pour s’authentifier sur différents services. Le principe est qu’une fois qu’un secret a été inséré dans la clef yubikey, il ne peut plus être lu.</p>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>Il faut sauvegarder ses secrets en lieu sûr si on souhaite les récupérer plus tard.</p>
+</div>
+<p>Les protocoles embarqués par la yubikey :</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developers.yubico.com/OTP/">OTP Yubico</a></p></li>
+<li><p><a class="reference external" href="https://developers.yubico.com/U2F/">U2F</a></p></li>
+<li><p><a class="reference external" href="https://developers.yubico.com/OATH/">OATH (TOTP and HOTP)</a></p></li>
+<li><p><a class="reference external" href="https://developers.yubico.com/WebAuthn/">Webauthn</a></p></li>
+<li><p><a class="reference external" href="https://developers.yubico.com/PGP/">PGP</a></p></li>
+<li><p><a class="reference external" href="https://developers.yubico.com/PIV/">PIV</a></p></li>
+</ul>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Notre projet repose sur le système de code calculé <a class="reference external" href="https://developers.yubico.com/OTP/">Yubico OTP</a>.</p>
+</div>
+</div>
+<div class="section" id="docker">
+<h2><span class="section-number">1.2. </span>Docker<a class="headerlink" href="#docker" title="Lien permanent vers ce titre">¶</a></h2>
+<p><a class="reference external" href="https://docs.docker.com/">Docker</a> est un système de container qui agit comme une machine virtuelle. Son intérêt est qu’il est plus léger et plus modulaire. Notre projet utilise Docker pour :</p>
+<ul class="simple">
+<li><p>Sa facilité de mise à jour de chaque composant</p></li>
+<li><p>Sa portabilité</p></li>
+<li><p>Sa scalabitié</p></li>
+</ul>
+</div>
+<div class="section" id="les-services-containers">
+<h2><span class="section-number">1.3. </span>Les services / containers<a class="headerlink" href="#les-services-containers" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Notre système se décompose en plusieurs micros services :</p>
+<ul class="simple">
+<li><p>Un serveur <a class="reference external" href="https://freeradius.org/">freeradius</a> pour recevoir les requêtes radius</p></li>
+<li><p>Un serveur de <a class="reference external" href="https://github.com/Yubico/yubikey-val">validation Yubico</a></p></li>
+<li><p>Un serveur de <a class="reference external" href="https://developers.yubico.com/python-pyhsm/YubiKey_KSM.html">Key System Management</a></p></li>
+<li><p>Un serveur web de gestion de la solution</p></li>
+<li><p>Une base de données <a class="reference external" href="https://mariadb.com/">MariaDb</a></p></li>
+</ul>
+<img alt="Detail du serveur AYA" src="_images/04_ServeurAuth_Detail_v1.1.png" />
+</div>
+<div class="section" id="la-logique">
+<h2><span class="section-number">1.4. </span>La logique<a class="headerlink" href="#la-logique" title="Lien permanent vers ce titre">¶</a></h2>
+<img alt="Principe de base" src="_images/01principe_de_base.png" />
+<ol class="arabic simple">
+<li><p>Un client fait une demande d’authentification sur le serveur fournissant un service</p></li>
+<li><p>Le serveur fournissant un service interroge le serveur AYA pour validation des informations de connexion</p></li>
+<li><p>Aya après avoir effectuer ses traitements authorise ou refuse la demande</p></li>
+<li><p>Le serveur fournissant un service authorise ou refuse la connexion</p></li>
+</ol>
+</div>
+<div class="section" id="otp-on-time-password">
+<h2><span class="section-number">1.5. </span>OTP (on time password)<a class="headerlink" href="#otp-on-time-password" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Exemple de code généré par yubikey :</p>
+<ul class="simple">
+<li><p>cccjgjgkhcbbirdrfdnlnghhfgrtnnlgedjlftrbdeut</p></li>
+<li><p>cccjgjgkhcbbgefdkbbditfjrlniggevfhenublfnrev</p></li>
+<li><p>cccjgjgkhcbbcvchfkfhiiuunbtnvgihdfiktncvlhck</p></li>
+</ul>
+</div>
+<p>Voici la page de référence <a class="reference external" href="https://developers.yubico.com/OTP/OTPs_Explained.html">yubico</a>.</p>
+<p>La clef est composée de deux parties :</p>
+<ul class="simple">
+<li><p>Les 12 premiers caractères qui constituent l’identifiant publique de la clef, qui va permettre au système de faire le lien avec un utilisateur.</p></li>
+<li><p>Les 32 suivants constituent la partie chiffrée de l’OTP. Vous pouvez voir la décomposition exact sur l’image ci-dessous.</p></li>
+</ul>
+<img alt="Decoupage d'un otp" src="_images/otp_yubico.png" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="bdd.html" class="btn btn-neutral float-right" title="2. Base de données" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Bienvenue sur la documentation AYA !" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Benjamin AIMARD.
+
+    </p>
+  </div>
+    
+    
+    
+    Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

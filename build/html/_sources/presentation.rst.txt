@@ -1,0 +1,83 @@
+.. _presentation:
+
+Présentation
+============
+
+Authentification Yubikey by Adacis
+----------------------------------
+
+L'ensemble des fichiers correspondants au projet sont disponibles dans le git de référence.
+
+(:term:`AYA`) est un système permettant d'authentifier des utilisateurs via le protocole `radius <https://tools.ietf.org/html/rfc3579>`_ avec une `yubikey <https://www.yubico.com/>`_.
+
+La yubikey est une formidable boite noire qui embarque de nombreux protocoles pour s'authentifier sur différents services. Le principe est qu'une fois qu'un secret a été inséré dans la clef yubikey, il ne peut plus être lu.
+
+.. WARNING::
+  Il faut sauvegarder ses secrets en lieu sûr si on souhaite les récupérer plus tard. 
+
+Les protocoles embarqués par la yubikey : 
+
+* `OTP Yubico <https://developers.yubico.com/OTP/>`_
+* `U2F <https://developers.yubico.com/U2F/>`_
+* `OATH (TOTP and HOTP) <https://developers.yubico.com/OATH/>`_
+* `Webauthn <https://developers.yubico.com/WebAuthn/>`_
+* `PGP <https://developers.yubico.com/PGP/>`_
+* `PIV <https://developers.yubico.com/PIV/>`_
+
+.. important::
+  Notre projet repose sur le système de code calculé `Yubico OTP <https://developers.yubico.com/OTP/>`_.
+
+Docker
+------
+
+`Docker <https://docs.docker.com/>`_ est un système de container qui agit comme une machine virtuelle. Son intérêt est qu'il est plus léger et plus modulaire. Notre projet utilise Docker pour : 
+
+* Sa facilité de mise à jour de chaque composant
+* Sa portabilité
+* Sa scalabitié
+
+Les services / containers
+-------------------------
+
+Notre système se décompose en plusieurs micros services :
+
+* Un serveur `freeradius <https://freeradius.org/>`_ pour recevoir les requêtes radius
+* Un serveur de `validation Yubico <https://github.com/Yubico/yubikey-val>`_
+* Un serveur de `Key System Management <https://developers.yubico.com/python-pyhsm/YubiKey_KSM.html>`_
+* Un serveur web de gestion de la solution
+* Une base de données `MariaDb <https://mariadb.com/>`_
+
+.. image:: images/04_ServeurAuth_Detail_v1.1.png
+  :alt: Detail du serveur AYA
+
+La logique
+----------
+
+.. image:: images/01principe_de_base.png
+  :alt: Principe de base
+
+#. Un client fait une demande d'authentification sur le serveur fournissant un service
+#. Le serveur fournissant un service interroge le serveur AYA pour validation des informations de connexion
+#. Aya après avoir effectuer ses traitements authorise ou refuse la demande
+#. Le serveur fournissant un service authorise ou refuse la connexion
+
+OTP (on time password)
+----------------------
+
+
+.. note::
+  Exemple de code généré par yubikey :
+  
+  * cccjgjgkhcbbirdrfdnlnghhfgrtnnlgedjlftrbdeut
+  * cccjgjgkhcbbgefdkbbditfjrlniggevfhenublfnrev
+  * cccjgjgkhcbbcvchfkfhiiuunbtnvgihdfiktncvlhck
+
+Voici la page de référence `yubico <https://developers.yubico.com/OTP/OTPs_Explained.html>`_.
+
+La clef est composée de deux parties :
+
+* Les 12 premiers caractères qui constituent l'identifiant publique de la clef, qui va permettre au système de faire le lien avec un utilisateur. 
+* Les 32 suivants constituent la partie chiffrée de l'OTP. Vous pouvez voir la décomposition exact sur l'image ci-dessous.
+
+.. image:: images/otp_yubico.png
+  :alt: Decoupage d'un otp

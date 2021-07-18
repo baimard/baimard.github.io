@@ -1,0 +1,16 @@
+.. glossary::
+
+    AYA
+      Authentification Yubikey by Adacis
+
+    AES
+      à définir
+
+    YubiHSM
+      à définir
+
+    KSM
+      à définir
+
+    backend
+      à définir

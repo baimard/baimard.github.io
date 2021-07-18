@@ -1,0 +1,524 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>4. Serveur de validation &mdash; Documentation Adacis presente : AYA 1</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/my_theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="5. Serveur freeradius" href="radius.html" />
+    <link rel="prev" title="3. Serveur KSM" href="ksm.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Adacis presente : AYA
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Sommaire</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="presentation.html">1. Présentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bdd.html">2. Base de données</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ksm.html">3. Serveur KSM</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">4. Serveur de validation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#presentation-yubikey-val">4.1. Présentation Yubikey-val</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fichiers-de-configuration">4.2. Fichiers de configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#image-docker">4.3. Image Docker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#docker-compose">4.4. Docker-compose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installation">4.5. Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="radius.html">5. Serveur freeradius</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">6. Installation de la solution</a></li>
+<li class="toctree-l1"><a class="reference internal" href="web.html">7. Serveur de gestion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="client.html">8. Poste client</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cli.html">9. Command BASH</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Adacis presente : AYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">4. </span>Serveur de validation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/validation.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="serveur-de-validation">
+<span id="validation"></span><h1><span class="section-number">4. </span>Serveur de validation<a class="headerlink" href="#serveur-de-validation" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="presentation-yubikey-val">
+<h2><span class="section-number">4.1. </span>Présentation Yubikey-val<a class="headerlink" href="#presentation-yubikey-val" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Le serveur de <a class="reference external" href="https://developers.yubico.com/yubikey-val/Installation.html">validation yubico</a> à pour fonction de contrôler la validité d’un token. Il s’assure entre autre que :</p>
+<ul class="simple">
+<li><p>Le token n’est pas joué une deuxième fois</p></li>
+<li><p>Le token a une partie publique qui est connue</p></li>
+<li><p>Le token a une longueur de 48 caractères</p></li>
+</ul>
+<p>Ce serveur fournit une api codée en php. Elle a donc besoin d’un serveur WEB de type apache. Avec des modifications simple nous pourrions utiliser tout autre serveur.</p>
+<p>Le serveur va stocker ses données dans la base de la manière suivante :</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>active état de la yubikey, 1 si active, 0 si non active</p></li>
+<li><p>created timestamp unix sur la première utilisation de la yubikey (donc quand a été crée la ligne)</p></li>
+<li><p>modified timestamp unix sur quand a été modifié la ligne pour la dernière fois</p></li>
+<li><p>yk_publicname id publique de la yubikey concernée</p></li>
+<li><p>yk_counter Le counter de session</p></li>
+<li><p>yk_use le counter d’utilisation</p></li>
+<li><p>yk_low the low part of the YubiKey timestamp counter, decimal integer</p></li>
+<li><p>yk_high the high part of the YubiKey timestamp counter, decimal integer</p></li>
+<li><p>nonce le nonce du dernier OTP qui a été validé</p></li>
+<li><p>notes non utilisé</p></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Le système de haute disponibilité du serveur de validation n’est pas utilisé. Cela est rendu possible par la haute disponibilité de la base de données.</p>
+</div>
+</div>
+<div class="section" id="fichiers-de-configuration">
+<h2><span class="section-number">4.2. </span>Fichiers de configuration<a class="headerlink" href="#fichiers-de-configuration" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Il existe deux fichiers de configuration qui ne nécessite aucun ajustement dans le répertoire <strong>./conf_val</strong>, cependant ils peuvent être utile pour la compréhension générale du service web de validation et pour un ajustement rapide si nécessaire.</p>
+<ul class="simple">
+<li><p>apache.conf :</p></li>
+</ul>
+<div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="x"># yubikey-val default Apache configuration</span>
+
+<span class="x">Alias /wsapi/2.0/verify /usr/share/yubikey-val/ykval-verify.php</span>
+<span class="x">Alias /wsapi/verify /usr/share/yubikey-val/ykval-verify.php</span>
+<span class="x"># Alias /wsapi/2.0/sync /usr/share/yubikey-val/ykval-sync.php</span>
+<span class="x"># Alias /wsapi/2.0/resync /usr/share/yubikey-val/ykval-resync.php</span>
+<span class="x"># Alias /wsapi/revoke /usr/share/yubikey-val/ykval-revoke.php</span>
+
+<span class="x">&lt;Directory /usr/share/yubikey-val&gt;</span>
+<span class="x">    Options None</span>
+<span class="x">    AllowOverride None</span>
+<span class="x">    &lt;IfVersion &gt;= 2.3&gt;</span>
+<span class="x">        Require all granted</span>
+<span class="x">    &lt;/IfVersion&gt;</span>
+<span class="x">    &lt;IfVersion &lt; 2.3&gt;</span>
+<span class="x">        Order allow,deny</span>
+<span class="x">        Allow from all</span>
+<span class="x">    &lt;/IfVersion&gt;</span>
+<span class="x">    php_value include_path &quot;.:/etc/yubico/val:/usr/share/yubikey-val&quot;</span>
+<span class="x">&lt;/Directory&gt;</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>ykval-config.php</p></li>
+</ul>
+<div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
+
+<span class="c1"># Copyright (c) 2009-2015 Yubico AB</span>
+<span class="c1"># All rights reserved.</span>
+<span class="c1">#</span>
+<span class="c1"># Redistribution and use in source and binary forms, with or without</span>
+<span class="c1"># modification, are permitted provided that the following conditions are</span>
+<span class="c1"># met:</span>
+<span class="c1">#</span>
+<span class="c1">#   * Redistributions of source code must retain the above copyright</span>
+<span class="c1">#     notice, this list of conditions and the following disclaimer.</span>
+<span class="c1">#</span>
+<span class="c1">#   * Redistributions in binary form must reproduce the above</span>
+<span class="c1">#     copyright notice, this list of conditions and the following</span>
+<span class="c1">#     disclaimer in the documentation and/or other materials provided</span>
+<span class="c1">#     with the distribution.</span>
+<span class="c1">#</span>
+<span class="c1"># THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS</span>
+<span class="c1"># &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT</span>
+<span class="c1"># LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR</span>
+<span class="c1"># A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT</span>
+<span class="c1"># OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,</span>
+<span class="c1"># SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT</span>
+<span class="c1"># LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,</span>
+<span class="c1"># DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY</span>
+<span class="c1"># THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT</span>
+<span class="c1"># (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE</span>
+<span class="c1"># OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</span>
+
+
+<span class="sd">/**</span>
+<span class="sd">* Load database configuration settings from config-db.php if available,</span>
+<span class="sd">*   otherwise default to values specified below.</span>
+<span class="sd">*/</span>
+
+<span class="nv">$dbtype</span> <span class="o">=</span> <span class="nb">getenv</span><span class="p">(</span><span class="s2">&quot;DATABASETYPE&quot;</span><span class="p">);</span>
+<span class="nv">$dbuser</span> <span class="o">=</span> <span class="nb">getenv</span><span class="p">(</span><span class="s2">&quot;USER&quot;</span><span class="p">);</span>
+<span class="nv">$dbpass</span> <span class="o">=</span> <span class="nb">getenv</span><span class="p">(</span><span class="s2">&quot;PASSWORD&quot;</span><span class="p">);</span>
+<span class="nv">$dbname</span> <span class="o">=</span> <span class="nb">getenv</span><span class="p">(</span><span class="s2">&quot;DATABASE&quot;</span><span class="p">);</span>
+<span class="nv">$dbserver</span> <span class="o">=</span> <span class="nb">getenv</span><span class="p">(</span><span class="s2">&quot;DATABASEHOST&quot;</span><span class="p">);</span>
+
+<span class="c1">// for the validation interface.</span>
+<span class="nv">$baseParams</span> <span class="o">=</span> <span class="k">array</span> <span class="p">();</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_DB_DSN__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">$dbtype</span><span class="s2">:dbname=</span><span class="si">$dbname</span><span class="s2">;host=</span><span class="si">$dbserver</span><span class="s2">&quot;</span><span class="p">;</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_DB_USER__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$dbuser</span><span class="p">;</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_DB_PW__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$dbpass</span><span class="p">;</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_DB_OPTIONS__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span><span class="nx">PDO</span><span class="o">::</span><span class="na">ATTR_ERRMODE</span> <span class="o">=&gt;</span> <span class="nx">PDO</span><span class="o">::</span><span class="na">ERRMODE_EXCEPTION</span><span class="p">);</span>
+
+<span class="c1">// for the validation server sync</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_SYNC_POOL__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
+    <span class="c1">// &quot;https://api2.example.com/wsapi/2.0/sync&quot;,</span>
+    <span class="c1">// &quot;https://api3.example.com/wsapi/2.0/sync&quot;,</span>
+    <span class="c1">// &quot;https://api4.example.com/wsapi/2.0/sync&quot;,</span>
+<span class="p">);</span>
+
+<span class="sd">/**</span>
+<span class="sd">* An array of IP addresses which are allowed to issue sync requests to us.</span>
+<span class="sd">*</span>
+<span class="sd">* NOTE: You must use IP addresses here. Hostnames will be ignored!</span>
+<span class="sd">*   Both IPv4 and IPv6 are supported.</span>
+<span class="sd">*/</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_ALLOWED_SYNC_POOL__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
+    <span class="c1">// &quot;1.2.3.4&quot;,</span>
+    <span class="c1">// &quot;2.3.4.5&quot;,</span>
+    <span class="c1">// &quot;3.4.5.6&quot;,</span>
+    <span class="c1">// &quot;fc00:aaaa::&quot;,</span>
+    <span class="c1">// &quot;fc00:bbbb::&quot;,</span>
+    <span class="c1">// &quot;fc00:cccc::&quot;,</span>
+<span class="p">);</span>
+
+<span class="c1">// An array of IP addresses allowed to issue YubiKey activation/deactivation</span>
+<span class="c1">// requests through ykval-revoke.php. NOTE: You must use IP addresses here.</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKREV_IPS__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span><span class="cm">/*&quot;127.0.0.1&quot;*/</span><span class="p">);</span>
+<span class="c1">// An array of IP addresses allowed to issue database resync requests through</span>
+<span class="c1">// ykval-resync.php. NOTE: You must use IP addresses here.</span>
+<span class="c1">// $baseParams[&#39;__YKRESYNC_IPS__&#39;] = array(&quot;127.0.0.1&quot;);</span>
+<span class="c1">// Use the same as for issuing sync requests:</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKRESYNC_IPS__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_ALLOWED_SYNC_POOL__&#39;</span><span class="p">];</span>
+
+<span class="c1">// Specify how often the sync daemon awakens</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_SYNC_INTERVAL__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+<span class="c1">// Specify how long the sync daemon will wait for response</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_SYNC_RESYNC_TIMEOUT__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">30</span><span class="p">;</span>
+<span class="c1">// Specify how old entries in the database should be considered aborted attempts</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_SYNC_OLD_LIMIT__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+
+<span class="c1">// These are settings for the validation server.</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_SYNC_FAST_LEVEL__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_SYNC_SECURE_LEVEL__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">40</span><span class="p">;</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_SYNC_DEFAULT_LEVEL__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">60</span><span class="p">;</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_SYNC_DEFAULT_TIMEOUT__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+
+<span class="c1">// A key -&gt; value array with curl options to set</span>
+<span class="c1">//  when calling URLs defined in __YKVAL_SYNC_POOL__</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_SYNC_CURL_OPTS__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
+    <span class="c1">//CURLOPT_PROTOCOLS =&gt; CURLPROTO_HTTP,</span>
+<span class="p">);</span>
+
+<span class="c1">// A key -&gt; value array with curl options to set</span>
+<span class="c1">//  when calling URLs returned by otp2ksmurls()</span>
+<span class="nv">$baseParams</span><span class="p">[</span><span class="s1">&#39;__YKVAL_KSM_CURL_OPTS__&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
+    <span class="c1">//CURLOPT_PROTOCOLS =&gt; CURLPROTO_HTTP,</span>
+<span class="p">);</span>
+
+<span class="c1">// Returns an array of YK-KSM URLs for decrypting $otp for $client.</span>
+<span class="c1">// The URLs must be fully qualified, i.e., containing the OTP itself.</span>
+<span class="k">function</span> <span class="nf">otp2ksmurls</span> <span class="p">(</span><span class="nv">$otp</span><span class="p">,</span> <span class="nv">$client</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">//if ($client == 42) {</span>
+    <span class="c1">//  return array(&quot;https://another-ykksm.example.com/wsapi/decrypt?otp=$otp&quot;);</span>
+    <span class="c1">//}</span>
+
+    <span class="c1">//if (preg_match(&quot;/^dteffujehknh/&quot;, $otp)) {</span>
+    <span class="c1">//  return array(&quot;https://different-ykksm.example.com/wsapi/decrypt?otp=$otp&quot;);</span>
+    <span class="c1">//}</span>
+
+    <span class="k">return</span> <span class="k">array</span><span class="p">(</span>
+        <span class="c1">// &quot;https://ykksm1.example.com/wsapi/decrypt?otp=$otp&quot;,</span>
+        <span class="c1">// &quot;https://ykksm2.example.com/wsapi/decrypt?otp=$otp&quot;,</span>
+        <span class="c1">// &quot;http://ksm:80/wsapi/decrypt?otp=$otp&quot;,</span>
+        <span class="s2">&quot;http://ksm:8002/wsapi/decrypt?otp=</span><span class="si">$otp</span><span class="s2">&quot;</span><span class="p">,</span>
+        <span class="c1">//&quot;http://ksm_s:8002/wsapi/decrypt?otp=$otp&quot;,</span>
+    <span class="p">);</span>
+<span class="p">}</span>
+
+<span class="sd">/**</span>
+<span class="sd">* Uncomment to log verify requests just before replying to client.</span>
+<span class="sd">*</span>
+<span class="sd">* Available variables:</span>
+<span class="sd">*   %time_start%</span>
+<span class="sd">*   %time_end%</span>
+<span class="sd">*   %time_taken%</span>
+<span class="sd">*   %ip%</span>
+<span class="sd">*   %client%</span>
+<span class="sd">*   %public_id%</span>
+<span class="sd">*   %otp%</span>
+<span class="sd">*   %status%</span>
+<span class="sd">*   %nonce%</span>
+<span class="sd">*   %signed%</span>
+<span class="sd">*   %counter%</span>
+<span class="sd">*   %low%</span>
+<span class="sd">*   %high%</span>
+<span class="sd">*   %use%</span>
+<span class="sd">*   %tls%</span>
+<span class="sd">*   %protocol%</span>
+<span class="sd">*   %sl%</span>
+<span class="sd">*   %timeout%</span>
+<span class="sd">*</span>
+<span class="sd">* If a value is malformed or not available,</span>
+<span class="sd">*   a dash &#39;-&#39; is written instead.</span>
+<span class="sd">*/</span>
+<span class="c1">//$baseParams[&#39;__YKVAL_VERIFY_LOGFORMAT__&#39;] = &#39;[%time_start%] [%time_taken%] [%ip%] [%tls%] [%protocol%] [%status%] [%client%] [%public_id%] [%otp%] [%sl%] [%timeout%] [%nonce%] [%signed%] [%counter%] [%low%] [%high%] [%use%]&#39;;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="image-docker">
+<h2><span class="section-number">4.3. </span>Image Docker<a class="headerlink" href="#image-docker" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">FROM php:apache</span>
+
+<span class="l l-Scalar l-Scalar-Plain">ARG BUILD_DATE</span>
+
+<span class="l l-Scalar l-Scalar-Plain">LABEL maintainer=&quot;b.aimard@adacis.net&quot;</span>
+<span class="l l-Scalar l-Scalar-Plain">LABEL build_date=&quot;${BUILD_DATE}&quot;</span>
+
+<span class="l l-Scalar l-Scalar-Plain">COPY ./yubikey-val /usr/share/yubikey-val</span>
+
+<span class="l l-Scalar l-Scalar-Plain">RUN apt-get update</span>
+<span class="l l-Scalar l-Scalar-Plain">RUN apt-get upgrade -y</span>
+
+<span class="l l-Scalar l-Scalar-Plain">RUN docker-php-ext-install mysqli pdo pdo_mysql</span>
+
+<span class="l l-Scalar l-Scalar-Plain">RUN mkdir -p /etc/yubico/val</span>
+<span class="l l-Scalar l-Scalar-Plain">RUN touch /etc/yubico/val/apache.conf</span>
+<span class="l l-Scalar l-Scalar-Plain">RUN ln -s /etc/yubico/val/apache.conf /etc/apache2/conf-available/yubikey-val.conf</span>
+<span class="l l-Scalar l-Scalar-Plain">RUN ln -s /etc/apache2/conf-available/yubikey-val.conf /etc/apache2/conf-enabled/yubikey-val.conf</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="docker-compose">
+<h2><span class="section-number">4.4. </span>Docker-compose<a class="headerlink" href="#docker-compose" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="s">&#39;3.8&#39;</span>
+<span class="nt">services</span><span class="p">:</span>
+ <span class="nt">validation</span><span class="p">:</span>
+   <span class="nt">image</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">juxo/validation</span>
+   <span class="nt">container_name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">val</span>
+   <span class="nt">environment</span><span class="p">:</span>
+     <span class="nt">USER</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">${USERDB}</span>
+     <span class="nt">PASSWORD</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">${PASSWORDDB}</span>
+     <span class="nt">DATABASE</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">${DATABASE}</span>
+     <span class="nt">DATABASETYPE</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">mysql</span>
+     <span class="nt">DATABASEIP</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">${DATABASEIP}</span>
+   <span class="nt">volumes</span><span class="p">:</span>
+     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">./conf_val:/etc/yubico/val</span>
+   <span class="nt">ports</span><span class="p">:</span>
+       <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">8888:80</span> <span class="c1">#port de test</span>
+   <span class="nt">networks</span><span class="p">:</span>
+     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">auth</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="installation">
+<h2><span class="section-number">4.5. </span>Installation<a class="headerlink" href="#installation" title="Lien permanent vers ce titre">¶</a></h2>
+<ol class="arabic">
+<li><dl>
+<dt>Vérifier que tous les container sont à l’arrêt</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker-compose down
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Démarrage du serveur de validation</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker-compose up -d validation database<span class="p">;</span> sleep <span class="m">10</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Génération d’un client pour le serveur de validation</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker-compose <span class="nb">exec</span> validation bash -c <span class="s1">&#39;ykval-gen-clients --urandom 1&#39;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Controle du fonctionnement</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl <span class="s2">&quot;http://127.0.0.1:8888/wsapi/2.0/verify?id=1&amp;nonce=0123456789abcdef&amp;otp=interncccbjgufcdcrgjerthgctvkljblnvjevvbuiku&quot;</span>
+<span class="c1">#retour</span>
+<span class="nv">h</span><span class="o">=</span>Tj6/y66GV3LL3cbFRU88dd2Zw8I<span class="o">=</span>
+<span class="nv">t</span><span class="o">=</span><span class="m">2021</span>-03-31T13:49:20Z0010
+<span class="nv">status</span><span class="o">=</span>BAD_OTP
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="radius.html" class="btn btn-neutral float-right" title="5. Serveur freeradius" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="ksm.html" class="btn btn-neutral float-left" title="3. Serveur KSM" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Benjamin AIMARD.
+
+    </p>
+  </div>
+    
+    
+    
+    Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,377 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>9. Command BASH &mdash; Documentation Adacis presente : AYA 1</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/my_theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="prev" title="8. Poste client" href="client.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Adacis presente : AYA
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Sommaire</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="presentation.html">1. Présentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bdd.html">2. Base de données</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ksm.html">3. Serveur KSM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="validation.html">4. Serveur de validation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="radius.html">5. Serveur freeradius</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">6. Installation de la solution</a></li>
+<li class="toctree-l1"><a class="reference internal" href="web.html">7. Serveur de gestion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="client.html">8. Poste client</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">9. Command BASH</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#ajouter-un-identifiant-otp-a-l-inventaire">9.1. Ajouter un identifiant OTP à l’inventaire</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#authoriser-un-serveur-a-interroger-le-radius">9.2. Authoriser un serveur à interroger le radius</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#se-connecter-avec-sa-yubikey">9.3. Se connecter avec sa yubikey</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ajout-du-code-pin">9.4. Ajout du code pin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#utiliser-un-mot-de-passe-temporaire">9.5. Utiliser un mot de passe temporaire</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bug-replication">9.6. Bug replication</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Adacis presente : AYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">9. </span>Command BASH</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/cli.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="command-bash">
+<span id="cli"></span><h1><span class="section-number">9. </span>Command BASH<a class="headerlink" href="#command-bash" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>à executer sur un des serveurs directement, sur un secondaire de préférence.</p>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">Voir aussi</p>
+<p>Package utilisés</p>
+<ul class="simple">
+<li><p>yubikey-personalization</p></li>
+<li><p>libpam-yubico</p></li>
+<li><p>yubikey-manager-qt</p></li>
+</ul>
+</div>
+<div class="section" id="ajouter-un-identifiant-otp-a-l-inventaire">
+<h2><span class="section-number">9.1. </span>Ajouter un identifiant OTP à l’inventaire<a class="headerlink" href="#ajouter-un-identifiant-otp-a-l-inventaire" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Sur le KSM faire :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker <span class="nb">exec</span> -e <span class="s1">&#39;DATABASEHOST=database&#39;</span> -t ksm sh -c <span class="s1">&#39;python2 /etc/yubico/yhsm/decrypt_aead_bdd.py -D /etc/yubico/yhsm/keys.json --public-id  $(python2 /etc/yubico/yhsm/generate_keys_bdd.py -D /etc/yubico/yhsm/keys.json --key-handle 1 -c 1)&#39;</span>
+</pre></div>
+</div>
+<p>Vous aurez un retour du type :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ykpersonalize -1 -ofixed<span class="o">=</span>debcfnucccccc -ouid<span class="o">=</span>a66cccccc057 -accc05eb9d433cccccca7dc63axxxxxx
+</pre></div>
+</div>
+<p>Il faut en suite sur un poste physique avec <strong>une seule yubikey connectée</strong> passer la ligne juste au dessus dans un terminal.</p>
+</div>
+<div class="section" id="authoriser-un-serveur-a-interroger-le-radius">
+<h2><span class="section-number">9.2. </span>Authoriser un serveur à interroger le radius<a class="headerlink" href="#authoriser-un-serveur-a-interroger-le-radius" title="Lien permanent vers ce titre">¶</a></h2>
+</div>
+<div class="section" id="se-connecter-avec-sa-yubikey">
+<h2><span class="section-number">9.3. </span>Se connecter avec sa yubikey<a class="headerlink" href="#se-connecter-avec-sa-yubikey" title="Lien permanent vers ce titre">¶</a></h2>
+<ul class="simple">
+<li><p>configurer son ssh pour pouvoir faire un proxy dynamique sur le serveur d’authentification où vous êtes.</p></li>
+<li><p>taper 127.0.0.1:8080 dans un navigateur</p></li>
+<li><p>renseigner le mot de passe et l’utilisateur, la base de données sera toujours « database »</p></li>
+</ul>
+<p>** pour toutes ces opérations faire <code class="docutils literal notranslate"><span class="pre">insert</span></code> au niveau de la table.</p>
+<p>dans la table <strong>radcheck</strong> :</p>
+<table class="docutils align-default" id="id1">
+<caption><span class="caption-text">radcheck</span><a class="headerlink" href="#id1" title="Lien permanent vers ce tableau">¶</a></caption>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>id</p></th>
+<th class="head"><p>username</p></th>
+<th class="head"><p>attribute</p></th>
+<th class="head"><p>op</p></th>
+<th class="head"><p>value</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>auto</p></td>
+<td><p>baimard</p></td>
+<td><p>Auth-type</p></td>
+<td><p>:=</p></td>
+<td><p>PAM</p></td>
+</tr>
+</tbody>
+</table>
+<p>//PLUS TARD
+dans la table <strong>radusergroup</strong></p>
+<table class="docutils align-default" id="id2">
+<caption><span class="caption-text">radusergroup</span><a class="headerlink" href="#id2" title="Lien permanent vers ce tableau">¶</a></caption>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>id</p></th>
+<th class="head"><p>username</p></th>
+<th class="head"><p>grupname</p></th>
+<th class="head"><p>priority</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>auto</p></td>
+<td><p>baimard</p></td>
+<td><p>pin</p></td>
+<td><p>1</p></td>
+</tr>
+</tbody>
+</table>
+<p>dans la table <strong>yubikey_mappings</strong></p>
+<table class="docutils align-default" id="id3">
+<caption><span class="caption-text">radusergroup</span><a class="headerlink" href="#id3" title="Lien permanent vers ce tableau">¶</a></caption>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>otp_id</p></th>
+<th class="head"><p>username</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>debcfnucccccc</p></td>
+<td><p>baimard</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="admonition-title">Voir aussi</p>
+<p>Il s’agit de l’otp qui a été généré à l’étape précédente.</p>
+</div>
+</div>
+<div class="section" id="ajout-du-code-pin">
+<h2><span class="section-number">9.4. </span>Ajout du code pin<a class="headerlink" href="#ajout-du-code-pin" title="Lien permanent vers ce titre">¶</a></h2>
+<p>123456OTPOTPOTPOTPOTPOTP</p>
+</div>
+<div class="section" id="utiliser-un-mot-de-passe-temporaire">
+<h2><span class="section-number">9.5. </span>Utiliser un mot de passe temporaire<a class="headerlink" href="#utiliser-un-mot-de-passe-temporaire" title="Lien permanent vers ce titre">¶</a></h2>
+<table class="docutils align-default" id="id4">
+<caption><span class="caption-text">radusergroup</span><a class="headerlink" href="#id4" title="Lien permanent vers ce tableau">¶</a></caption>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>id</p></th>
+<th class="head"><p>username</p></th>
+<th class="head"><p>grupname</p></th>
+<th class="head"><p>priority</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>auto</p></td>
+<td><p>baimard</p></td>
+<td><p>motdepassetemporaire</p></td>
+<td><p>1</p></td>
+</tr>
+</tbody>
+</table>
+<p>Attention retirer le SHA2 du pin !!!</p>
+<p>SHA2 DU mdp à la place.</p>
+</div>
+<div class="section" id="bug-replication">
+<h2><span class="section-number">9.6. </span>Bug replication<a class="headerlink" href="#bug-replication" title="Lien permanent vers ce titre">¶</a></h2>
+<p>dans le répertoire du projet à la racine.</p>
+<p><strong>Commande à faire sur chaque serveur</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1">#En omettant l&#39;ip du serveur sur lequel on exécute le script, lui donner tous ses voisins.</span>
+./init_replication IP1 IP2 IP3 IPX
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="client.html" class="btn btn-neutral float-left" title="8. Poste client" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Benjamin AIMARD.
+
+    </p>
+  </div>
+    
+    
+    
+    Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

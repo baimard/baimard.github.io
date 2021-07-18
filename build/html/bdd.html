@@ -1,0 +1,515 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>2. Base de données &mdash; Documentation Adacis presente : AYA 1</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/my_theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="3. Serveur KSM" href="ksm.html" />
+    <link rel="prev" title="1. Présentation" href="presentation.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Adacis presente : AYA
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Sommaire</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="presentation.html">1. Présentation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. Base de données</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#presentation">2.1. Présentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#image-docker">2.2. Image Docker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#docker-compose">2.3. Docker compose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installation">2.4. Installation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#creation-d-un-fichier-env">2.4.1. Création d’un fichier .env</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#initialisation-de-la-base-de-donnees">2.4.2. Initialisation de la base de données</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mise-en-cluster-de-bases-de-donnees-sans-donnees">2.4.3. Mise en cluster de bases de données sans données</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#etape-supplementaire-pour-une-mise-en-cluster-d-une-base-deja-existante">2.4.4. Etape supplémentaire pour une mise en cluster d’une base déjà existante</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#script-complet-de-replication">2.4.5. Script complet de réplication</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ksm.html">3. Serveur KSM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="validation.html">4. Serveur de validation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="radius.html">5. Serveur freeradius</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">6. Installation de la solution</a></li>
+<li class="toctree-l1"><a class="reference internal" href="web.html">7. Serveur de gestion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="client.html">8. Poste client</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cli.html">9. Command BASH</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Adacis presente : AYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">2. </span>Base de données</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/bdd.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="base-de-donnees">
+<span id="bdd"></span><h1><span class="section-number">2. </span>Base de données<a class="headerlink" href="#base-de-donnees" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="presentation">
+<h2><span class="section-number">2.1. </span>Présentation<a class="headerlink" href="#presentation" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Le moteur de base de données utilisé est <a class="reference external" href="https://mariadb.com/">MariaDB</a>. La base de données est le point central de toute la solution. Tous y est stocké pour tous les containers. L’accès est uniquement possible en interne lorsque la solution est en standalone. Il est possible de créer des replicas qui seront considérés tous comme Master. Chaque serveur de base de données sera alors considéré comme actif.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>L’avantage de considérer plusieurs base de données comme actives est que :</p>
+<ul class="simple">
+<li><p>chacune des instances qui s’y rattache sera opérationnel immédiatemment</p></li>
+<li><p>N’importe laquelle peut être interrogé à n’importe quel moment</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="image-docker">
+<h2><span class="section-number">2.2. </span>Image Docker<a class="headerlink" href="#image-docker" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Nous utilisons l’image MariaDB de base.</p>
+<div class="admonition seealso">
+<p class="admonition-title">Voir aussi</p>
+<p><a class="reference external" href="https://hub.docker.com/_/mariadb">https://hub.docker.com/_/mariadb</a></p>
+</div>
+</div>
+<div class="section" id="docker-compose">
+<h2><span class="section-number">2.3. </span>Docker compose<a class="headerlink" href="#docker-compose" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Aucune spéciphicité pour la base de données. Cette configuration est valable pour :</p>
+<ul class="simple">
+<li><p>Standalone</p></li>
+<li><p>Haute disponibilité</p></li>
+</ul>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="s">&#39;3.8&#39;</span>
+<span class="nt">services</span><span class="p">:</span>
+  <span class="nt">database</span><span class="p">:</span>
+   <span class="nt">image</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">mariadb</span>
+   <span class="nt">container_name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">database</span>
+   <span class="nt">volumes</span><span class="p">:</span>
+     <span class="p p-Indicator">-</span> <span class="s">&quot;./data_db:/var/lib/mysql&quot;</span>
+     <span class="p p-Indicator">-</span> <span class="s">&quot;./conf_db/replication.cnf:/etc/mysql/conf.d/replication.cnf&quot;</span>
+   <span class="nt">environment</span><span class="p">:</span>
+     <span class="nt">MYSQL_ROOT_PASSWORD</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">${PASSWORDDB}</span>
+     <span class="nt">MYSQL_DATABASE</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">${DATABASE}</span>
+     <span class="nt">MYSQL_USER</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">${USERDB}</span>
+     <span class="nt">MYSQL_PASSWORD</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">${PASSWORDDB}</span>
+   <span class="nt">networks</span><span class="p">:</span>
+     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">auth</span>
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>Si le fichier replication.cnf n’est pas présent dans le répertoire source de l’hôte, il va être crée comme un dossier. Cela ne pose pas de problème à l’exécution, mais pourrait vous causer un soucis a posteriori pour la mise en HA.</p>
+</div>
+<p>Pour controler vos accès à la base de données vous pouvez également utiliser l’image PhpMyAdmin qui se configurera comme suit :</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="s">&#39;3.8&#39;</span>
+<span class="nt">services</span><span class="p">:</span>
+ <span class="nt">phpmyadmin</span><span class="p">:</span>
+   <span class="nt">image</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">phpmyadmin</span>
+   <span class="nt">environment</span><span class="p">:</span>
+     <span class="nt">PMA_ARBITRARY</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">1</span>
+   <span class="nt">ports</span><span class="p">:</span>
+     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">8080:80</span>
+   <span class="nt">networks</span><span class="p">:</span>
+     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">auth</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="installation">
+<h2><span class="section-number">2.4. </span>Installation<a class="headerlink" href="#installation" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="section" id="creation-d-un-fichier-env">
+<h3><span class="section-number">2.4.1. </span>Création d’un fichier .env<a class="headerlink" href="#creation-d-un-fichier-env" title="Lien permanent vers ce titre">¶</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Le fichier .env servira pour tous vos containers pour qu’il puissent avoir accès à la base de données.</p>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">USERDB</span><span class="o">=</span>otp
+<span class="nv">PASSWORDDB</span><span class="o">=</span>otp
+<span class="nv">DATABASEIP</span><span class="o">=</span>database
+<span class="nv">DATABASE</span><span class="o">=</span>otp
+</pre></div>
+</div>
+</div>
+<div class="section" id="initialisation-de-la-base-de-donnees">
+<h3><span class="section-number">2.4.2. </span>Initialisation de la base de données<a class="headerlink" href="#initialisation-de-la-base-de-donnees" title="Lien permanent vers ce titre">¶</a></h3>
+<ol class="arabic">
+<li><dl>
+<dt>Vérifier que tous les container sont à l’arrêt</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker-compose down
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Initialisation des répertoires de base</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo rm -rf data_db <span class="o">&amp;&amp;</span> mkdir data_db <span class="o">&amp;&amp;</span> mkdir conf_db
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Premier démarrage de la base de données en mode dameon, (Attendre que tout s’initialise)</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker-compose up -d database <span class="p">;</span> sleep <span class="m">20</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>On charge la structure de la base de données</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker <span class="nb">exec</span> -i database sh -c <span class="s1">&#39;exec mysql -u $MYSQL_USER -p$MYSQL_PASSWORD -D $MYSQL_DATABASE&#39;</span> &lt; ./install/conf.sql<span class="sb">``</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><p>On peut ensuite contrôler via Phpmyadmin que tout a bien été crée</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1">#Script complet</span>
+<span class="c1">#!/bin/bash</span>
+docker-compose down
+mkdir data_db <span class="o">&amp;&amp;</span> mkdir conf_db
+<span class="nb">echo</span> <span class="s2">&quot;configure database&quot;</span>
+docker-compose up -d database
+<span class="nb">echo</span> <span class="s2">&quot;wait 10 secondes&quot;</span>
+sleep <span class="m">10</span>
+docker <span class="nb">exec</span> -i database sh -c <span class="s1">&#39;exec mysql -u $MYSQL_USER -p$MYSQL_PASSWORD -D $MYSQL_DATABASE&#39;</span> &lt; ./install/conf.sql
+docker-compose down
+</pre></div>
+</div>
+</div>
+<div class="section" id="mise-en-cluster-de-bases-de-donnees-sans-donnees">
+<h3><span class="section-number">2.4.3. </span>Mise en cluster de bases de données sans données<a class="headerlink" href="#mise-en-cluster-de-bases-de-donnees-sans-donnees" title="Lien permanent vers ce titre">¶</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>La mise en cluster peut être effectué sur N serveur MariaDB.</p></li>
+<li><p>Tous vos serveurs doivent avoir les mêmes utilisateurs</p></li>
+<li><p>Tous vos serveurs doivent avoir les mêmes mots de passe</p></li>
+<li><p>Tous vos serveurs doivent avoir les mêmes droits</p></li>
+</ul>
+</div>
+<ol class="arabic">
+<li><p>Couper tous les serveurs <code class="docutils literal notranslate"><span class="pre">docker-compose</span> <span class="pre">down</span></code></p></li>
+<li><dl>
+<dt>Sur chaque serveur que vous souhaitez paramétrer, dans le dossier conf_db :</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1">#Fichier replication.cnf</span>
+<span class="o">[</span>mysqld<span class="o">]</span>
+server-id<span class="o">=</span>&lt;IDENTIFIANT UNIQUE DE SERVEUR&gt;
+<span class="nv">log_bin</span><span class="o">=</span>mysql-bin
+<span class="nv">log_error</span><span class="o">=</span>mysql-bin.err
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>Attention &lt;IDENTIFIANT UNIQUE DE SERVEUR&gt;, doit bien être unique pour chaque serveur, il s’agit d’un entier positif.</p>
+</div>
+</dd>
+</dl>
+</li>
+</ol>
+<p>En suite il faut indiquer à chaque serveur d’aller se répliquer sur le suivant donc sur chaque serveur faire :</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>On considère pour notre exemple que la variable <em>$PROD</em> est l’ip du serveur où l’on souhaite s’enregistrer.</p>
+</div>
+<ul>
+<li><dl>
+<dt>Mettre à l’arrêt le système de réplication :</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker-compose <span class="nb">exec</span> -T database sh -c <span class="s1">&#39;mysql -u root -p$(echo $MYSQL_ROOT_PASSWORD) -e &quot;STOP ALL SLAVES;&quot;&#39;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Récupérer le positionnement de la base de données où l’on souhaite se répliquer :</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker-compose <span class="nb">exec</span> -e <span class="nv">PROD</span><span class="o">=</span><span class="nv">$PROD</span> -T database sh -c <span class="s1">&#39;mysql -h$PROD -u root -p$MYSQL_ROOT_PASSWORD -e &quot;SHOW MASTER STATUS;&quot;&#39;</span>
+<span class="c1">#Vous aurez en retour :</span>
+File    Position        Binlog_Do_DB    Binlog_Ignore_DB
+mysql-bin.000032        <span class="m">434196</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+<p>Il s’agit du fichier utilisé et du positionnement dans les logs de la base de données.</p>
+<ul>
+<li><dl>
+<dt>Indiquer à votre serveur de devenir client de ce serveur sur le fichier et les positions indiquées :</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker-compose <span class="nb">exec</span> -e <span class="nv">P</span><span class="o">=</span><span class="m">434196</span> -e <span class="nv">F</span><span class="o">=</span>mysql-bin.000032 -e <span class="nv">PROD</span><span class="o">=</span><span class="nv">$PROD</span> -e <span class="nv">ADMIN</span><span class="o">=</span>NOMSERVEUR -T database mysql -u root -p<span class="nv">$MYSQL_ROOT_PASSWORD</span> -e <span class="s2">&quot;CHANGE MASTER &#39;</span><span class="nv">$ADMIN</span><span class="s2">&#39; TO MASTER_HOST = &#39;</span><span class="nv">$PROD</span><span class="s2">&#39;, MASTER_USER = &#39;root&#39;, MASTER_PASSWORD = &#39;</span><span class="nv">$MYSQL_ROOT_PASSWORD</span><span class="s2">&#39;, MASTER_LOG_FILE = &#39;</span><span class="nv">$F</span><span class="s2">&#39;, MASTER_LOG_POS = </span><span class="nv">$P</span><span class="s2">;&quot;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Relancer le système de réplication :</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker-compose <span class="nb">exec</span> -T database sh -c <span class="s1">&#39;mysql -u root -p$MYSQL_ROOT_PASSWORD -e &quot;START ALL SLAVES;&quot;&#39;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><p>Connecter vous au PHPMYADMIN des deux serveurs, faire une modification sur un serveur, puis sur l’autre et constater les modifications. La réplication est instanannée</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Ces actions sont à effectuer sur tous les serveurs. Si par exemple vous avez des serveurs A B C.</p>
+<ul class="simple">
+<li><p>A devra s’enregistrer sur B et C</p></li>
+<li><p>B devra s’enregistrer sur A et C</p></li>
+<li><p>C devra s’enregistrer sur A et B</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="etape-supplementaire-pour-une-mise-en-cluster-d-une-base-deja-existante">
+<h3><span class="section-number">2.4.4. </span>Etape supplémentaire pour une mise en cluster d’une base déjà existante<a class="headerlink" href="#etape-supplementaire-pour-une-mise-en-cluster-d-une-base-deja-existante" title="Lien permanent vers ce titre">¶</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<ul class="simple">
+<li><p>Mettre à l’arrêt toutes les bases de données</p></li>
+<li><p>Couper l’ensemble des services utilisant les bases de données</p></li>
+</ul>
+<p>Il ne doit y avoir aucun mouvement sur la base pendant l’opération. Sinon il en résulterait une perte de données.</p>
+</div>
+<ol class="arabic">
+<li><p>Une fois que l’ensemble est à l’arrêt, démarrer une base de données de référence</p></li>
+<li><dl>
+<dt>Faire un dump de la base de données</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker <span class="nb">exec</span> some-mariadb sh -c <span class="s1">&#39;exec mysqldump --all-databases -uroot -p&quot;$MYSQL_ROOT_PASSWORD&quot;&#39;</span> &gt; /some/path/on/your/host/all-databases.sql
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Sur la machine que l’on souhaite inclure dans la base de données</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker <span class="nb">exec</span> -i some-mariadb sh -c <span class="s1">&#39;exec mysql -uroot -p&quot;$MYSQL_ROOT_PASSWORD&quot;&#39;</span> &lt; /some/path/on/your/host/all-databases.sql
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Commencer la procédure d’ajout d’une base de données dans un cluster, uniquement pour la base que l’on souhaite ajoute.</dt><dd><ol class="arabic simple">
+<li><p>Déclarer à tous les membres la nouvelle base de données.</p></li>
+<li><p>Déclarrer à la nouvelle base tous les autres.</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si j’ajoute la base de données D à A, B, C :</p>
+<ul class="simple">
+<li><p>D devra s’enregistrer sur A, B, C</p></li>
+<li><p>A devra s’enregistrer sur D</p></li>
+<li><p>B devra s’enregistrer sur D</p></li>
+<li><p>C devra s’enregistrer sur D</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="script-complet-de-replication">
+<h3><span class="section-number">2.4.5. </span>Script complet de réplication<a class="headerlink" href="#script-complet-de-replication" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Sur chaque serveur vous pouvez utiliser ce script <strong>init_replication.sh</strong> qui fait toutes les actions :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
+<span class="nb">echo</span> <span class="s2">&quot;Pass bdd : &quot;</span>
+<span class="nb">read</span> MYSQL_ROOT_PASSWORD
+
+<span class="nb">echo</span> <span class="s2">&quot;stop&quot;</span>
+docker-compose <span class="nb">exec</span> -T database sh -c <span class="s1">&#39;mysql -u root -p$(echo $MYSQL_ROOT_PASSWORD) -e &quot;STOP ALL SLAVES;&quot;&#39;</span>
+
+<span class="k">for</span> IP <span class="k">in</span> <span class="nv">$*</span>
+<span class="k">do</span>
+    <span class="nv">PROD</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$IP</span> <span class="p">|</span> cut -d<span class="s1">&#39;,&#39;</span> -f2<span class="k">)</span>
+    <span class="nv">ADMIN</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$IP</span> <span class="p">|</span> cut -d<span class="s1">&#39;,&#39;</span> -f1<span class="k">)</span>
+    <span class="nb">echo</span> <span class="s2">&quot;recherche </span><span class="nv">$ADMIN</span><span class="s2">&quot;</span>
+    <span class="nv">RES</span><span class="o">=</span><span class="k">$(</span>docker-compose <span class="nb">exec</span> -e <span class="nv">PROD</span><span class="o">=</span><span class="nv">$PROD</span> -T database sh -c <span class="s1">&#39;mysql -h$PROD -u root -p$MYSQL_ROOT_PASSWORD -e &quot;SHOW MASTER STATUS;&quot;&#39;</span><span class="k">)</span>
+    <span class="nv">P</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$RES</span> <span class="p">|</span> cut -d<span class="s1">&#39; &#39;</span> -f6<span class="k">)</span>
+    <span class="nv">F</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$RES</span> <span class="p">|</span> cut -d<span class="s1">&#39; &#39;</span> -f5<span class="k">)</span>
+    <span class="nb">echo</span> <span class="s2">&quot;</span><span class="nv">$F</span><span class="s2"> </span><span class="nv">$P</span><span class="s2">&quot;</span>
+    docker-compose <span class="nb">exec</span> -e <span class="nv">P</span><span class="o">=</span><span class="nv">$P</span> -e <span class="nv">F</span><span class="o">=</span><span class="nv">$F</span> -e <span class="nv">PROD</span><span class="o">=</span><span class="nv">$PROD</span> -e <span class="nv">ADMIN</span><span class="o">=</span><span class="nv">$ADMIN</span> -T database mysql -u root -p<span class="nv">$MYSQL_ROOT_PASSWORD</span> -e <span class="s2">&quot;CHANGE MASTER &#39;</span><span class="nv">$ADMIN</span><span class="s2">&#39; TO MASTER_HOST = &#39;</span><span class="nv">$PROD</span><span class="s2">&#39;, MASTER_USER = &#39;root&#39;, MASTER_PASSWORD = &#39;</span><span class="nv">$MYSQL_ROOT_PASSWORD</span><span class="s2">&#39;, MASTER_LOG_FILE = &#39;</span><span class="nv">$F</span><span class="s2">&#39;, MASTER_LOG_POS = </span><span class="nv">$P</span><span class="s2">;&quot;</span>
+<span class="k">done</span>
+
+docker-compose <span class="nb">exec</span> -T database sh -c <span class="s1">&#39;mysql -u root -p$MYSQL_ROOT_PASSWORD -e &quot;START ALL SLAVES;&quot;&#39;</span>
+</pre></div>
+</div>
+<p>Puis faire sur le serveur C par exemple :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>chmod +x init_replication.sh
+./init_replication.sh nomserveurA,10.0.0.1, nomserveurB,10.0.0.2
+<span class="c1">#(Les ip sont à titre d&#39;exemple)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="ksm.html" class="btn btn-neutral float-right" title="3. Serveur KSM" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="presentation.html" class="btn btn-neutral float-left" title="1. Présentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Benjamin AIMARD.
+
+    </p>
+  </div>
+    
+    
+    
+    Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
