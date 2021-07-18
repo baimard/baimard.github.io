@@ -26,11 +26,13 @@ site:
 	docker run --rm -v $$PWD:/docs juxo/sphinx rm -rf /docs/docs
 	docker run --rm -v $$PWD:/docs juxo/sphinx make html
 	docker run --rm -v $$PWD:/docs juxo/sphinx mv /docs/build/html /docs/docs
+	docker run --rm -v $$PWD:/docs juxo/sphinx touch /docs/docs/.nojekyll
 
 site-a:
 	docker run --rm -v $$PWD:/docs juxo/sphinx rm -rf /docs/docs
 	docker run --rm -v $$PWD:/docs juxo/sphinx make clean html
 	docker run --rm -v $$PWD:/docs juxo/sphinx mv /docs/build/html /docs/docs
+	docker run --rm -v $$PWD:/docs juxo/sphinx touch /docs/docs/.nojekyll
 
 my-pdf: 
 	docker run --rm -v $$PWD:/docs juxo/sphinx make latexpdf
