@@ -1,4 +1,0 @@
-.. _client:
-
-Poste client
-============

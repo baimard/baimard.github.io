@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Bienvenue sur la documentation AYA ! &mdash; Documentation Adacis presente : AYA 1</title>
+  <title>Bienvenue sur la documentation de Gestion de facturation ! &mdash; Documentation Gestion Facturation Nextcloud app 1.0.1</title>
   
 
   
@@ -54,7 +54,7 @@
           
 
           
-            <a href="#" class="icon icon-home"> Adacis presente : AYA
+            <a href="#" class="icon icon-home"> Gestion Facturation Nextcloud app
           
 
           
@@ -88,14 +88,6 @@
               <p class="caption"><span class="caption-text">Sommaire</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="presentation.html">1. Présentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="bdd.html">2. Base de données</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ksm.html">3. Serveur KSM</a></li>
-<li class="toctree-l1"><a class="reference internal" href="validation.html">4. Serveur de validation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="radius.html">5. Serveur freeradius</a></li>
-<li class="toctree-l1"><a class="reference internal" href="installation.html">6. Installation de la solution</a></li>
-<li class="toctree-l1"><a class="reference internal" href="web.html">7. Serveur de gestion</a></li>
-<li class="toctree-l1"><a class="reference internal" href="client.html">8. Poste client</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cli.html">9. Command BASH</a></li>
 </ul>
 
             
@@ -111,7 +103,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">Adacis presente : AYA</a>
+          <a href="#">Gestion Facturation Nextcloud app</a>
         
       </nav>
 
@@ -144,7 +136,7 @@
     
       <li><a href="#" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Bienvenue sur la documentation <span class="xref std std-term">AYA</span> !</li>
+      <li>Bienvenue sur la documentation de Gestion de facturation !</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -163,97 +155,12 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="bienvenue-sur-la-documentation-aya">
-<span id="index-0"></span><h1>Bienvenue sur la documentation <a class="reference internal" href="glossary.html#term-AYA"><span class="xref std std-term">AYA</span></a> !<a class="headerlink" href="#bienvenue-sur-la-documentation-aya" title="Lien permanent vers ce titre">¶</a></h1>
+  <div class="section" id="bienvenue-sur-la-documentation-de-gestion-de-facturation">
+<span id="index-0"></span><h1>Bienvenue sur la documentation de Gestion de facturation !<a class="headerlink" href="#bienvenue-sur-la-documentation-de-gestion-de-facturation" title="Lien permanent vers ce titre">¶</a></h1>
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">Sommaire</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="presentation.html">1. Présentation</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="presentation.html#authentification-yubikey-by-adacis">1.1. Authentification Yubikey by Adacis</a></li>
-<li class="toctree-l2"><a class="reference internal" href="presentation.html#docker">1.2. Docker</a></li>
-<li class="toctree-l2"><a class="reference internal" href="presentation.html#les-services-containers">1.3. Les services / containers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="presentation.html#la-logique">1.4. La logique</a></li>
-<li class="toctree-l2"><a class="reference internal" href="presentation.html#otp-on-time-password">1.5. OTP (on time password)</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="bdd.html">2. Base de données</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="bdd.html#presentation">2.1. Présentation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="bdd.html#image-docker">2.2. Image Docker</a></li>
-<li class="toctree-l2"><a class="reference internal" href="bdd.html#docker-compose">2.3. Docker compose</a></li>
-<li class="toctree-l2"><a class="reference internal" href="bdd.html#installation">2.4. Installation</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="bdd.html#creation-d-un-fichier-env">2.4.1. Création d’un fichier .env</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bdd.html#initialisation-de-la-base-de-donnees">2.4.2. Initialisation de la base de données</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bdd.html#mise-en-cluster-de-bases-de-donnees-sans-donnees">2.4.3. Mise en cluster de bases de données sans données</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bdd.html#etape-supplementaire-pour-une-mise-en-cluster-d-une-base-deja-existante">2.4.4. Etape supplémentaire pour une mise en cluster d’une base déjà existante</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bdd.html#script-complet-de-replication">2.4.5. Script complet de réplication</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="ksm.html">3. Serveur KSM</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="ksm.html#yubikey-key-system-managment">3.1. Yubikey Key System Managment</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ksm.html#image-docker">3.2. Image Docker</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ksm.html#docker-compose">3.3. Docker compose</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ksm.html#installation">3.4. Installation</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="ksm.html#generation-d-une-clef-aes-aleatoire">3.4.1. Generation d’une clef AES aléatoire</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ksm.html#generation-d-un-secret-pour-yubikey">3.4.2. Génération d’un secret pour yubikey</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ksm.html#affichage-d-un-secret-pour-yubikey">3.4.3. Affichage d’un secret pour yubikey</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ksm.html#command-en-une-fois">3.4.4. Command en une fois</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ksm.html#verification-que-le-ksm-est-operationnel">3.4.5. Vérification que le KSM est opérationnel</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="validation.html">4. Serveur de validation</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="validation.html#presentation-yubikey-val">4.1. Présentation Yubikey-val</a></li>
-<li class="toctree-l2"><a class="reference internal" href="validation.html#fichiers-de-configuration">4.2. Fichiers de configuration</a></li>
-<li class="toctree-l2"><a class="reference internal" href="validation.html#image-docker">4.3. Image Docker</a></li>
-<li class="toctree-l2"><a class="reference internal" href="validation.html#docker-compose">4.4. Docker-compose</a></li>
-<li class="toctree-l2"><a class="reference internal" href="validation.html#installation">4.5. Installation</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="radius.html">5. Serveur freeradius</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="radius.html#release">5.1. Release</a></li>
-<li class="toctree-l2"><a class="reference internal" href="radius.html#presentation">5.2. Présentation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="radius.html#image-docker">5.3. Image Docker</a></li>
-<li class="toctree-l2"><a class="reference internal" href="radius.html#docker-compose">5.4. Docker compose</a></li>
-<li class="toctree-l2"><a class="reference internal" href="radius.html#fichiers-de-configuration">5.5. Fichiers de configuration</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="radius.html#default">5.5.1. default</a></li>
-<li class="toctree-l3"><a class="reference internal" href="radius.html#sql">5.5.2. sql</a></li>
-<li class="toctree-l3"><a class="reference internal" href="radius.html#proxy-conf">5.5.3. proxy.conf</a></li>
-<li class="toctree-l3"><a class="reference internal" href="radius.html#radiusd">5.5.4. radiusd</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="radius.html#installation">5.6. installation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="radius.html#insertion-d-un-client-nas">5.7. Insertion d’un client NAS</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="installation.html">6. Installation de la solution</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="installation.html#standalone">6.1. Standalone</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="installation.html#pre-requis">6.1.1. Pré-requis</a></li>
-<li class="toctree-l3"><a class="reference internal" href="installation.html#id1">6.1.2. Installation</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="installation.html#haute-disponibilite">6.2. Haute Disponibilité</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="web.html">7. Serveur de gestion</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="web.html#presentation">7.1. Présentation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="web.html#utilisation">7.2. utilisation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="web.html#procedure-en-cas-de-perte-de-clef">7.3. Procédure en cas de perte de clef</a></li>
-<li class="toctree-l2"><a class="reference internal" href="web.html#les-logs">7.4. Les logs</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="client.html">8. Poste client</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cli.html">9. Command BASH</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="cli.html#ajouter-un-identifiant-otp-a-l-inventaire">9.1. Ajouter un identifiant OTP à l’inventaire</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cli.html#authoriser-un-serveur-a-interroger-le-radius">9.2. Authoriser un serveur à interroger le radius</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cli.html#se-connecter-avec-sa-yubikey">9.3. Se connecter avec sa yubikey</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cli.html#ajout-du-code-pin">9.4. Ajout du code pin</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cli.html#utiliser-un-mot-de-passe-temporaire">9.5. Utiliser un mot de passe temporaire</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cli.html#bug-replication">9.6. Bug replication</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="presentation.html">1. Présentation</a></li>
 </ul>
 </div>
 <ul class="simple">
